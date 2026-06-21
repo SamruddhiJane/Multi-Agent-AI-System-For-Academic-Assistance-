@@ -1,0 +1,93 @@
+{
+  "chapter_number": 23,
+  "chapter_title": "Queues",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["queue"],
+      "content": "A Queue is a linear data structure that follows the First In First Out (FIFO) principle."
+    },
+    {
+      "section_title": "What is a Queue?",
+      "keywords": ["definition"],
+      "content": "A queue is a collection of elements where insertion occurs at the rear and deletion occurs at the front."
+    },
+    {
+      "section_title": "FIFO Principle",
+      "keywords": ["fifo"],
+      "content": "The first element inserted into the queue is the first element removed."
+    },
+    {
+      "section_title": "Basic Operations",
+      "keywords": ["operations"],
+      "content": [
+        "Enqueue",
+        "Dequeue",
+        "Front",
+        "Rear"
+      ]
+    },
+    {
+      "section_title": "Enqueue Operation",
+      "keywords": ["enqueue"],
+      "content": "Enqueue inserts an element into the queue."
+    },
+    {
+      "section_title": "Dequeue Operation",
+      "keywords": ["dequeue"],
+      "content": "Dequeue removes an element from the queue."
+    },
+    {
+      "section_title": "Queue Overflow",
+      "keywords": ["overflow"],
+      "content": "Occurs when insertion is attempted in a full queue."
+    },
+    {
+      "section_title": "Queue Underflow",
+      "keywords": ["underflow"],
+      "content": "Occurs when deletion is attempted in an empty queue."
+    },
+    {
+      "section_title": "Types of Queues",
+      "keywords": ["types"],
+      "content": [
+        "Simple Queue",
+        "Circular Queue",
+        "Priority Queue",
+        "Double Ended Queue (Deque)"
+      ]
+    },
+    {
+      "section_title": "Circular Queue",
+      "keywords": ["circular queue"],
+      "content": "The last position is connected to the first position to improve memory utilization."
+    },
+    {
+      "section_title": "Priority Queue",
+      "keywords": ["priority queue"],
+      "content": "Elements are processed according to priority."
+    },
+    {
+      "section_title": "Deque",
+      "keywords": ["deque"],
+      "content": "Insertion and deletion are possible at both ends."
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "CPU Scheduling",
+        "Printer Spooling",
+        "Task Scheduling",
+        "Network Packet Processing"
+      ]
+    }
+  ],
+  "summary": [
+    "Queues follow FIFO principle.",
+    "Enqueue inserts data.",
+    "Dequeue removes data.",
+    "There are multiple queue types.",
+    "Queues are widely used in scheduling systems."
+  ]
+    }
