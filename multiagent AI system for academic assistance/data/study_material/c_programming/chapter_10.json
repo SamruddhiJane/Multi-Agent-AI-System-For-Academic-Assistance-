@@ -1,1 +1,124 @@
-
+{
+  "chapter_number": 10,
+  "chapter_title": "Functions in C",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["functions"],
+      "content": "Functions are reusable blocks of code designed to perform specific tasks."
+    },
+    {
+      "section_title": "What is a Function?",
+      "keywords": ["definition"],
+      "content": "A function is a self-contained block of code that performs a specific operation."
+    },
+    {
+      "section_title": "Advantages of Functions",
+      "keywords": ["advantages"],
+      "content": [
+        "Code reusability",
+        "Modularity",
+        "Easy debugging",
+        "Easy maintenance"
+      ]
+    },
+    {
+      "section_title": "Types of Functions",
+      "keywords": ["types"],
+      "content": [
+        "Library Functions",
+        "User Defined Functions"
+      ]
+    },
+    {
+      "section_title": "Library Functions",
+      "keywords": ["library functions"],
+      "content": "Predefined functions provided by C libraries such as printf(), scanf(), strlen(), sqrt()."
+    },
+    {
+      "section_title": "User Defined Functions",
+      "keywords": ["user defined"],
+      "content": "Functions created by programmers according to application requirements."
+    },
+    {
+      "section_title": "Function Components",
+      "keywords": ["components"],
+      "content": [
+        "Function Declaration",
+        "Function Definition",
+        "Function Call"
+      ]
+    },
+    {
+      "section_title": "Function Declaration",
+      "keywords": ["prototype"],
+      "content": "A function declaration informs the compiler about the function before its use."
+    },
+    {
+      "section_title": "Function Definition",
+      "keywords": ["definition"],
+      "content": "Contains the actual body of the function."
+    },
+    {
+      "section_title": "Function Call",
+      "keywords": ["calling"],
+      "content": "Transfers control to the function for execution."
+    },
+    {
+      "section_title": "Types Based on Arguments and Return Values",
+      "keywords": ["classification"],
+      "content": [
+        "No Arguments No Return Value",
+        "Arguments No Return Value",
+        "No Arguments Return Value",
+        "Arguments Return Value"
+      ]
+    },
+    {
+      "section_title": "Return Statement",
+      "keywords": ["return"],
+      "content": "The return statement sends a value back to the calling function."
+    },
+    {
+      "section_title": "Actual Arguments",
+      "keywords": ["actual arguments"],
+      "content": "Values passed during a function call."
+    },
+    {
+      "section_title": "Formal Arguments",
+      "keywords": ["formal arguments"],
+      "content": "Variables that receive values inside the function definition."
+    },
+    {
+      "section_title": "Call by Value",
+      "keywords": ["call by value"],
+      "content": "A copy of the variable is passed to the function."
+    },
+    {
+      "section_title": "Call by Reference",
+      "keywords": ["call by reference"],
+      "content": "The address of the variable is passed to the function."
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["program"],
+      "content": "#include <stdio.h>\n\nvoid greet()\n{\n printf(\"Hello Student\");\n}\n\nint main()\n{\n greet();\n return 0;\n}"
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Large Software Development",
+        "Modular Programming",
+        "Code Reusability",
+        "Library Creation"
+      ]
+    }
+  ],
+  "summary": [
+    "Functions improve modularity and reusability.",
+    "Functions can be library functions or user-defined functions.",
+    "Functions may accept arguments and return values.",
+    "Call by value and call by reference are important concepts."
+  ]
+}
