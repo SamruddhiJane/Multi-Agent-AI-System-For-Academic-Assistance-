@@ -1,1 +1,92 @@
-
+{
+  "chapter_number": 17,
+  "chapter_title": "Command Line Arguments",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["command line arguments", "argc", "argv"],
+      "content": "Command line arguments allow users to pass values to a program while executing it from the command line."
+    },
+    {
+      "section_title": "What are Command Line Arguments?",
+      "keywords": ["definition"],
+      "content": "Command line arguments are values supplied to a program during execution through the command prompt or terminal."
+    },
+    {
+      "section_title": "Need for Command Line Arguments",
+      "keywords": ["importance"],
+      "content": [
+        "Accept input without using scanf()",
+        "Automate program execution",
+        "Pass filenames and parameters",
+        "Useful in scripting and system programming"
+      ]
+    },
+    {
+      "section_title": "Syntax of main() with Arguments",
+      "keywords": ["main syntax"],
+      "content": "int main(int argc, char *argv[])"
+    },
+    {
+      "section_title": "argc",
+      "keywords": ["argument count"],
+      "content": "argc stands for Argument Count and stores the number of command line arguments."
+    },
+    {
+      "section_title": "argv",
+      "keywords": ["argument vector"],
+      "content": "argv stands for Argument Vector and stores the command line arguments as strings."
+    },
+    {
+      "section_title": "argv[0]",
+      "keywords": ["program name"],
+      "content": "argv[0] contains the name of the program being executed."
+    },
+    {
+      "section_title": "Argument Storage",
+      "keywords": ["storage"],
+      "content": "All command line arguments are stored as strings regardless of their actual type."
+    },
+    {
+      "section_title": "Converting Arguments",
+      "keywords": ["conversion"],
+      "content": [
+        "atoi() converts string to integer",
+        "atof() converts string to float",
+        "atol() converts string to long integer"
+      ]
+    },
+    {
+      "section_title": "Advantages",
+      "keywords": ["advantages"],
+      "content": [
+        "Fast input processing",
+        "Useful for automation",
+        "Reduces manual input",
+        "Supports batch execution"
+      ]
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Operating Systems",
+        "Compiler Design",
+        "Automation Scripts",
+        "File Processing Tools"
+      ]
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["example"],
+      "content": "#include <stdio.h>\n\nint main(int argc, char *argv[])\n{\n printf(\"Arguments = %d\", argc);\n return 0;\n}"
+    }
+  ],
+  "summary": [
+    "Command line arguments provide input during execution.",
+    "argc stores argument count.",
+    "argv stores arguments as strings.",
+    "Arguments can be converted using atoi(), atof(), and atol().",
+    "Widely used in automation and system programming."
+  ]
+}
