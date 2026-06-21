@@ -1,1 +1,106 @@
-
+{
+  "chapter_number": 9,
+  "chapter_title": "Strings in C",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["strings", "character array"],
+      "content": "A string is a collection of characters stored in a character array and terminated by a null character '\\0'."
+    },
+    {
+      "section_title": "What is a String?",
+      "keywords": ["definition"],
+      "content": "A string is a sequence of characters enclosed within double quotation marks."
+    },
+    {
+      "section_title": "Declaration of String",
+      "keywords": ["declaration"],
+      "content": "char str[20];"
+    },
+    {
+      "section_title": "Initialization of String",
+      "keywords": ["initialization"],
+      "content": [
+        "char str[] = \"Hello\";",
+        "char str[6] = {'H','e','l','l','o','\\0'};"
+      ]
+    },
+    {
+      "section_title": "Null Character",
+      "keywords": ["null character"],
+      "content": "Every string ends with a null character '\\0' which marks the end of the string."
+    },
+    {
+      "section_title": "Input and Output of Strings",
+      "keywords": ["input output"],
+      "content": [
+        "scanf(\"%s\", str);",
+        "printf(\"%s\", str);"
+      ]
+    },
+    {
+      "section_title": "String Handling Functions",
+      "keywords": ["string functions"],
+      "content": [
+        "strlen()",
+        "strcpy()",
+        "strcat()",
+        "strcmp()",
+        "strrev()"
+      ]
+    },
+    {
+      "section_title": "strlen() Function",
+      "keywords": ["strlen"],
+      "content": "Returns the length of a string excluding the null character."
+    },
+    {
+      "section_title": "strcpy() Function",
+      "keywords": ["strcpy"],
+      "content": "Copies one string into another string."
+    },
+    {
+      "section_title": "strcat() Function",
+      "keywords": ["strcat"],
+      "content": "Concatenates two strings."
+    },
+    {
+      "section_title": "strcmp() Function",
+      "keywords": ["strcmp"],
+      "content": "Compares two strings and returns 0 if they are equal."
+    },
+    {
+      "section_title": "String Traversal",
+      "keywords": ["traversal"],
+      "content": "Accessing each character of a string one by one."
+    },
+    {
+      "section_title": "Advantages of Strings",
+      "keywords": ["advantages"],
+      "content": [
+        "Easy text processing",
+        "Efficient character storage",
+        "Useful for handling names and messages"
+      ]
+    },
+    {
+      "section_title": "Limitations of Strings",
+      "keywords": ["limitations"],
+      "content": [
+        "Fixed size",
+        "Prone to buffer overflow if not handled properly"
+      ]
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["example"],
+      "content": "#include <stdio.h>\n#include <string.h>\n\nint main()\n{\n char str[]=\"Hello\";\n printf(\"Length=%d\",strlen(str));\n return 0;\n}"
+    }
+  ],
+  "summary": [
+    "Strings are character arrays ending with '\\0'.",
+    "String functions are available in string.h.",
+    "strlen(), strcpy(), strcat(), and strcmp() are commonly used functions.",
+    "Strings are widely used for text processing."
+  ]
+}
