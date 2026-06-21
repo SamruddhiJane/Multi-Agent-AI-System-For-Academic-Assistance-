@@ -1,1 +1,108 @@
-
+{
+  "chapter_number": 11,
+  "chapter_title": "Recursion in C",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["recursion", "recursive function"],
+      "content": "Recursion is a programming technique in which a function calls itself to solve a problem."
+    },
+    {
+      "section_title": "What is Recursion?",
+      "keywords": ["definition"],
+      "content": "Recursion is the process of solving a problem by breaking it into smaller subproblems of the same type."
+    },
+    {
+      "section_title": "Recursive Function",
+      "keywords": ["recursive function"],
+      "content": "A recursive function is a function that directly or indirectly calls itself."
+    },
+    {
+      "section_title": "Base Condition",
+      "keywords": ["base case"],
+      "content": "The base condition is the stopping condition that prevents infinite recursive calls."
+    },
+    {
+      "section_title": "Working of Recursion",
+      "keywords": ["working"],
+      "content": [
+        "Function is called.",
+        "Function checks base condition.",
+        "If condition is false, function calls itself.",
+        "If condition is true, recursion stops."
+      ]
+    },
+    {
+      "section_title": "Advantages of Recursion",
+      "keywords": ["advantages"],
+      "content": [
+        "Simplifies complex problems",
+        "Reduces code size",
+        "Useful for tree and graph traversal",
+        "Suitable for divide-and-conquer algorithms"
+      ]
+    },
+    {
+      "section_title": "Disadvantages of Recursion",
+      "keywords": ["disadvantages"],
+      "content": [
+        "Consumes more memory",
+        "Slower than iteration",
+        "May cause stack overflow"
+      ]
+    },
+    {
+      "section_title": "Direct Recursion",
+      "keywords": ["direct recursion"],
+      "content": "A function directly calls itself."
+    },
+    {
+      "section_title": "Indirect Recursion",
+      "keywords": ["indirect recursion"],
+      "content": "A function calls another function which eventually calls the original function."
+    },
+    {
+      "section_title": "Factorial Using Recursion",
+      "keywords": ["factorial"],
+      "content": "Factorial of n is calculated as n × factorial(n-1) until n becomes 1."
+    },
+    {
+      "section_title": "Recursion vs Iteration",
+      "keywords": ["comparison"],
+      "content": [
+        "Recursion uses function calls.",
+        "Iteration uses loops.",
+        "Recursion consumes more memory.",
+        "Iteration is generally faster."
+      ]
+    },
+    {
+      "section_title": "Memory Usage",
+      "keywords": ["stack memory"],
+      "content": "Each recursive call creates a new stack frame in memory."
+    },
+    {
+      "section_title": "Common Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Factorial",
+        "Fibonacci Series",
+        "Tower of Hanoi",
+        "Tree Traversal",
+        "Graph Algorithms"
+      ]
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["example"],
+      "content": "#include <stdio.h>\n\nint factorial(int n)\n{\n if(n==1)\n return 1;\n return n*factorial(n-1);\n}\n\nint main()\n{\n printf(\"%d\",factorial(5));\n return 0;\n}"
+    }
+  ],
+  "summary": [
+    "Recursion is a function calling itself.",
+    "A base condition is necessary to stop recursion.",
+    "Recursion is useful for solving complex problems.",
+    "Each recursive call creates a stack frame.",
+    "Factorial and Fibonacci are common recursion examples."
+  ]
+}
