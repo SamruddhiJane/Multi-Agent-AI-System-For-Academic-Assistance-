@@ -1,1 +1,105 @@
+{
+  "chapter_number": 19,
+  "chapter_title": "Advanced Pointers",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["advanced pointers"],
+      "content": "Advanced pointers extend the basic concepts of pointers and are used in complex memory management and data structures."
+    },
+    {
+      "section_title": "Pointer to Pointer",
+      "keywords": ["double pointer"],
+      "content": "A pointer to pointer stores the address of another pointer."
+    },
+    {
+      "section_title": "Declaration of Double Pointer",
+      "keywords": ["double pointer declaration"],
+      "content": "int **ptr;"
+    },
+    {
+      "section_title": "Working of Double Pointer",
+      "keywords": ["working"],
+      "content": [
+        "Variable stores value.",
+        "Pointer stores address of variable.",
+        "Double pointer stores address of pointer."
+      ]
+    },
+    {
+      "section_title": "Void Pointer",
+      "keywords": ["generic pointer"],
+      "content": "A void pointer can store the address of any data type."
+    },
+    {
+      "section_title": "Function Pointer",
+      "keywords": ["function pointer"],
+      "content": "A function pointer stores the address of a function."
+    },
+    {
+      "section_title": "Declaration of Function Pointer",
+      "keywords": ["function pointer syntax"],
+      "content": "return_type (*pointer_name)(parameters);"
+    },
+    {
+      "section_title": "Array of Pointers",
+      "keywords": ["array of pointers"],
+      "content": "An array whose elements are pointers is called an array of pointers."
+    },
+    {
+      "section_title": "Pointer to Array",
+      "keywords": ["pointer to array"],
+      "content": "A pointer can store the address of an entire array."
+    },
+    {
+      "section_title": "Pointer Arithmetic",
+      "keywords": ["pointer arithmetic"],
+      "content": [
+        "Increment Pointer",
+        "Decrement Pointer",
+        "Addition",
+        "Subtraction",
+        "Comparison"
+      ]
+    },
+    {
+      "section_title": "NULL Pointer",
+      "keywords": ["null pointer"],
+      "content": "A NULL pointer points to no valid memory location."
+    },
+    {
+      "section_title": "Wild Pointer",
+      "keywords": ["wild pointer"],
+      "content": "A pointer that has not been initialized is called a wild pointer."
+    },
+    {
+      "section_title": "Dangling Pointer",
+      "keywords": ["dangling pointer"],
+      "content": "A pointer referencing deallocated memory is called a dangling pointer."
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Dynamic Memory Allocation",
+        "Linked Lists",
+        "Trees",
+        "Graphs",
+        "Function Callbacks"
+      ]
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["example"],
+      "content": "#include <stdio.h>\n\nint main()\n{\n int x=10;\n int *ptr=&x;\n int **dptr=&ptr;\n printf(\"%d\",**dptr);\n return 0;\n}"
+    }
+  ],
+  "summary": [
+    "Double pointers store addresses of pointers.",
+    "Void pointers are generic pointers.",
+    "Function pointers store function addresses.",
+    "Wild pointers are uninitialized pointers.",
+    "Advanced pointers are important for data structures."
+  ]
+}
 
