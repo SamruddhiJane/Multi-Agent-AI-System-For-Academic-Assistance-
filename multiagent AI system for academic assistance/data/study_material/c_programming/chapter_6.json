@@ -1,1 +1,120 @@
-
+{
+  "chapter_number": 6,
+  "chapter_title": "Decision Making Statements",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["decision making", "conditions"],
+      "content": "Decision making statements allow a program to execute different blocks of code based on conditions."
+    },
+    {
+      "section_title": "What is Decision Making?",
+      "keywords": ["definition"],
+      "content": "Decision making is the process of selecting one action among multiple alternatives based on a condition."
+    },
+    {
+      "section_title": "Types of Decision Making Statements",
+      "keywords": ["types"],
+      "content": [
+        "if Statement",
+        "if-else Statement",
+        "Nested if",
+        "else-if Ladder",
+        "switch Statement"
+      ]
+    },
+    {
+      "section_title": "if Statement",
+      "keywords": ["if"],
+      "content": "The if statement executes a block of code only when a specified condition is true."
+    },
+    {
+      "section_title": "Syntax of if",
+      "keywords": ["if syntax"],
+      "content": "if(condition)\n{\n statements;\n}"
+    },
+    {
+      "section_title": "if-else Statement",
+      "keywords": ["if else"],
+      "content": "The if-else statement executes one block if the condition is true and another block if it is false."
+    },
+    {
+      "section_title": "Syntax of if-else",
+      "keywords": ["if else syntax"],
+      "content": "if(condition)\n{\n statements;\n}\nelse\n{\n statements;\n}"
+    },
+    {
+      "section_title": "Nested if",
+      "keywords": ["nested if"],
+      "content": "An if statement placed inside another if statement is called nested if."
+    },
+    {
+      "section_title": "else-if Ladder",
+      "keywords": ["else if ladder"],
+      "content": "The else-if ladder is used to check multiple conditions sequentially."
+    },
+    {
+      "section_title": "Syntax of else-if Ladder",
+      "keywords": ["else if syntax"],
+      "content": "if(condition1)\n{}\nelse if(condition2)\n{}\nelse\n{}"
+    },
+    {
+      "section_title": "switch Statement",
+      "keywords": ["switch"],
+      "content": "The switch statement is used for multi-way decision making."
+    },
+    {
+      "section_title": "Components of switch",
+      "keywords": ["switch components"],
+      "content": [
+        "switch",
+        "case",
+        "break",
+        "default"
+      ]
+    },
+    {
+      "section_title": "break Statement",
+      "keywords": ["break"],
+      "content": "The break statement terminates a loop or switch statement immediately."
+    },
+    {
+      "section_title": "default Statement",
+      "keywords": ["default"],
+      "content": "The default block executes when no case matches in a switch statement."
+    },
+    {
+      "section_title": "Difference Between if-else and switch",
+      "keywords": ["comparison"],
+      "content": [
+        "if-else can evaluate ranges and complex conditions.",
+        "switch works with fixed constant values.",
+        "switch is often more readable for multiple choices."
+      ]
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["example"],
+      "content": "#include <stdio.h>\n\nint main()\n{\n int age=18;\n if(age>=18)\n printf(\"Eligible to Vote\");\n else\n printf(\"Not Eligible\");\n return 0;\n}"
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Menu Driven Programs",
+        "Login Systems",
+        "Eligibility Checking",
+        "Grade Calculation",
+        "Decision Based Applications"
+      ]
+    }
+  ],
+  "summary": [
+    "Decision making controls program flow.",
+    "if executes code when condition is true.",
+    "if-else provides two alternatives.",
+    "Nested if handles multiple levels of conditions.",
+    "switch is useful for multiple choices.",
+    "break terminates switch execution."
+  ]
+}
