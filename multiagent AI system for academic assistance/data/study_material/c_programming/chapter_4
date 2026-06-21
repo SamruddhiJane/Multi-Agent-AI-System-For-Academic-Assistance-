@@ -1,1 +1,125 @@
-
+{
+  "chapter_number": 4,
+  "chapter_title": "Input and Output Functions",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["input", "output", "io functions"],
+      "content": "Input and Output functions allow communication between the user and the program. Input functions accept data from users, while output functions display results."
+    },
+    {
+      "section_title": "What is Input?",
+      "keywords": ["input"],
+      "content": "Input refers to data entered by the user and provided to the program for processing."
+    },
+    {
+      "section_title": "What is Output?",
+      "keywords": ["output"],
+      "content": "Output refers to information displayed by the program after processing data."
+    },
+    {
+      "section_title": "printf() Function",
+      "keywords": ["printf", "output function"],
+      "content": "The printf() function is used to display output on the screen."
+    },
+    {
+      "section_title": "Syntax of printf()",
+      "keywords": ["printf syntax"],
+      "content": "printf(\"format string\", variables);"
+    },
+    {
+      "section_title": "scanf() Function",
+      "keywords": ["scanf", "input function"],
+      "content": "The scanf() function is used to accept input from the user."
+    },
+    {
+      "section_title": "Syntax of scanf()",
+      "keywords": ["scanf syntax"],
+      "content": "scanf(\"format string\", &variable);"
+    },
+    {
+      "section_title": "Format Specifiers",
+      "keywords": ["format specifiers"],
+      "content": [
+        "%d : integer",
+        "%f : float",
+        "%c : character",
+        "%lf : double",
+        "%s : string"
+      ]
+    },
+    {
+      "section_title": "Integer Input and Output",
+      "keywords": ["integer io"],
+      "content": "The %d format specifier is used for integer input and output."
+    },
+    {
+      "section_title": "Float Input and Output",
+      "keywords": ["float io"],
+      "content": "The %f format specifier is used for float values."
+    },
+    {
+      "section_title": "Character Input and Output",
+      "keywords": ["char io"],
+      "content": "The %c format specifier is used for character values."
+    },
+    {
+      "section_title": "String Input and Output",
+      "keywords": ["string io"],
+      "content": "The %s format specifier is used for string input and output."
+    },
+    {
+      "section_title": "getchar() Function",
+      "keywords": ["getchar"],
+      "content": "The getchar() function reads a single character from the keyboard."
+    },
+    {
+      "section_title": "putchar() Function",
+      "keywords": ["putchar"],
+      "content": "The putchar() function displays a single character on the screen."
+    },
+    {
+      "section_title": "gets() Function",
+      "keywords": ["gets"],
+      "content": "gets() reads a string from the user. It is considered unsafe and should be avoided in modern C programming."
+    },
+    {
+      "section_title": "puts() Function",
+      "keywords": ["puts"],
+      "content": "puts() displays a string followed by a newline character."
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["program", "example"],
+      "content": "#include <stdio.h>\n\nint main()\n{\n    int age;\n\n    printf(\"Enter Age: \");\n    scanf(\"%d\", &age);\n\n    printf(\"Age = %d\", age);\n\n    return 0;\n}"
+    },
+    {
+      "section_title": "Common Errors",
+      "keywords": ["errors"],
+      "content": [
+        "Missing & operator in scanf()",
+        "Incorrect format specifier",
+        "Uninitialized variables",
+        "Input type mismatch"
+      ]
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "User interaction",
+        "Data collection",
+        "Report generation",
+        "Software applications"
+      ]
+    }
+  ],
+  "summary": [
+    "Input functions accept data from users.",
+    "Output functions display results.",
+    "printf() is used for output.",
+    "scanf() is used for input.",
+    "Format specifiers determine the type of data handled.",
+    "getchar() and putchar() work with single characters."
+  ]
+}
