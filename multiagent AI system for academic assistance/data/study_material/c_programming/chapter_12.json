@@ -1,1 +1,128 @@
-
+{
+  "chapter_number": 12,
+  "chapter_title": "Storage Classes in C",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["storage classes"],
+      "content": "Storage classes define the scope, visibility, lifetime, and storage location of variables."
+    },
+    {
+      "section_title": "What is a Storage Class?",
+      "keywords": ["definition"],
+      "content": "A storage class determines how and where variables are stored and accessed in a program."
+    },
+    {
+      "section_title": "Types of Storage Classes",
+      "keywords": ["types"],
+      "content": [
+        "auto",
+        "register",
+        "static",
+        "extern"
+      ]
+    },
+    {
+      "section_title": "auto Storage Class",
+      "keywords": ["auto"],
+      "content": "auto is the default storage class for local variables."
+    },
+    {
+      "section_title": "Features of auto",
+      "keywords": ["auto features"],
+      "content": [
+        "Default local variable",
+        "Stored in memory",
+        "Scope limited to block",
+        "Destroyed after block execution"
+      ]
+    },
+    {
+      "section_title": "register Storage Class",
+      "keywords": ["register"],
+      "content": "register requests the compiler to store variables in CPU registers for faster access."
+    },
+    {
+      "section_title": "Features of register",
+      "keywords": ["register features"],
+      "content": [
+        "Fast access",
+        "Stored in CPU register if available",
+        "Cannot use address operator easily"
+      ]
+    },
+    {
+      "section_title": "static Storage Class",
+      "keywords": ["static"],
+      "content": "A static variable retains its value throughout program execution."
+    },
+    {
+      "section_title": "Features of static",
+      "keywords": ["static features"],
+      "content": [
+        "Retains value between function calls",
+        "Initialized only once",
+        "Lifetime throughout program execution"
+      ]
+    },
+    {
+      "section_title": "extern Storage Class",
+      "keywords": ["extern"],
+      "content": "extern is used to access global variables declared in another file."
+    },
+    {
+      "section_title": "Features of extern",
+      "keywords": ["extern features"],
+      "content": [
+        "Accesses external variables",
+        "Supports multiple file programs",
+        "Shares global data"
+      ]
+    },
+    {
+      "section_title": "Scope of Variables",
+      "keywords": ["scope"],
+      "content": [
+        "Local Scope",
+        "Global Scope"
+      ]
+    },
+    {
+      "section_title": "Lifetime of Variables",
+      "keywords": ["lifetime"],
+      "content": "Lifetime refers to how long a variable remains in memory during program execution."
+    },
+    {
+      "section_title": "Comparison of Storage Classes",
+      "keywords": ["comparison"],
+      "content": [
+        "auto: Temporary local variable",
+        "register: Faster local variable",
+        "static: Retains value",
+        "extern: Access external global variable"
+      ]
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["example"],
+      "content": "#include <stdio.h>\n\nvoid demo()\n{\n static int count=0;\n count++;\n printf(\"%d\\n\",count);\n}\n\nint main()\n{\n demo();\n demo();\n demo();\n return 0;\n}"
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Memory management",
+        "Large software systems",
+        "Performance optimization",
+        "Global data sharing"
+      ]
+    }
+  ],
+  "summary": [
+    "Storage classes define scope and lifetime.",
+    "auto is the default storage class.",
+    "register provides faster access.",
+    "static retains values between function calls.",
+    "extern allows access to global variables across files."
+  ]
+}
