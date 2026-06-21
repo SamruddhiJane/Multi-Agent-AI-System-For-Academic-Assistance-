@@ -1,1 +1,93 @@
-
+{
+  "chapter_number": 15,
+  "chapter_title": "Enumerations (enum) and typedef",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["enum", "typedef"],
+      "content": "Enumerations and typedef are user-defined data type features in C that improve code readability and maintainability."
+    },
+    {
+      "section_title": "What is Enumeration?",
+      "keywords": ["enum definition"],
+      "content": "An enumeration is a user-defined data type consisting of a set of named integer constants."
+    },
+    {
+      "section_title": "Syntax of enum",
+      "keywords": ["enum syntax"],
+      "content": "enum Day {SUN, MON, TUE, WED, THU, FRI, SAT};"
+    },
+    {
+      "section_title": "Default Values in enum",
+      "keywords": ["enum values"],
+      "content": "By default, the first enumeration constant has value 0 and subsequent constants increase by 1."
+    },
+    {
+      "section_title": "Custom Values in enum",
+      "keywords": ["custom enum"],
+      "content": "Enumeration constants can be assigned custom integer values."
+    },
+    {
+      "section_title": "Advantages of enum",
+      "keywords": ["enum advantages"],
+      "content": [
+        "Improves readability",
+        "Reduces use of magic numbers",
+        "Makes code easier to maintain"
+      ]
+    },
+    {
+      "section_title": "What is typedef?",
+      "keywords": ["typedef definition"],
+      "content": "typedef is a keyword used to create an alias name for an existing data type."
+    },
+    {
+      "section_title": "Syntax of typedef",
+      "keywords": ["typedef syntax"],
+      "content": "typedef int Integer;"
+    },
+    {
+      "section_title": "typedef with Structures",
+      "keywords": ["typedef structure"],
+      "content": "typedef can simplify structure declarations."
+    },
+    {
+      "section_title": "Advantages of typedef",
+      "keywords": ["typedef advantages"],
+      "content": [
+        "Simplifies declarations",
+        "Improves readability",
+        "Makes code easier to maintain"
+      ]
+    },
+    {
+      "section_title": "Difference Between enum and typedef",
+      "keywords": ["comparison"],
+      "content": [
+        "enum creates named constants.",
+        "typedef creates aliases for data types."
+      ]
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Menu Systems",
+        "State Management",
+        "Readable Code",
+        "Large Software Projects"
+      ]
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["example"],
+      "content": "#include <stdio.h>\n\nenum Day {SUN, MON, TUE};\n\nint main()\n{\n enum Day today = MON;\n printf(\"%d\", today);\n return 0;\n}"
+    }
+  ],
+  "summary": [
+    "enum creates named constants.",
+    "The first enum value is 0 by default.",
+    "typedef creates aliases for existing data types.",
+    "Both improve code readability."
+  ]
+}
