@@ -1,1 +1,133 @@
-
+{
+  "chapter_number": 16,
+  "chapter_title": "File Handling in C",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["file handling"],
+      "content": "File handling allows programs to store and retrieve data permanently using files."
+    },
+    {
+      "section_title": "What is a File?",
+      "keywords": ["file definition"],
+      "content": "A file is a collection of related data stored on secondary storage devices."
+    },
+    {
+      "section_title": "Need for File Handling",
+      "keywords": ["importance"],
+      "content": [
+        "Permanent storage",
+        "Large data management",
+        "Data sharing",
+        "Data backup"
+      ]
+    },
+    {
+      "section_title": "File Pointer",
+      "keywords": ["file pointer"],
+      "content": "A FILE pointer is used to access and manage files in C."
+    },
+    {
+      "section_title": "Opening a File",
+      "keywords": ["fopen"],
+      "content": "The fopen() function is used to open a file."
+    },
+    {
+      "section_title": "Syntax of fopen()",
+      "keywords": ["fopen syntax"],
+      "content": "FILE *fp = fopen(\"file.txt\", \"r\");"
+    },
+    {
+      "section_title": "File Modes",
+      "keywords": ["file modes"],
+      "content": [
+        "r - Read",
+        "w - Write",
+        "a - Append",
+        "r+ - Read and Write",
+        "w+ - Write and Read",
+        "a+ - Append and Read"
+      ]
+    },
+    {
+      "section_title": "Closing a File",
+      "keywords": ["fclose"],
+      "content": "The fclose() function closes an opened file."
+    },
+    {
+      "section_title": "Reading Functions",
+      "keywords": ["file reading"],
+      "content": [
+        "fgetc()",
+        "fgets()",
+        "fscanf()",
+        "fread()"
+      ]
+    },
+    {
+      "section_title": "Writing Functions",
+      "keywords": ["file writing"],
+      "content": [
+        "fputc()",
+        "fputs()",
+        "fprintf()",
+        "fwrite()"
+      ]
+    },
+    {
+      "section_title": "EOF",
+      "keywords": ["end of file"],
+      "content": "EOF stands for End Of File and indicates the end of a file."
+    },
+    {
+      "section_title": "File Position Functions",
+      "keywords": ["file positioning"],
+      "content": [
+        "fseek()",
+        "ftell()",
+        "rewind()"
+      ]
+    },
+    {
+      "section_title": "Text Files",
+      "keywords": ["text files"],
+      "content": "Text files store data in human-readable format."
+    },
+    {
+      "section_title": "Binary Files",
+      "keywords": ["binary files"],
+      "content": "Binary files store data in binary format and are generally faster."
+    },
+    {
+      "section_title": "Advantages of File Handling",
+      "keywords": ["advantages"],
+      "content": [
+        "Permanent storage",
+        "Efficient data management",
+        "Supports large datasets"
+      ]
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Database Systems",
+        "Student Management Systems",
+        "Inventory Systems",
+        "Banking Applications"
+      ]
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["example"],
+      "content": "#include <stdio.h>\n\nint main()\n{\n FILE *fp;\n fp=fopen(\"data.txt\",\"w\");\n fprintf(fp,\"Hello\");\n fclose(fp);\n return 0;\n}"
+    }
+  ],
+  "summary": [
+    "Files provide permanent storage.",
+    "fopen() opens files.",
+    "fclose() closes files.",
+    "Different file modes support reading and writing.",
+    "Text and binary files are commonly used."
+  ]
+}
