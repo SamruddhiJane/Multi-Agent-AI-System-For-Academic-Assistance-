@@ -1,1 +1,73 @@
-
+{
+  "chapter_number": 18,
+  "chapter_title": "Dynamic Memory Allocation",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["dynamic memory allocation", "dma"],
+      "content": "Dynamic Memory Allocation allows memory to be allocated during program execution according to program requirements."
+    },
+    {
+      "section_title": "What is Dynamic Memory Allocation?",
+      "keywords": ["definition"],
+      "content": "Dynamic Memory Allocation is the process of allocating memory at runtime using library functions."
+    },
+    {
+      "section_title": "Need for Dynamic Memory Allocation",
+      "keywords": ["importance"],
+      "content": [
+        "Efficient memory usage",
+        "Allocate memory as needed",
+        "Avoid memory wastage",
+        "Support dynamic data structures"
+      ]
+    },
+    {
+      "section_title": "Static vs Dynamic Memory Allocation",
+      "keywords": ["comparison"],
+      "content": [
+        "Static allocation occurs at compile time.",
+        "Dynamic allocation occurs at runtime.",
+        "Static allocation has fixed size.",
+        "Dynamic allocation allows flexible size."
+      ]
+    },
+    {
+      "section_title": "Heap Memory",
+      "keywords": ["heap"],
+      "content": "Dynamic memory is allocated from the heap memory region."
+    },
+    {
+      "section_title": "malloc() Function",
+      "keywords": ["malloc"],
+      "content": "malloc() allocates a specified number of bytes and returns a pointer to the allocated memory."
+    },
+    {
+      "section_title": "Syntax of malloc()",
+      "keywords": ["malloc syntax"],
+      "content": "ptr = (type*)malloc(size);"
+    },
+    {
+      "section_title": "calloc() Function",
+      "keywords": ["calloc"],
+      "content": "calloc() allocates memory for multiple elements and initializes them to zero."
+    },
+    {
+      "section_title": "Syntax of calloc()",
+      "keywords": ["calloc syntax"],
+      "content": "ptr = (type*)calloc(n, size);"
+    },
+    {
+      "section_title": "realloc() Function",
+      "keywords": ["realloc"],
+      "content": "realloc() changes the size of previously allocated memory."
+    },
+    {
+      "section_title": "Syntax of realloc()",
+      "keywords": ["realloc syntax"],
+      "content": "ptr = realloc(ptr, new_size);"
+    },
+    {
+      "section_title": "free() Function",
+      "keywords": ["free"],
+      "content": "free() releases
