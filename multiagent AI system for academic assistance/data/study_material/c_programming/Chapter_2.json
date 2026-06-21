@@ -1,0 +1,167 @@
+{
+"chapter_number": 2,
+"chapter_title": "Tokens, Keywords, Identifiers, Variables and Constants",
+"sections": [
+{
+"section_title": "Introduction",
+"keywords": ["tokens", "keywords", "variables", "constants"],
+"content": "Every C program is made up of basic building blocks called tokens. Tokens include keywords, identifiers, constants, strings, operators, and special symbols."
+},
+{
+"section_title": "What are Tokens?",
+"keywords": ["tokens", "basic elements", "c tokens"],
+"content": "Tokens are the smallest individual units of a C program that have meaningful interpretation to the compiler."
+},
+{
+"section_title": "Types of Tokens",
+"keywords": ["types of tokens", "classification"],
+"content": [
+"Keywords",
+"Identifiers",
+"Constants",
+"Strings",
+"Operators",
+"Special Symbols"
+]
+},
+{
+"section_title": "Keywords",
+"keywords": ["keywords", "reserved words"],
+"content": "Keywords are reserved words in C that have predefined meanings and cannot be used as variable names."
+},
+{
+"section_title": "Examples of Keywords",
+"keywords": ["keyword examples"],
+"content": [
+"int",
+"float",
+"char",
+"if",
+"else",
+"while",
+"for",
+"return",
+"break",
+"continue"
+]
+},
+{
+"section_title": "Identifiers",
+"keywords": ["identifiers", "naming"],
+"content": "Identifiers are names given to variables, functions, arrays, structures, and other user-defined elements."
+},
+{
+"section_title": "Rules for Identifiers",
+"keywords": ["identifier rules"],
+"content": [
+"Must begin with a letter or underscore",
+"Cannot start with a number",
+"Cannot contain spaces",
+"Cannot be a keyword",
+"Can contain letters, digits, and underscores"
+]
+},
+{
+"section_title": "Valid Identifiers",
+"keywords": ["valid identifiers"],
+"content": [
+"age",
+"_count",
+"student1",
+"total_marks"
+]
+},
+{
+"section_title": "Invalid Identifiers",
+"keywords": ["invalid identifiers"],
+"content": [
+"1number",
+"student name",
+"float",
+"@value"
+]
+},
+{
+"section_title": "Variables",
+"keywords": ["variables", "memory location"],
+"content": "A variable is a named memory location used to store data whose value can change during program execution."
+},
+{
+"section_title": "Variable Declaration",
+"keywords": ["declaration", "variable syntax"],
+"content": [
+"int age;",
+"float salary;",
+"char grade;"
+]
+},
+{
+"section_title": "Variable Initialization",
+"keywords": ["initialization"],
+"content": [
+"int age = 18;",
+"float salary = 25000.50;",
+"char grade = 'A';"
+]
+},
+{
+"section_title": "Constants",
+"keywords": ["constants", "fixed values"],
+"content": "Constants are fixed values that cannot be changed during program execution."
+},
+{
+"section_title": "Types of Constants",
+"keywords": ["constant types"],
+"content": [
+"Integer Constants",
+"Floating Point Constants",
+"Character Constants",
+"String Constants"
+]
+},
+{
+"section_title": "Examples of Constants",
+"keywords": ["constant examples"],
+"content": [
+"100",
+"3.14",
+"'A'",
+""Hello""
+]
+},
+{
+"section_title": "Difference Between Variables and Constants",
+"keywords": ["comparison", "variable vs constant"],
+"content": [
+"Variables can change during execution.",
+"Constants remain fixed throughout execution.",
+"Variables occupy memory locations whose values can be modified.",
+"Constants are read-only values."
+]
+},
+{
+"section_title": "Example Program",
+"keywords": ["program", "example"],
+"content": "#include <stdio.h>\n\nint main()\n{\n    int age = 18;\n    printf("Age = %d", age);\n    return 0;\n}"
+},
+{
+"section_title": "Applications",
+"keywords": ["applications", "usage"],
+"content": [
+"Program development",
+"Data storage",
+"Memory management",
+"Software applications",
+"Scientific computing"
+]
+}
+],
+"summary": [
+"Tokens are the smallest units of a C program.",
+"Keywords are reserved words with predefined meanings.",
+"Identifiers are names given to program elements.",
+"Variables store data that can change.",
+"Constants store fixed values.",
+"Proper naming conventions improve program readability."
+]
+}
