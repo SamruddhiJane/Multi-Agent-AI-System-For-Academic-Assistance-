@@ -1,1 +1,93 @@
-
+{
+  "chapter_number": 22,
+  "chapter_title": "Stacks",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["stack"],
+      "content": "A Stack is a linear data structure that follows the Last In First Out (LIFO) principle."
+    },
+    {
+      "section_title": "What is a Stack?",
+      "keywords": ["definition"],
+      "content": "A stack is a collection of elements where insertion and deletion occur at one end called the top."
+    },
+    {
+      "section_title": "LIFO Principle",
+      "keywords": ["lifo"],
+      "content": "The last element inserted into the stack is the first element removed."
+    },
+    {
+      "section_title": "Basic Operations",
+      "keywords": ["operations"],
+      "content": [
+        "Push",
+        "Pop",
+        "Peek",
+        "isEmpty",
+        "isFull"
+      ]
+    },
+    {
+      "section_title": "Push Operation",
+      "keywords": ["push"],
+      "content": "Push inserts an element onto the stack."
+    },
+    {
+      "section_title": "Pop Operation",
+      "keywords": ["pop"],
+      "content": "Pop removes the top element from the stack."
+    },
+    {
+      "section_title": "Peek Operation",
+      "keywords": ["peek"],
+      "content": "Peek displays the top element without removing it."
+    },
+    {
+      "section_title": "Stack Overflow",
+      "keywords": ["overflow"],
+      "content": "Occurs when an element is inserted into a full stack."
+    },
+    {
+      "section_title": "Stack Underflow",
+      "keywords": ["underflow"],
+      "content": "Occurs when an element is removed from an empty stack."
+    },
+    {
+      "section_title": "Implementation Using Arrays",
+      "keywords": ["array implementation"],
+      "content": "Stacks can be implemented using arrays."
+    },
+    {
+      "section_title": "Implementation Using Linked Lists",
+      "keywords": ["linked list implementation"],
+      "content": "Stacks can also be implemented using linked lists."
+    },
+    {
+      "section_title": "Advantages",
+      "keywords": ["advantages"],
+      "content": [
+        "Simple implementation",
+        "Efficient insertion and deletion",
+        "Useful in recursion"
+      ]
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Function Calls",
+        "Undo Operations",
+        "Expression Evaluation",
+        "Browser History"
+      ]
+    }
+  ],
+  "summary": [
+    "Stacks follow LIFO principle.",
+    "Push inserts data.",
+    "Pop removes data.",
+    "Peek displays top element.",
+    "Stacks are widely used in recursion and expression evaluation."
+  ]
+}
