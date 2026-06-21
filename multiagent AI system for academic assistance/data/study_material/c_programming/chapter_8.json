@@ -1,1 +1,121 @@
-
+{
+  "chapter_number": 8,
+  "chapter_title": "Arrays in C",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["arrays"],
+      "content": "An array is a collection of elements of the same data type stored in contiguous memory locations."
+    },
+    {
+      "section_title": "What is an Array?",
+      "keywords": ["definition"],
+      "content": "An array is a data structure used to store multiple values of the same type under a single name."
+    },
+    {
+      "section_title": "Need for Arrays",
+      "keywords": ["need"],
+      "content": "Arrays eliminate the need for multiple variables when storing similar types of data."
+    },
+    {
+      "section_title": "Advantages of Arrays",
+      "keywords": ["advantages"],
+      "content": [
+        "Easy data management",
+        "Fast access using indexes",
+        "Efficient memory utilization",
+        "Simplifies programming"
+      ]
+    },
+    {
+      "section_title": "Declaration of Array",
+      "keywords": ["declaration"],
+      "content": "data_type array_name[size];"
+    },
+    {
+      "section_title": "Example Declaration",
+      "keywords": ["example"],
+      "content": [
+        "int marks[5];",
+        "float salary[10];",
+        "char grade[20];"
+      ]
+    },
+    {
+      "section_title": "Initialization of Array",
+      "keywords": ["initialization"],
+      "content": "int arr[5]={10,20,30,40,50};"
+    },
+    {
+      "section_title": "Array Indexing",
+      "keywords": ["index"],
+      "content": "Array indexing starts from 0. The first element is stored at index 0."
+    },
+    {
+      "section_title": "Accessing Array Elements",
+      "keywords": ["accessing elements"],
+      "content": "Elements are accessed using index values such as arr[0], arr[1], arr[2]."
+    },
+    {
+      "section_title": "Types of Arrays",
+      "keywords": ["types"],
+      "content": [
+        "One Dimensional Array",
+        "Two Dimensional Array",
+        "Multi Dimensional Array"
+      ]
+    },
+    {
+      "section_title": "One Dimensional Array",
+      "keywords": ["1d array"],
+      "content": "A one-dimensional array stores data in a single row."
+    },
+    {
+      "section_title": "Two Dimensional Array",
+      "keywords": ["2d array"],
+      "content": "A two-dimensional array stores data in rows and columns."
+    },
+    {
+      "section_title": "Syntax of Two Dimensional Array",
+      "keywords": ["2d syntax"],
+      "content": "int matrix[3][3];"
+    },
+    {
+      "section_title": "Array Traversal",
+      "keywords": ["traversal"],
+      "content": "Traversal means accessing every element of the array one by one."
+    },
+    {
+      "section_title": "Limitations of Arrays",
+      "keywords": ["limitations"],
+      "content": [
+        "Fixed size",
+        "Insertion and deletion are difficult",
+        "Can store only same data type elements"
+      ]
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["program"],
+      "content": "#include <stdio.h>\n\nint main()\n{\n int arr[5]={10,20,30,40,50};\n printf(\"%d\",arr[0]);\n return 0;\n}"
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Student Records",
+        "Matrix Operations",
+        "Searching Algorithms",
+        "Sorting Algorithms",
+        "Data Storage"
+      ]
+    }
+  ],
+  "summary": [
+    "Arrays store multiple values of the same data type.",
+    "Array indexing starts from 0.",
+    "Arrays provide fast element access.",
+    "Arrays can be one-dimensional or multidimensional.",
+    "Arrays have fixed size limitations."
+  ]
+}
