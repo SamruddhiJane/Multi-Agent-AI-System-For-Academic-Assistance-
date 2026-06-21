@@ -1,1 +1,125 @@
-
+{
+  "chapter_number": 14,
+  "chapter_title": "Structures and Unions",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["structures", "unions"],
+      "content": "Structures and unions are user-defined data types used to group related data."
+    },
+    {
+      "section_title": "What is a Structure?",
+      "keywords": ["structure definition"],
+      "content": "A structure is a user-defined data type that allows storing variables of different data types under a single name."
+    },
+    {
+      "section_title": "Need for Structures",
+      "keywords": ["importance"],
+      "content": [
+        "Store related information together",
+        "Represent real-world entities",
+        "Improve code organization"
+      ]
+    },
+    {
+      "section_title": "Structure Declaration",
+      "keywords": ["structure syntax"],
+      "content": "struct Student\n{\n int roll;\n char name[20];\n float marks;\n};"
+    },
+    {
+      "section_title": "Structure Variable Declaration",
+      "keywords": ["structure variable"],
+      "content": "struct Student s1;"
+    },
+    {
+      "section_title": "Accessing Structure Members",
+      "keywords": ["dot operator"],
+      "content": "Structure members are accessed using the dot (.) operator."
+    },
+    {
+      "section_title": "Structure Initialization",
+      "keywords": ["initialization"],
+      "content": "struct Student s1={1,\"Suhani\",89.5};"
+    },
+    {
+      "section_title": "Nested Structures",
+      "keywords": ["nested structure"],
+      "content": "A structure inside another structure is called a nested structure."
+    },
+    {
+      "section_title": "Array of Structures",
+      "keywords": ["array of structures"],
+      "content": "Multiple structure variables can be stored in an array."
+    },
+    {
+      "section_title": "Pointer to Structure",
+      "keywords": ["structure pointer"],
+      "content": "Pointers can store addresses of structure variables."
+    },
+    {
+      "section_title": "Arrow Operator (->)",
+      "keywords": ["arrow operator"],
+      "content": "The arrow operator accesses structure members through a pointer."
+    },
+    {
+      "section_title": "What is a Union?",
+      "keywords": ["union definition"],
+      "content": "A union is a user-defined data type where all members share the same memory location."
+    },
+    {
+      "section_title": "Union Declaration",
+      "keywords": ["union syntax"],
+      "content": "union Data\n{\n int i;\n float f;\n char ch;\n};"
+    },
+    {
+      "section_title": "Features of Union",
+      "keywords": ["union features"],
+      "content": [
+        "Shared memory",
+        "Memory efficient",
+        "Only one member stores a valid value at a time"
+      ]
+    },
+    {
+      "section_title": "Difference Between Structure and Union",
+      "keywords": ["comparison"],
+      "content": [
+        "Structures allocate separate memory for each member.",
+        "Unions share the same memory among all members.",
+        "Structures use more memory.",
+        "Unions use less memory."
+      ]
+    },
+    {
+      "section_title": "Advantages of Structures",
+      "keywords": ["structure advantages"],
+      "content": [
+        "Stores multiple data types",
+        "Represents complex records",
+        "Improves code readability"
+      ]
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Student Records",
+        "Employee Management Systems",
+        "Database Applications",
+        "Inventory Systems"
+      ]
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["program"],
+      "content": "#include <stdio.h>\n\nstruct Student\n{\n int roll;\n};\n\nint main()\n{\n struct Student s1;\n s1.roll=101;\n printf(\"%d\",s1.roll);\n return 0;\n}"
+    }
+  ],
+  "summary": [
+    "Structures group different data types.",
+    "Members are accessed using the dot operator.",
+    "Unions share memory among members.",
+    "Arrow operator is used with structure pointers.",
+    "Structures and unions are widely used in real-world applications."
+  ]
+        }
