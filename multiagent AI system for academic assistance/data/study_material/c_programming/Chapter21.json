@@ -1,1 +1,122 @@
-
+{
+  "chapter_number": 21,
+  "chapter_title": "Linked Lists",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["linked list"],
+      "content": "A Linked List is a dynamic data structure consisting of nodes connected through pointers."
+    },
+    {
+      "section_title": "What is a Linked List?",
+      "keywords": ["definition"],
+      "content": "A linked list is a collection of nodes where each node contains data and a pointer to the next node."
+    },
+    {
+      "section_title": "Need for Linked Lists",
+      "keywords": ["importance"],
+      "content": [
+        "Dynamic size",
+        "Efficient insertion",
+        "Efficient deletion",
+        "Better memory utilization"
+      ]
+    },
+    {
+      "section_title": "Structure of a Node",
+      "keywords": ["node structure"],
+      "content": "A node consists of a data field and a pointer field."
+    },
+    {
+      "section_title": "Components of Linked List",
+      "keywords": ["components"],
+      "content": [
+        "Head Node",
+        "Data Field",
+        "Link Field",
+        "NULL Pointer"
+      ]
+    },
+    {
+      "section_title": "Traversal",
+      "keywords": ["traversal"],
+      "content": "Traversal means visiting every node of the linked list one by one."
+    },
+    {
+      "section_title": "Insertion",
+      "keywords": ["insertion"],
+      "content": [
+        "Insertion at Beginning",
+        "Insertion at End",
+        "Insertion at Specific Position"
+      ]
+    },
+    {
+      "section_title": "Deletion",
+      "keywords": ["deletion"],
+      "content": [
+        "Deletion from Beginning",
+        "Deletion from End",
+        "Deletion from Specific Position"
+      ]
+    },
+    {
+      "section_title": "Types of Linked Lists",
+      "keywords": ["types"],
+      "content": [
+        "Singly Linked List",
+        "Doubly Linked List",
+        "Circular Linked List"
+      ]
+    },
+    {
+      "section_title": "Singly Linked List",
+      "keywords": ["singly linked list"],
+      "content": "Each node points to the next node only."
+    },
+    {
+      "section_title": "Doubly Linked List",
+      "keywords": ["doubly linked list"],
+      "content": "Each node contains pointers to both previous and next nodes."
+    },
+    {
+      "section_title": "Circular Linked List",
+      "keywords": ["circular linked list"],
+      "content": "The last node points back to the first node."
+    },
+    {
+      "section_title": "Advantages",
+      "keywords": ["advantages"],
+      "content": [
+        "Dynamic size",
+        "Efficient insertion and deletion",
+        "No memory wastage due to fixed size"
+      ]
+    },
+    {
+      "section_title": "Disadvantages",
+      "keywords": ["disadvantages"],
+      "content": [
+        "Extra memory required for pointers",
+        "Sequential access only",
+        "Complex implementation"
+      ]
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Dynamic Memory Management",
+        "Music Playlists",
+        "Browser Navigation",
+        "Graph Representation"
+      ]
+    }
+  ],
+  "summary": [
+    "Linked Lists are dynamic data structures.",
+    "Nodes contain data and pointers.",
+    "Linked Lists support efficient insertion and deletion.",
+    "There are singly, doubly, and circular linked lists."
+  ]
+    }
