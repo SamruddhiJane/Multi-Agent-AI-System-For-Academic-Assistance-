@@ -1,4 +1,117 @@
 {
-  "chapter_number": 1,
-  "chapter_title": "Introduction to C Programming"
+"chapter_number": 1,
+"chapter_title": "Introduction to C Programming",
+"sections": [
+{
+"section_title": "Introduction",
+"keywords": ["c language", "introduction", "programming language"],
+"content": "C is a general-purpose, procedural programming language developed by Dennis Ritchie in 1972 at Bell Laboratories. It is widely used for system programming, application development, embedded systems, and operating systems."
+},
+{
+"section_title": "History of C",
+"keywords": ["history", "dennis ritchie", "bell laboratories"],
+"content": "C was developed by Dennis Ritchie as an improvement over the B language. It became one of the most influential programming languages and inspired many modern languages such as C++, Java, and C#."
+},
+{
+"section_title": "What is C Programming?",
+"keywords": ["definition", "c programming", "c language"],
+"content": "C is a structured programming language that allows programmers to write efficient and portable programs. It provides low-level memory access while maintaining high-level programming features."
+},
+{
+"section_title": "Features of C",
+"keywords": ["features", "characteristics", "advantages"],
+"content": [
+"Simple and easy to learn",
+"Portable across different platforms",
+"Fast execution speed",
+"Structured programming support",
+"Rich standard library",
+"Supports low-level programming",
+"Efficient memory management",
+"Modular programming through functions"
+]
+},
+{
+"section_title": "Advantages of C",
+"keywords": ["advantages", "benefits", "pros"],
+"content": [
+"Easy to understand and implement",
+"High execution speed",
+"Portable and machine independent",
+"Supports dynamic memory allocation",
+"Provides direct access to memory through pointers",
+"Widely used in system software development",
+"Foundation for many modern programming languages"
+]
+},
+{
+"section_title": "Disadvantages of C",
+"keywords": ["disadvantages", "limitations", "cons"],
+"content": [
+"No built-in object-oriented programming support",
+"No automatic garbage collection",
+"Manual memory management required",
+"Limited runtime error checking",
+"No built-in exception handling"
+]
+},
+{
+"section_title": "Applications of C",
+"keywords": ["applications", "uses", "real world applications"],
+"content": [
+"Operating Systems",
+"Embedded Systems",
+"Database Systems",
+"Compilers",
+"Device Drivers",
+"Game Development",
+"Networking Applications",
+"Scientific Computing"
+]
+},
+{
+"section_title": "Structure of a C Program",
+"keywords": ["structure", "program structure", "c program"],
+"content": [
+"Documentation Section",
+"Header Files",
+"Global Declarations",
+"main() Function",
+"User-defined Functions"
+]
+},
+{
+"section_title": "Basic C Program",
+"keywords": ["hello world", "example program", "basic program"],
+"content": "#include <stdio.h>\n\nint main()\n{\n    printf("Hello World");\n    return 0;\n}"
+},
+{
+"section_title": "Explanation of Basic Program",
+"keywords": ["program explanation", "hello world explanation"],
+"content": [
+"#include <stdio.h> includes the standard input-output library.",
+"main() is the entry point of program execution.",
+"printf() displays output on the screen.",
+"return 0 indicates successful program termination."
+]
+},
+{
+"section_title": "Why Learn C?",
+"keywords": ["importance", "why c", "learning c"],
+"content": [
+"Forms the foundation of many programming languages",
+"Improves problem-solving skills",
+"Helps understand memory management",
+"Useful for system programming",
+"Widely used in academia and industry"
+]
+}
+],
+"summary": [
+"C is a general-purpose procedural programming language.",
+"Dennis Ritchie developed C at Bell Laboratories.",
+"C is fast, portable, and efficient.",
+"C is widely used in operating systems, embedded systems, and software development.",
+"Understanding C helps in learning advanced programming concepts."
+]
 }
