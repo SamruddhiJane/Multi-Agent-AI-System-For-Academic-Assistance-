@@ -1,1 +1,109 @@
-
+{
+  "chapter_number": 7,
+  "chapter_title": "Looping Statements",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["loops", "iteration"],
+      "content": "Loops are used to execute a block of code repeatedly until a specified condition becomes false."
+    },
+    {
+      "section_title": "What is a Loop?",
+      "keywords": ["definition", "loop"],
+      "content": "A loop is a control structure that allows repeated execution of a set of statements."
+    },
+    {
+      "section_title": "Advantages of Loops",
+      "keywords": ["advantages"],
+      "content": [
+        "Reduces code repetition",
+        "Improves readability",
+        "Saves development time",
+        "Makes programs efficient"
+      ]
+    },
+    {
+      "section_title": "Types of Loops",
+      "keywords": ["types"],
+      "content": [
+        "for Loop",
+        "while Loop",
+        "do-while Loop"
+      ]
+    },
+    {
+      "section_title": "for Loop",
+      "keywords": ["for loop"],
+      "content": "The for loop is used when the number of iterations is known."
+    },
+    {
+      "section_title": "Syntax of for Loop",
+      "keywords": ["for syntax"],
+      "content": "for(initialization; condition; increment/decrement)\n{\n statements;\n}"
+    },
+    {
+      "section_title": "while Loop",
+      "keywords": ["while loop"],
+      "content": "The while loop executes as long as the condition remains true."
+    },
+    {
+      "section_title": "Syntax of while Loop",
+      "keywords": ["while syntax"],
+      "content": "while(condition)\n{\n statements;\n}"
+    },
+    {
+      "section_title": "do-while Loop",
+      "keywords": ["do while"],
+      "content": "The do-while loop executes the loop body at least once before checking the condition."
+    },
+    {
+      "section_title": "Syntax of do-while Loop",
+      "keywords": ["do while syntax"],
+      "content": "do\n{\n statements;\n}\nwhile(condition);"
+    },
+    {
+      "section_title": "Nested Loops",
+      "keywords": ["nested loops"],
+      "content": "A loop inside another loop is called a nested loop."
+    },
+    {
+      "section_title": "Infinite Loop",
+      "keywords": ["infinite loop"],
+      "content": "A loop that never terminates because its condition always remains true."
+    },
+    {
+      "section_title": "break Statement",
+      "keywords": ["break"],
+      "content": "The break statement immediately terminates the loop."
+    },
+    {
+      "section_title": "continue Statement",
+      "keywords": ["continue"],
+      "content": "The continue statement skips the current iteration and moves to the next iteration."
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["example"],
+      "content": "#include <stdio.h>\n\nint main()\n{\n int i;\n for(i=1;i<=5;i++)\n {\n printf(\"%d \",i);\n }\n return 0;\n}"
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Pattern Printing",
+        "Searching",
+        "Sorting",
+        "Data Processing",
+        "Mathematical Calculations"
+      ]
+    }
+  ],
+  "summary": [
+    "Loops execute code repeatedly.",
+    "for loop is used when iterations are known.",
+    "while loop checks condition before execution.",
+    "do-while executes at least once.",
+    "break terminates loops.",
+    "continue skips an iteration."
+  ]
+}
