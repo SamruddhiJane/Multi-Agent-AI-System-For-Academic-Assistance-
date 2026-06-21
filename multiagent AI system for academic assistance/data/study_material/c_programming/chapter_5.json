@@ -1,1 +1,136 @@
-
+{
+  "chapter_number": 5,
+  "chapter_title": "Operators in C",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["operators", "operations"],
+      "content": "Operators are special symbols used to perform operations on variables and values."
+    },
+    {
+      "section_title": "What is an Operator?",
+      "keywords": ["definition", "operator"],
+      "content": "An operator is a symbol that instructs the compiler to perform a specific mathematical, logical, or relational operation."
+    },
+    {
+      "section_title": "Types of Operators",
+      "keywords": ["classification"],
+      "content": [
+        "Arithmetic Operators",
+        "Relational Operators",
+        "Logical Operators",
+        "Assignment Operators",
+        "Increment and Decrement Operators",
+        "Bitwise Operators",
+        "Conditional Operator",
+        "Special Operators"
+      ]
+    },
+    {
+      "section_title": "Arithmetic Operators",
+      "keywords": ["arithmetic"],
+      "content": [
+        "+ Addition",
+        "- Subtraction",
+        "* Multiplication",
+        "/ Division",
+        "% Modulus"
+      ]
+    },
+    {
+      "section_title": "Relational Operators",
+      "keywords": ["comparison"],
+      "content": [
+        "== Equal To",
+        "!= Not Equal To",
+        "> Greater Than",
+        "< Less Than",
+        ">= Greater Than or Equal To",
+        "<= Less Than or Equal To"
+      ]
+    },
+    {
+      "section_title": "Logical Operators",
+      "keywords": ["logical"],
+      "content": [
+        "&& Logical AND",
+        "|| Logical OR",
+        "! Logical NOT"
+      ]
+    },
+    {
+      "section_title": "Assignment Operators",
+      "keywords": ["assignment"],
+      "content": [
+        "= Assignment",
+        "+=",
+        "-=",
+        "*=",
+        "/=",
+        "%="
+      ]
+    },
+    {
+      "section_title": "Increment Operator",
+      "keywords": ["increment"],
+      "content": "The ++ operator increases a variable value by 1."
+    },
+    {
+      "section_title": "Decrement Operator",
+      "keywords": ["decrement"],
+      "content": "The -- operator decreases a variable value by 1."
+    },
+    {
+      "section_title": "Pre-Increment and Post-Increment",
+      "keywords": ["pre increment", "post increment"],
+      "content": [
+        "++a : Increment first, then use value",
+        "a++ : Use value first, then increment"
+      ]
+    },
+    {
+      "section_title": "Bitwise Operators",
+      "keywords": ["bitwise"],
+      "content": [
+        "& Bitwise AND",
+        "| Bitwise OR",
+        "^ Bitwise XOR",
+        "~ Bitwise NOT",
+        "<< Left Shift",
+        ">> Right Shift"
+      ]
+    },
+    {
+      "section_title": "Conditional Operator",
+      "keywords": ["ternary operator"],
+      "content": "The conditional operator (?:) is a shorthand form of if-else."
+    },
+    {
+      "section_title": "Special Operators",
+      "keywords": ["special operators"],
+      "content": [
+        "sizeof()",
+        "& Address Operator",
+        "* Pointer Operator"
+      ]
+    },
+    {
+      "section_title": "Operator Precedence",
+      "keywords": ["precedence"],
+      "content": "Operator precedence determines which operation is performed first in an expression."
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["example"],
+      "content": "#include <stdio.h>\n\nint main()\n{\n int a=10,b=5;\n printf(\"Sum=%d\",a+b);\n return 0;\n}"
+    }
+  ],
+  "summary": [
+    "Operators perform operations on data.",
+    "Arithmetic operators perform mathematical calculations.",
+    "Relational operators compare values.",
+    "Logical operators combine conditions.",
+    "Bitwise operators work on binary values.",
+    "Operator precedence determines execution order."
+  ]
+}
