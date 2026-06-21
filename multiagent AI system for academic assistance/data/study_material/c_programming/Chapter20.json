@@ -1,1 +1,116 @@
-
+{
+  "chapter_number": 20,
+  "chapter_title": "Preprocessor Directives",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["preprocessor"],
+      "content": "Preprocessor directives are instructions processed before actual compilation begins."
+    },
+    {
+      "section_title": "What is a Preprocessor?",
+      "keywords": ["definition"],
+      "content": "The preprocessor is a program that processes source code before it is compiled."
+    },
+    {
+      "section_title": "Features of Preprocessor",
+      "keywords": ["features"],
+      "content": [
+        "File Inclusion",
+        "Macro Expansion",
+        "Conditional Compilation",
+        "Code Control"
+      ]
+    },
+    {
+      "section_title": "#include Directive",
+      "keywords": ["include"],
+      "content": "The #include directive includes header files into a program."
+    },
+    {
+      "section_title": "Types of Header Files",
+      "keywords": ["header files"],
+      "content": [
+        "Standard Header Files",
+        "User Defined Header Files"
+      ]
+    },
+    {
+      "section_title": "#define Directive",
+      "keywords": ["define"],
+      "content": "The #define directive creates symbolic constants and macros."
+    },
+    {
+      "section_title": "Macro",
+      "keywords": ["macro"],
+      "content": "A macro is a fragment of code replaced by the preprocessor before compilation."
+    },
+    {
+      "section_title": "Object-like Macro",
+      "keywords": ["object macro"],
+      "content": "#define PI 3.14159"
+    },
+    {
+      "section_title": "Function-like Macro",
+      "keywords": ["function macro"],
+      "content": "#define SQUARE(x) ((x)*(x))"
+    },
+    {
+      "section_title": "Conditional Compilation",
+      "keywords": ["conditional compilation"],
+      "content": "Conditional compilation allows selective compilation of code."
+    },
+    {
+      "section_title": "#ifdef Directive",
+      "keywords": ["ifdef"],
+      "content": "Checks whether a macro is defined."
+    },
+    {
+      "section_title": "#ifndef Directive",
+      "keywords": ["ifndef"],
+      "content": "Checks whether a macro is not defined."
+    },
+    {
+      "section_title": "#endif Directive",
+      "keywords": ["endif"],
+      "content": "Marks the end of conditional compilation."
+    },
+    {
+      "section_title": "#undef Directive",
+      "keywords": ["undef"],
+      "content": "Removes an existing macro definition."
+    },
+    {
+      "section_title": "Advantages",
+      "keywords": ["advantages"],
+      "content": [
+        "Code Reusability",
+        "Improved Readability",
+        "Conditional Compilation",
+        "Reduced Coding Effort"
+      ]
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["applications"],
+      "content": [
+        "Large Software Projects",
+        "Embedded Systems",
+        "Cross Platform Programs",
+        "Library Development"
+      ]
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["example"],
+      "content": "#include <stdio.h>\n#define PI 3.14\n\nint main()\n{\n printf(\"%f\",PI);\n return 0;\n}"
+    }
+  ],
+  "summary": [
+    "Preprocessor directives execute before compilation.",
+    "#include includes header files.",
+    "#define creates macros.",
+    "Conditional compilation controls code inclusion.",
+    "Preprocessor directives improve flexibility and maintainability."
+  ]
+}
