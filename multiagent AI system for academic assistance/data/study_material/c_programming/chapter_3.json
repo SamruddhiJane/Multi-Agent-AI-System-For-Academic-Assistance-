@@ -1,1 +1,132 @@
-
+{
+  "chapter_number": 3,
+  "chapter_title": "Data Types in C",
+  "sections": [
+    {
+      "section_title": "Introduction",
+      "keywords": ["data types", "c data types"],
+      "content": "Data types specify the type of data that a variable can store. They help the compiler allocate memory efficiently and perform appropriate operations."
+    },
+    {
+      "section_title": "What is a Data Type?",
+      "keywords": ["definition", "data type"],
+      "content": "A data type defines the kind of value a variable can hold and the amount of memory allocated to it."
+    },
+    {
+      "section_title": "Classification of Data Types",
+      "keywords": ["types", "classification"],
+      "content": [
+        "Basic Data Types",
+        "Derived Data Types",
+        "User Defined Data Types",
+        "Void Data Type"
+      ]
+    },
+    {
+      "section_title": "Basic Data Types",
+      "keywords": ["basic types"],
+      "content": [
+        "int",
+        "char",
+        "float",
+        "double"
+      ]
+    },
+    {
+      "section_title": "Integer Data Type",
+      "keywords": ["int", "integer"],
+      "content": "The int data type is used to store whole numbers without decimal points."
+    },
+    {
+      "section_title": "Character Data Type",
+      "keywords": ["char", "character"],
+      "content": "The char data type is used to store a single character enclosed within single quotes."
+    },
+    {
+      "section_title": "Float Data Type",
+      "keywords": ["float", "decimal"],
+      "content": "The float data type stores decimal values with single precision."
+    },
+    {
+      "section_title": "Double Data Type",
+      "keywords": ["double", "precision"],
+      "content": "The double data type stores decimal values with higher precision than float."
+    },
+    {
+      "section_title": "Void Data Type",
+      "keywords": ["void"],
+      "content": "The void data type represents the absence of any value."
+    },
+    {
+      "section_title": "Derived Data Types",
+      "keywords": ["derived types"],
+      "content": [
+        "Arrays",
+        "Pointers",
+        "Functions"
+      ]
+    },
+    {
+      "section_title": "User Defined Data Types",
+      "keywords": ["user defined"],
+      "content": [
+        "Structure",
+        "Union",
+        "Enumeration",
+        "typedef"
+      ]
+    },
+    {
+      "section_title": "Size of Data Types",
+      "keywords": ["memory", "size"],
+      "content": [
+        "char : 1 byte",
+        "int : typically 4 bytes",
+        "float : 4 bytes",
+        "double : 8 bytes"
+      ]
+    },
+    {
+      "section_title": "Type Modifiers",
+      "keywords": ["modifiers"],
+      "content": [
+        "short",
+        "long",
+        "signed",
+        "unsigned"
+      ]
+    },
+    {
+      "section_title": "Signed Data Type",
+      "keywords": ["signed"],
+      "content": "Signed data types can store both positive and negative values."
+    },
+    {
+      "section_title": "Unsigned Data Type",
+      "keywords": ["unsigned"],
+      "content": "Unsigned data types store only positive values and zero."
+    },
+    {
+      "section_title": "Example Program",
+      "keywords": ["program", "example"],
+      "content": "#include <stdio.h>\n\nint main()\n{\n    int age = 18;\n    float marks = 85.5;\n    char grade = 'A';\n\n    printf(\"%d %f %c\", age, marks, grade);\n\n    return 0;\n}"
+    },
+    {
+      "section_title": "Applications",
+      "keywords": ["usage", "applications"],
+      "content": [
+        "Data storage",
+        "Memory allocation",
+        "Scientific calculations",
+        "Software development"
+      ]
+    }
+  ],
+  "summary": [
+    "Data types define the type of data stored in variables.",
+    "Basic data types include int, char, float, and double.",
+    "Derived data types include arrays, pointers, and functions.",
+    "User-defined data types include structures, unions, enums, and typedef.",
+    "Type modifiers alter the size and range of data types."
+  ]
+}
