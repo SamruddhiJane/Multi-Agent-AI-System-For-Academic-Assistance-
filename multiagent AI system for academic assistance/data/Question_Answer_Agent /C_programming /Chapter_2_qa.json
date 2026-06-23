@@ -1,0 +1,156 @@
+{
+  "chapter_number": 2,
+  "chapter_title": "Tokens, Keywords, Identifiers, Variables and Constants",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What are tokens in C?",
+      "answer": "Tokens are the smallest individual units of a C program that have meaningful interpretation to the compiler."
+    },
+    {
+      "id": 2,
+      "question": "Why are tokens important in C?",
+      "answer": "Tokens form the basic building blocks of a C program."
+    },
+    {
+      "id": 3,
+      "question": "What are the different types of tokens in C?",
+      "answer": "Keywords, identifiers, constants, strings, operators, and special symbols."
+    },
+    {
+      "id": 4,
+      "question": "What is a keyword in C?",
+      "answer": "A keyword is a reserved word that has a predefined meaning in C."
+    },
+    {
+      "id": 5,
+      "question": "Can keywords be used as variable names?",
+      "answer": "No, keywords cannot be used as variable names."
+    },
+    {
+      "id": 6,
+      "question": "Give examples of C keywords.",
+      "answer": "int, float, char, if, else, while, for, return, break, continue."
+    },
+    {
+      "id": 7,
+      "question": "What is an identifier?",
+      "answer": "An identifier is a name given to variables, functions, arrays, structures, and other user-defined elements."
+    },
+    {
+      "id": 8,
+      "question": "What are the rules for naming identifiers?",
+      "answer": "They must begin with a letter or underscore, cannot start with a number, cannot contain spaces, and cannot be keywords."
+    },
+    {
+      "id": 9,
+      "question": "Can an identifier contain digits?",
+      "answer": "Yes, digits can be used after the first character."
+    },
+    {
+      "id": 10,
+      "question": "Is student_name a valid identifier?",
+      "answer": "Yes, student_name is a valid identifier."
+    },
+    {
+      "id": 11,
+      "question": "Is 1student a valid identifier?",
+      "answer": "No, identifiers cannot start with a number."
+    },
+    {
+      "id": 12,
+      "question": "What is a variable?",
+      "answer": "A variable is a named memory location used to store data."
+    },
+    {
+      "id": 13,
+      "question": "Why are variables used?",
+      "answer": "Variables are used to store and manipulate data during program execution."
+    },
+    {
+      "id": 14,
+      "question": "How is a variable declared?",
+      "answer": "A variable is declared using a data type followed by a variable name."
+    },
+    {
+      "id": 15,
+      "question": "Give an example of variable declaration.",
+      "answer": "int age;"
+    },
+    {
+      "id": 16,
+      "question": "What is variable initialization?",
+      "answer": "Variable initialization means assigning a value to a variable at the time of declaration."
+    },
+    {
+      "id": 17,
+      "question": "Give an example of variable initialization.",
+      "answer": "int age = 18;"
+    },
+    {
+      "id": 18,
+      "question": "What is a constant?",
+      "answer": "A constant is a fixed value that cannot be changed during program execution."
+    },
+    {
+      "id": 19,
+      "question": "Why are constants used?",
+      "answer": "Constants are used to store fixed values that should not change."
+    },
+    {
+      "id": 20,
+      "question": "What are the types of constants in C?",
+      "answer": "Integer constants, floating-point constants, character constants, and string constants."
+    },
+    {
+      "id": 21,
+      "question": "Give an example of an integer constant.",
+      "answer": "100"
+    },
+    {
+      "id": 22,
+      "question": "Give an example of a floating-point constant.",
+      "answer": "3.14"
+    },
+    {
+      "id": 23,
+      "question": "Give an example of a character constant.",
+      "answer": "'A'"
+    },
+    {
+      "id": 24,
+      "question": "Give an example of a string constant.",
+      "answer": "\"Hello\""
+    },
+    {
+      "id": 25,
+      "question": "What is the difference between a variable and a constant?",
+      "answer": "A variable can change during execution, whereas a constant remains fixed."
+    },
+    {
+      "id": 26,
+      "question": "What is memory allocation for variables?",
+      "answer": "Memory allocation reserves storage space for variables in memory."
+    },
+    {
+      "id": 27,
+      "question": "Can two variables have the same name in the same scope?",
+      "answer": "No, variable names must be unique within the same scope."
+    },
+    {
+      "id": 28,
+      "question": "Are identifiers case-sensitive in C?",
+      "answer": "Yes, C treats uppercase and lowercase letters differently."
+    },
+    {
+      "id": 29,
+      "question": "What is the purpose of tokens in a C program?",
+      "answer": "Tokens help the compiler understand and process the program correctly."
+    },
+    {
+      "id": 30,
+      "question": "Why should programmers follow identifier naming rules?",
+      "answer": "Following naming rules ensures error-free and readable programs."
+    }
+  ]
+}
