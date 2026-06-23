@@ -1,0 +1,233 @@
+{
+  "chapter_number": 8,
+  "chapter_title": "Arrays in C",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is an array in C?",
+      "options": ["A collection of different data types", "A collection of elements of the same data type", "A function", "An operator"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Why are arrays used?",
+      "options": ["To store multiple values of the same type", "To create loops", "To define functions", "To manage files"],
+      "correct_option": 1
+    },
+    {
+      "id": 3,
+      "question": "Which symbol is used to declare an array?",
+      "options": ["()", "{}", "[]", "<>"],
+      "correct_option": 3
+    },
+    {
+      "id": 4,
+      "question": "What is the index of the first element in an array?",
+      "options": ["0", "1", "-1", "2"],
+      "correct_option": 1
+    },
+    {
+      "id": 5,
+      "question": "How are array elements stored in memory?",
+      "options": ["Randomly", "Contiguously", "Separately", "Dynamically only"],
+      "correct_option": 2
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a valid array declaration?",
+      "options": ["int arr[5];", "array int[5];", "int[5] arr;", "arr int[5];"],
+      "correct_option": 1
+    },
+    {
+      "id": 7,
+      "question": "How many elements can be stored in int arr[10]?",
+      "options": ["9", "10", "11", "20"],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "question": "Which loop is commonly used to access array elements?",
+      "options": ["for", "if", "switch", "goto"],
+      "correct_option": 1
+    },
+    {
+      "id": 9,
+      "question": "What is a one-dimensional array?",
+      "options": ["Array with one row", "Array with a single index", "Array with multiple rows", "Array of structures"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "What is a two-dimensional array?",
+      "options": ["Array with rows and columns", "Array with one index", "Array of pointers", "Array of functions"],
+      "correct_option": 1
+    },
+    {
+      "id": 11,
+      "question": "Which notation accesses the third element of arr?",
+      "options": ["arr[3]", "arr[2]", "arr(2)", "arr{2}"],
+      "correct_option": 2
+    },
+    {
+      "id": 12,
+      "question": "What happens if an array index exceeds its size?",
+      "options": ["Compilation error", "Runtime error always", "Undefined behavior", "Program stops automatically"],
+      "correct_option": 3
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is a multidimensional array?",
+      "options": ["int a[5];", "int a[3][4];", "char a;", "float a;"],
+      "correct_option": 2
+    },
+    {
+      "id": 14,
+      "question": "What is array traversal?",
+      "options": ["Creating arrays", "Deleting arrays", "Accessing each element", "Sorting arrays"],
+      "correct_option": 3
+    },
+    {
+      "id": 15,
+      "question": "Which operation is easier with arrays?",
+      "options": ["Accessing elements by index", "Dynamic resizing", "Deleting middle elements", "Memory allocation"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "question": "Arrays can store?",
+      "options": ["Only integers", "Only characters", "Only floats", "Elements of the same data type"],
+      "correct_option": 4
+    },
+    {
+      "id": 17,
+      "question": "What is the size of an array determined by?",
+      "options": ["Compiler only", "Declaration", "Loop", "Function"],
+      "correct_option": 2
+    },
+    {
+      "id": 18,
+      "question": "Which data structure stores elements in contiguous memory locations?",
+      "options": ["Linked List", "Array", "Stack", "Queue"],
+      "correct_option": 2
+    },
+    {
+      "id": 19,
+      "question": "Arrays are best suited for?",
+      "options": ["Fixed-size data", "Dynamic data", "Graphs", "Trees"],
+      "correct_option": 1
+    },
+    {
+      "id": 20,
+      "question": "Why are arrays important?",
+      "options": ["Efficient storage and access", "File handling", "Compilation", "Debugging"],
+      "correct_option": 1
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "Array elements are stored in contiguous memory locations.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "The first index of an array is 1.",
+      "answer": false
+    },
+    {
+      "id": 3,
+      "statement": "Arrays store elements of the same data type.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "A two-dimensional array has rows and columns.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "Array indices start from 0 in C.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "Arrays can grow dynamically by default.",
+      "answer": false
+    },
+    {
+      "id": 7,
+      "statement": "Accessing an invalid index leads to undefined behavior.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "Arrays are useful for storing multiple values.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "A one-dimensional array uses a single index.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Array traversal means accessing all elements one by one.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "An array stores multiple values of the same ________ type.",
+      "answer": "data"
+    },
+    {
+      "id": 2,
+      "question": "The first element of an array has index ________.",
+      "answer": "0"
+    },
+    {
+      "id": 3,
+      "question": "Array elements are stored ________ in memory.",
+      "answer": "contiguously"
+    },
+    {
+      "id": 4,
+      "question": "A one-dimensional array uses a single ________.",
+      "answer": "index"
+    },
+    {
+      "id": 5,
+      "question": "A two-dimensional array contains rows and ________.",
+      "answer": "columns"
+    },
+    {
+      "id": 6,
+      "question": "The symbol used for array indexing is ________.",
+      "answer": "[]"
+    },
+    {
+      "id": 7,
+      "question": "Accessing all elements of an array is called ________.",
+      "answer": "traversal"
+    },
+    {
+      "id": 8,
+      "question": "Arrays are best suited for ________ size collections of data.",
+      "answer": "fixed"
+    },
+    {
+      "id": 9,
+      "question": "An array declaration specifies its ________.",
+      "answer": "size"
+    },
+    {
+      "id": 10,
+      "question": "Arrays provide fast access using element ________.",
+      "answer": "indices"
+    }
+  ]
+}
