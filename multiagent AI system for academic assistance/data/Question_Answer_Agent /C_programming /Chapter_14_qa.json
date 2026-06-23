@@ -1,0 +1,156 @@
+{
+  "chapter_number": 14,
+  "chapter_title": "Structures and Unions",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is a structure in C?",
+      "answer": "A structure is a user-defined data type that groups variables of different data types under a single name."
+    },
+    {
+      "id": 2,
+      "question": "Why are structures used in C?",
+      "answer": "Structures are used to store related data of different types together."
+    },
+    {
+      "id": 3,
+      "question": "What is the syntax for declaring a structure?",
+      "answer": "struct StructureName { data_type member1; data_type member2; };"
+    },
+    {
+      "id": 4,
+      "question": "What is a structure member?",
+      "answer": "A structure member is a variable declared inside a structure."
+    },
+    {
+      "id": 5,
+      "question": "How is a structure variable declared?",
+      "answer": "By specifying the structure type followed by the variable name."
+    },
+    {
+      "id": 6,
+      "question": "How are structure members accessed?",
+      "answer": "Structure members are accessed using the dot (.) operator."
+    },
+    {
+      "id": 7,
+      "question": "What is structure initialization?",
+      "answer": "Structure initialization is assigning values to structure members at the time of declaration."
+    },
+    {
+      "id": 8,
+      "question": "Can structures contain different data types?",
+      "answer": "Yes, structures can contain variables of different data types."
+    },
+    {
+      "id": 9,
+      "question": "What is a nested structure?",
+      "answer": "A nested structure is a structure that contains another structure as a member."
+    },
+    {
+      "id": 10,
+      "question": "What is an array of structures?",
+      "answer": "An array of structures is a collection of multiple structure variables stored in an array."
+    },
+    {
+      "id": 11,
+      "question": "What is a pointer to a structure?",
+      "answer": "A pointer to a structure stores the address of a structure variable."
+    },
+    {
+      "id": 12,
+      "question": "What is the arrow operator (->)?",
+      "answer": "The arrow operator is used to access structure members through a structure pointer."
+    },
+    {
+      "id": 13,
+      "question": "What are the advantages of structures?",
+      "answer": "Structures improve data organization, readability, and management of complex records."
+    },
+    {
+      "id": 14,
+      "question": "What are the disadvantages of structures?",
+      "answer": "Structures may require more memory and can become complex when deeply nested."
+    },
+    {
+      "id": 15,
+      "question": "What is a union in C?",
+      "answer": "A union is a user-defined data type in which all members share the same memory location."
+    },
+    {
+      "id": 16,
+      "question": "Why are unions used?",
+      "answer": "Unions are used to save memory when only one member needs to hold a value at a time."
+    },
+    {
+      "id": 17,
+      "question": "What is the syntax of a union?",
+      "answer": "union UnionName { data_type member1; data_type member2; };"
+    },
+    {
+      "id": 18,
+      "question": "How are union members accessed?",
+      "answer": "Union members are accessed using the dot (.) operator."
+    },
+    {
+      "id": 19,
+      "question": "How is memory allocated in a union?",
+      "answer": "Memory equal to the size of the largest member is allocated."
+    },
+    {
+      "id": 20,
+      "question": "Can all union members hold values simultaneously?",
+      "answer": "No, only one member can hold a valid value at a time."
+    },
+    {
+      "id": 21,
+      "question": "What is the main difference between a structure and a union?",
+      "answer": "Structures allocate separate memory for each member, whereas unions share the same memory among all members."
+    },
+    {
+      "id": 22,
+      "question": "Which uses more memory: structure or union?",
+      "answer": "Structures generally use more memory than unions."
+    },
+    {
+      "id": 23,
+      "question": "Which is more memory efficient: structure or union?",
+      "answer": "Unions are more memory efficient because members share memory."
+    },
+    {
+      "id": 24,
+      "question": "Can structures be passed to functions?",
+      "answer": "Yes, structures can be passed to functions by value or by reference."
+    },
+    {
+      "id": 25,
+      "question": "Can unions be passed to functions?",
+      "answer": "Yes, unions can also be passed to functions."
+    },
+    {
+      "id": 26,
+      "question": "Where are structures commonly used?",
+      "answer": "Structures are used in student records, employee databases, banking systems, and inventory management."
+    },
+    {
+      "id": 27,
+      "question": "Where are unions commonly used?",
+      "answer": "Unions are used in embedded systems, memory optimization, and hardware interfacing."
+    },
+    {
+      "id": 28,
+      "question": "Why are structures important in programming?",
+      "answer": "Structures help represent real-world entities using related data."
+    },
+    {
+      "id": 29,
+      "question": "Why are unions important in programming?",
+      "answer": "Unions help optimize memory usage in resource-constrained applications."
+    },
+    {
+      "id": 30,
+      "question": "What is the main purpose of structures and unions?",
+      "answer": "The main purpose is to organize related data efficiently and improve program design."
+    }
+  ]
+}
