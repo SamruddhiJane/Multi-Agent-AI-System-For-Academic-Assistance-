@@ -1,0 +1,233 @@
+{
+  "chapter_number": 21,
+  "chapter_title": "Searching Techniques",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is searching in data structures?",
+      "options": ["Sorting data", "Finding the location of an element", "Deleting data", "Updating data"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which are the two common searching techniques?",
+      "options": ["Bubble and Selection", "Linear and Binary", "Merge and Quick", "Stack and Queue"],
+      "correct_option": 2
+    },
+    {
+      "id": 3,
+      "question": "How does Linear Search work?",
+      "options": ["Checks elements one by one", "Divides array into halves", "Sorts data", "Uses recursion only"],
+      "correct_option": 1
+    },
+    {
+      "id": 4,
+      "question": "What is another name for Linear Search?",
+      "options": ["Sequential Search", "Binary Search", "Quick Search", "Direct Search"],
+      "correct_option": 1
+    },
+    {
+      "id": 5,
+      "question": "What is the worst-case time complexity of Linear Search?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+      "correct_option": 3
+    },
+    {
+      "id": 6,
+      "question": "Which search method requires sorted data?",
+      "options": ["Linear Search", "Binary Search", "Sequential Search", "Direct Search"],
+      "correct_option": 2
+    },
+    {
+      "id": 7,
+      "question": "How does Binary Search work?",
+      "options": ["Checks each element", "Divides search space into halves", "Sorts array first", "Uses stacks"],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "question": "What is the worst-case time complexity of Binary Search?",
+      "options": ["O(n)", "O(n²)", "O(log n)", "O(1)"],
+      "correct_option": 3
+    },
+    {
+      "id": 9,
+      "question": "Which search is generally faster for large datasets?",
+      "options": ["Linear Search", "Binary Search", "Sequential Search", "Manual Search"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "What is the middle element used for in Binary Search?",
+      "options": ["Sorting", "Comparison", "Deletion", "Insertion"],
+      "correct_option": 2
+    },
+    {
+      "id": 11,
+      "question": "If the target is smaller than the middle element in Binary Search, the search continues in the?",
+      "options": ["Right half", "Left half", "Entire array", "Middle only"],
+      "correct_option": 2
+    },
+    {
+      "id": 12,
+      "question": "If the target is greater than the middle element in Binary Search, the search continues in the?",
+      "options": ["Left half", "Middle", "Right half", "Entire array"],
+      "correct_option": 3
+    },
+    {
+      "id": 13,
+      "question": "Which search algorithm is simpler to implement?",
+      "options": ["Binary Search", "Linear Search", "Hash Search", "Tree Search"],
+      "correct_option": 2
+    },
+    {
+      "id": 14,
+      "question": "Binary Search repeatedly reduces the search space by?",
+      "options": ["One element", "Half", "Double", "Three parts"],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "Linear Search is suitable for?",
+      "options": ["Small datasets", "Unsorted data", "Simple applications", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 16,
+      "question": "Binary Search is suitable for?",
+      "options": ["Sorted arrays", "Large datasets", "Efficient searching", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 17,
+      "question": "Which search algorithm may examine every element?",
+      "options": ["Binary Search", "Linear Search", "Hash Search", "Tree Search"],
+      "correct_option": 2
+    },
+    {
+      "id": 18,
+      "question": "Searching is used to?",
+      "options": ["Find information quickly", "Delete files", "Create arrays", "Sort strings"],
+      "correct_option": 1
+    },
+    {
+      "id": 19,
+      "question": "The efficiency of searching algorithms is measured using?",
+      "options": ["Time complexity", "File size", "Memory address", "Compiler version"],
+      "correct_option": 1
+    },
+    {
+      "id": 20,
+      "question": "Searching techniques are widely used in?",
+      "options": ["Databases", "Search engines", "Information retrieval", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "Linear Search checks elements one by one.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "Binary Search requires sorted data.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "Binary Search is slower than Linear Search for large sorted arrays.",
+      "answer": false
+    },
+    {
+      "id": 4,
+      "statement": "Linear Search can work on unsorted data.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "Binary Search repeatedly divides the search space into two halves.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "The worst-case time complexity of Linear Search is O(n).",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "The worst-case time complexity of Binary Search is O(log n).",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "Linear Search always requires sorted data.",
+      "answer": false
+    },
+    {
+      "id": 9,
+      "statement": "Searching is used to locate specific information.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Binary Search compares the target with the middle element.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "The process of finding an element is called ________.",
+      "answer": "searching"
+    },
+    {
+      "id": 2,
+      "question": "Linear Search is also known as ________ Search.",
+      "answer": "Sequential"
+    },
+    {
+      "id": 3,
+      "question": "Binary Search requires the data to be ________.",
+      "answer": "sorted"
+    },
+    {
+      "id": 4,
+      "question": "The worst-case time complexity of Linear Search is ________.",
+      "answer": "O(n)"
+    },
+    {
+      "id": 5,
+      "question": "The worst-case time complexity of Binary Search is ________.",
+      "answer": "O(log n)"
+    },
+    {
+      "id": 6,
+      "question": "Binary Search compares the target with the ________ element.",
+      "answer": "middle"
+    },
+    {
+      "id": 7,
+      "question": "Binary Search divides the search space into ________ halves.",
+      "answer": "two"
+    },
+    {
+      "id": 8,
+      "question": "Linear Search checks elements ________ by one.",
+      "answer": "one"
+    },
+    {
+      "id": 9,
+      "question": "Searching algorithms are used in databases and search ________.",
+      "answer": "engines"
+    },
+    {
+      "id": 10,
+      "question": "Searching efficiency is measured using time ________.",
+      "answer": "complexity"
+    }
+  ]
+}
