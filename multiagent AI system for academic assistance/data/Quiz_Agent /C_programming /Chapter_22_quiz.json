@@ -1,0 +1,233 @@
+{
+  "chapter_number": 22,
+  "chapter_title": "Sorting Techniques",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is sorting?",
+      "options": ["Searching data", "Arranging data in a specific order", "Deleting data", "Updating data"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which are common sorting techniques?",
+      "options": ["Bubble, Selection, Insertion", "Linear, Binary", "Stack, Queue", "DFS, BFS"],
+      "correct_option": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of sorting?",
+      "options": ["Make data organized", "Improve searching efficiency", "Easy data processing", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 4,
+      "question": "How does Bubble Sort work?",
+      "options": ["Selects minimum element", "Swaps adjacent elements", "Inserts elements", "Uses recursion"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "Which sorting algorithm repeatedly compares adjacent elements?",
+      "options": ["Selection Sort", "Insertion Sort", "Bubble Sort", "Merge Sort"],
+      "correct_option": 3
+    },
+    {
+      "id": 6,
+      "question": "What is the worst-case time complexity of Bubble Sort?",
+      "options": ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+      "correct_option": 3
+    },
+    {
+      "id": 7,
+      "question": "How does Selection Sort work?",
+      "options": ["Swaps adjacent elements", "Selects smallest element and places it correctly", "Uses recursion", "Divides array"],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "question": "How many swaps are generally performed in Selection Sort?",
+      "options": ["Many", "One per pass", "None", "Unlimited"],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "question": "What is the worst-case time complexity of Selection Sort?",
+      "options": ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+      "correct_option": 3
+    },
+    {
+      "id": 10,
+      "question": "How does Insertion Sort work?",
+      "options": ["Builds sorted portion gradually", "Swaps adjacent elements", "Uses binary search", "Uses hashing"],
+      "correct_option": 1
+    },
+    {
+      "id": 11,
+      "question": "Which sorting algorithm is similar to arranging playing cards?",
+      "options": ["Bubble Sort", "Selection Sort", "Insertion Sort", "Quick Sort"],
+      "correct_option": 3
+    },
+    {
+      "id": 12,
+      "question": "What is the best-case time complexity of Insertion Sort?",
+      "options": ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+      "correct_option": 1
+    },
+    {
+      "id": 13,
+      "question": "Which sorting algorithm is efficient for small or nearly sorted data?",
+      "options": ["Bubble Sort", "Selection Sort", "Insertion Sort", "Heap Sort"],
+      "correct_option": 3
+    },
+    {
+      "id": 14,
+      "question": "Which sorting technique repeatedly passes through the array?",
+      "options": ["Bubble Sort", "Binary Search", "Hashing", "Queue"],
+      "correct_option": 1
+    },
+    {
+      "id": 15,
+      "question": "Selection Sort selects the ______ element in each pass.",
+      "options": ["Largest only", "Middle", "Smallest", "Random"],
+      "correct_option": 3
+    },
+    {
+      "id": 16,
+      "question": "Insertion Sort inserts an element into the correct ______ position.",
+      "options": ["Memory", "Sorted", "Random", "Last"],
+      "correct_option": 2
+    },
+    {
+      "id": 17,
+      "question": "Which sorting algorithm has the least number of swaps among these three?",
+      "options": ["Bubble Sort", "Selection Sort", "Insertion Sort", "All equal"],
+      "correct_option": 2
+    },
+    {
+      "id": 18,
+      "question": "Sorting algorithms help improve?",
+      "options": ["Searching efficiency", "Data organization", "Performance", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 19,
+      "question": "Which sorting algorithm compares adjacent elements?",
+      "options": ["Bubble Sort", "Selection Sort", "Insertion Sort", "Linear Sort"],
+      "correct_option": 1
+    },
+    {
+      "id": 20,
+      "question": "Sorting is widely used in?",
+      "options": ["Databases", "Search engines", "Data processing", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "Sorting arranges data in a specific order.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "Bubble Sort compares adjacent elements.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "Selection Sort selects the smallest element in each pass.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "Insertion Sort builds a sorted portion gradually.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "Bubble Sort has a worst-case complexity of O(n²).",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "Selection Sort requires sorted input data.",
+      "answer": false
+    },
+    {
+      "id": 7,
+      "statement": "Insertion Sort performs well on nearly sorted data.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "Sorting improves searching efficiency.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "Selection Sort usually performs fewer swaps than Bubble Sort.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Sorting is useful in databases and search systems.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "Sorting means arranging data in a specific ________.",
+      "answer": "order"
+    },
+    {
+      "id": 2,
+      "question": "Bubble Sort compares ________ elements.",
+      "answer": "adjacent"
+    },
+    {
+      "id": 3,
+      "question": "Selection Sort selects the ________ element during each pass.",
+      "answer": "smallest"
+    },
+    {
+      "id": 4,
+      "question": "Insertion Sort builds a ________ portion of the array.",
+      "answer": "sorted"
+    },
+    {
+      "id": 5,
+      "question": "The worst-case complexity of Bubble Sort is ________.",
+      "answer": "O(n²)"
+    },
+    {
+      "id": 6,
+      "question": "The worst-case complexity of Selection Sort is ________.",
+      "answer": "O(n²)"
+    },
+    {
+      "id": 7,
+      "question": "The best-case complexity of Insertion Sort is ________.",
+      "answer": "O(n)"
+    },
+    {
+      "id": 8,
+      "question": "Sorting helps improve ________ efficiency.",
+      "answer": "searching"
+    },
+    {
+      "id": 9,
+      "question": "Insertion Sort is suitable for ________ sorted data.",
+      "answer": "nearly"
+    },
+    {
+      "id": 10,
+      "question": "Sorting algorithms are widely used in ________ processing.",
+      "answer": "data"
+    }
+  ]
+}
