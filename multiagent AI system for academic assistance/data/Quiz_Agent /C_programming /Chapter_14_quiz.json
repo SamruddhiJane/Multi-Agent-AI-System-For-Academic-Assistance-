@@ -1,0 +1,233 @@
+{
+  "chapter_number": 14,
+  "chapter_title": "Structures and Unions",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is a structure in C?",
+      "options": ["A loop", "A user-defined data type", "An operator", "A function"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Why are structures used?",
+      "options": ["To store related data of different types", "To create loops", "To perform calculations", "To manage memory"],
+      "correct_option": 1
+    },
+    {
+      "id": 3,
+      "question": "Which keyword is used to define a structure?",
+      "options": ["union", "struct", "typedef", "enum"],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "How are structure members accessed?",
+      "options": ["->", ".", "::", ":"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "What is a nested structure?",
+      "options": ["A structure inside another structure", "A structure inside a loop", "A pointer", "A union"],
+      "correct_option": 1
+    },
+    {
+      "id": 6,
+      "question": "What is an array of structures?",
+      "options": ["Multiple structure variables stored in an array", "A structure with arrays only", "A union", "A pointer"],
+      "correct_option": 1
+    },
+    {
+      "id": 7,
+      "question": "What is a pointer to a structure?",
+      "options": ["A variable storing the address of a structure", "A structure variable", "A function", "An array"],
+      "correct_option": 1
+    },
+    {
+      "id": 8,
+      "question": "Which operator is used with structure pointers?",
+      "options": [".", "->", "&", "*"],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "question": "What is a union in C?",
+      "options": ["A user-defined data type sharing memory among members", "A loop", "A function", "A pointer"],
+      "correct_option": 1
+    },
+    {
+      "id": 10,
+      "question": "How many union members can hold valid values at a time?",
+      "options": ["All", "Two", "One", "Unlimited"],
+      "correct_option": 3
+    },
+    {
+      "id": 11,
+      "question": "Memory allocated to a union is based on?",
+      "options": ["Smallest member", "Largest member", "Average size", "Number of members"],
+      "correct_option": 2
+    },
+    {
+      "id": 12,
+      "question": "Which uses more memory?",
+      "options": ["Union", "Structure", "Both equal", "Depends on compiler"],
+      "correct_option": 2
+    },
+    {
+      "id": 13,
+      "question": "Which is more memory efficient?",
+      "options": ["Structure", "Union", "Array", "Pointer"],
+      "correct_option": 2
+    },
+    {
+      "id": 14,
+      "question": "Structures can contain?",
+      "options": ["Only integers", "Only characters", "Different data types", "Only floats"],
+      "correct_option": 3
+    },
+    {
+      "id": 15,
+      "question": "Can structures be passed to functions?",
+      "options": ["Yes", "No", "Only pointers", "Only arrays"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "question": "Can unions be passed to functions?",
+      "options": ["Yes", "No", "Only with pointers", "Only globally"],
+      "correct_option": 1
+    },
+    {
+      "id": 17,
+      "question": "Which data type is commonly used for student records?",
+      "options": ["Structure", "Union", "Pointer", "Array"],
+      "correct_option": 1
+    },
+    {
+      "id": 18,
+      "question": "Which is best when memory optimization is required?",
+      "options": ["Structure", "Union", "Array", "String"],
+      "correct_option": 2
+    },
+    {
+      "id": 19,
+      "question": "Structures improve?",
+      "options": ["Data organization", "Readability", "Maintainability", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 20,
+      "question": "The main purpose of structures and unions is?",
+      "options": ["Efficient data management", "Loop control", "Memory allocation only", "Compilation"],
+      "correct_option": 1
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "A structure can store different data types together.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "All structure members share the same memory location.",
+      "answer": false
+    },
+    {
+      "id": 3,
+      "statement": "Union members share the same memory location.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "Structures use less memory than unions.",
+      "answer": false
+    },
+    {
+      "id": 5,
+      "statement": "The arrow operator is used with structure pointers.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "A nested structure contains another structure as a member.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "Only one union member can hold a valid value at a time.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "Structures can be passed to functions.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "Unions are commonly used for memory optimization.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Structures improve data organization.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "The keyword used to define a structure is ________.",
+      "answer": "struct"
+    },
+    {
+      "id": 2,
+      "question": "Structure members are accessed using the ________ operator.",
+      "answer": "."
+    },
+    {
+      "id": 3,
+      "question": "The operator used with structure pointers is ________.",
+      "answer": "->"
+    },
+    {
+      "id": 4,
+      "question": "A structure inside another structure is called a ________ structure.",
+      "answer": "nested"
+    },
+    {
+      "id": 5,
+      "question": "A union shares the same ________ among all members.",
+      "answer": "memory"
+    },
+    {
+      "id": 6,
+      "question": "Memory allocated to a union is equal to the size of its ________ member.",
+      "answer": "largest"
+    },
+    {
+      "id": 7,
+      "question": "Structures are used to store ________ data types together.",
+      "answer": "different"
+    },
+    {
+      "id": 8,
+      "question": "A pointer to a structure stores its ________.",
+      "answer": "address"
+    },
+    {
+      "id": 9,
+      "question": "Unions are useful for memory ________.",
+      "answer": "optimization"
+    },
+    {
+      "id": 10,
+      "question": "Structures improve data ________ and readability.",
+      "answer": "organization"
+    }
+  ]
+}
