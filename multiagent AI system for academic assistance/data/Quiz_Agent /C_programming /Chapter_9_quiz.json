@@ -1,0 +1,233 @@
+{
+  "chapter_number": 9,
+  "chapter_title": "Strings in C",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is a string in C?",
+      "options": ["A single character", "An array of characters", "An integer", "A function"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which character terminates a string in C?",
+      "options": ["\\n", "\\t", "\\0", "."],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "Which data type is used to store strings in C?",
+      "options": ["int", "float", "char array", "double"],
+      "correct_option": 3
+    },
+    {
+      "id": 4,
+      "question": "Which header file contains string handling functions?",
+      "options": ["stdio.h", "math.h", "string.h", "stdlib.h"],
+      "correct_option": 3
+    },
+    {
+      "id": 5,
+      "question": "Which function is used to find the length of a string?",
+      "options": ["strcpy()", "strlen()", "strcmp()", "strcat()"],
+      "correct_option": 2
+    },
+    {
+      "id": 6,
+      "question": "Which function is used to copy one string to another?",
+      "options": ["strcat()", "strcmp()", "strcpy()", "strlen()"],
+      "correct_option": 3
+    },
+    {
+      "id": 7,
+      "question": "Which function is used to concatenate two strings?",
+      "options": ["strcat()", "strcmp()", "strlen()", "strcpy()"],
+      "correct_option": 1
+    },
+    {
+      "id": 8,
+      "question": "Which function compares two strings?",
+      "options": ["strcmp()", "strlen()", "strcpy()", "strcat()"],
+      "correct_option": 1
+    },
+    {
+      "id": 9,
+      "question": "What does strlen() return?",
+      "options": ["String", "Length of string", "Character", "Address"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "Which function reads a string from the user?",
+      "options": ["scanf()", "gets()", "fgets()", "Both B and C"],
+      "correct_option": 4
+    },
+    {
+      "id": 11,
+      "question": "Which function displays a string?",
+      "options": ["puts()", "printf()", "Both A and B", "scanf()"],
+      "correct_option": 3
+    },
+    {
+      "id": 12,
+      "question": "A string is stored as?",
+      "options": ["Characters ending with null character", "Integers", "Floats", "Pointers only"],
+      "correct_option": 1
+    },
+    {
+      "id": 13,
+      "question": "What is the length of the string \"HELLO\"?",
+      "options": ["4", "5", "6", "7"],
+      "correct_option": 2
+    },
+    {
+      "id": 14,
+      "question": "Which symbol is used to define a string literal?",
+      "options": ["Single quotes", "Double quotes", "Brackets", "Parentheses"],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "What is the last character of every C string?",
+      "options": ["Space", "\\n", "\\0", "."],
+      "correct_option": 3
+    },
+    {
+      "id": 16,
+      "question": "Which function joins two strings together?",
+      "options": ["strcmp()", "strcat()", "strlen()", "strcpy()"],
+      "correct_option": 2
+    },
+    {
+      "id": 17,
+      "question": "Strings are stored in which type of array?",
+      "options": ["int", "float", "char", "double"],
+      "correct_option": 3
+    },
+    {
+      "id": 18,
+      "question": "Which function is safer than gets()?",
+      "options": ["printf()", "fgets()", "puts()", "strlen()"],
+      "correct_option": 2
+    },
+    {
+      "id": 19,
+      "question": "Which library is required for strcmp()?",
+      "options": ["math.h", "stdio.h", "string.h", "stdlib.h"],
+      "correct_option": 3
+    },
+    {
+      "id": 20,
+      "question": "Why are strings important?",
+      "options": ["Store text data", "Perform calculations", "Control loops", "Handle files"],
+      "correct_option": 1
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "A string is an array of characters.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "Every string ends with a null character.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "strlen() returns the length of a string.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "strcmp() is used to concatenate strings.",
+      "answer": false
+    },
+    {
+      "id": 5,
+      "statement": "strcpy() copies one string to another.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "Strings are stored in integer arrays.",
+      "answer": false
+    },
+    {
+      "id": 7,
+      "statement": "String literals are enclosed in double quotes.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "strcat() joins two strings.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "The null character marks the end of a string.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "fgets() can be used to read strings.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "A string is an array of ________.",
+      "answer": "characters"
+    },
+    {
+      "id": 2,
+      "question": "Every string ends with the ________ character.",
+      "answer": "null"
+    },
+    {
+      "id": 3,
+      "question": "The function used to find string length is ________.",
+      "answer": "strlen"
+    },
+    {
+      "id": 4,
+      "question": "The function used to copy strings is ________.",
+      "answer": "strcpy"
+    },
+    {
+      "id": 5,
+      "question": "The function used to compare strings is ________.",
+      "answer": "strcmp"
+    },
+    {
+      "id": 6,
+      "question": "The function used to concatenate strings is ________.",
+      "answer": "strcat"
+    },
+    {
+      "id": 7,
+      "question": "Strings are stored in ________ arrays.",
+      "answer": "char"
+    },
+    {
+      "id": 8,
+      "question": "The header file for string functions is ________.",
+      "answer": "string.h"
+    },
+    {
+      "id": 9,
+      "question": "String literals are enclosed in ________ quotes.",
+      "answer": "double"
+    },
+    {
+      "id": 10,
+      "question": "The safer alternative to gets() is ________.",
+      "answer": "fgets"
+    }
+  ]
+}
