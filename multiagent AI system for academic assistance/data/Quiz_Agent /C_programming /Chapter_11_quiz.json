@@ -1,0 +1,233 @@
+{
+  "chapter_number": 11,
+  "chapter_title": "Storage Classes in C",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is the purpose of storage classes in C?",
+      "options": ["Define operators", "Control scope, lifetime, and visibility of variables", "Create functions", "Handle files"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which storage class is the default for local variables?",
+      "options": ["extern", "static", "auto", "register"],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "Which keyword is used for automatic variables?",
+      "options": ["auto", "static", "extern", "register"],
+      "correct_option": 1
+    },
+    {
+      "id": 4,
+      "question": "Where are auto variables stored?",
+      "options": ["Heap", "Stack", "File", "Register only"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "What is the lifetime of an auto variable?",
+      "options": ["Entire program", "Until file closes", "Within the block", "Permanent"],
+      "correct_option": 3
+    },
+    {
+      "id": 6,
+      "question": "Which storage class preserves a variable's value between function calls?",
+      "options": ["auto", "extern", "register", "static"],
+      "correct_option": 4
+    },
+    {
+      "id": 7,
+      "question": "What is the default value of a static variable?",
+      "options": ["1", "0", "Garbage value", "-1"],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "question": "Which storage class requests storage in CPU registers?",
+      "options": ["register", "auto", "extern", "static"],
+      "correct_option": 1
+    },
+    {
+      "id": 9,
+      "question": "Why are register variables used?",
+      "options": ["To save files", "For faster access", "To increase scope", "For recursion"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "Which storage class is used to access global variables from another file?",
+      "options": ["static", "register", "extern", "auto"],
+      "correct_option": 3
+    },
+    {
+      "id": 11,
+      "question": "What does extern indicate?",
+      "options": ["External linkage", "Internal linkage", "Local scope", "Temporary storage"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "Which storage class has global lifetime?",
+      "options": ["auto", "static", "extern", "Both static and extern"],
+      "correct_option": 4
+    },
+    {
+      "id": 13,
+      "question": "Which variable exists throughout program execution?",
+      "options": ["auto", "static", "Temporary", "Loop variable"],
+      "correct_option": 2
+    },
+    {
+      "id": 14,
+      "question": "Can the address of a register variable always be obtained?",
+      "options": ["Yes", "No", "Sometimes", "Only in loops"],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "Which storage class limits visibility to the current file?",
+      "options": ["extern", "static", "register", "auto"],
+      "correct_option": 2
+    },
+    {
+      "id": 16,
+      "question": "Which storage class is commonly used for loop counters?",
+      "options": ["register", "extern", "static", "void"],
+      "correct_option": 1
+    },
+    {
+      "id": 17,
+      "question": "Storage classes determine?",
+      "options": ["Scope", "Lifetime", "Visibility", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 18,
+      "question": "A static local variable is initialized only?",
+      "options": ["Once", "Twice", "Every function call", "Never"],
+      "correct_option": 1
+    },
+    {
+      "id": 19,
+      "question": "Which storage class keyword is optional for local variables?",
+      "options": ["auto", "extern", "static", "register"],
+      "correct_option": 1
+    },
+    {
+      "id": 20,
+      "question": "Why are storage classes important?",
+      "options": ["Memory management", "Variable control", "Program efficiency", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "auto is the default storage class for local variables.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "Static variables retain their values between function calls.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "Register variables are stored in CPU registers whenever possible.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "Extern variables are local to a function.",
+      "answer": false
+    },
+    {
+      "id": 5,
+      "statement": "Static variables have a default value of 0.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "Auto variables exist throughout program execution.",
+      "answer": false
+    },
+    {
+      "id": 7,
+      "statement": "Storage classes affect variable scope.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "The address of a register variable may not be accessible.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "Extern is used for sharing global variables across files.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Static variables are initialized every time a function is called.",
+      "answer": false
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "The default storage class for local variables is ________.",
+      "answer": "auto"
+    },
+    {
+      "id": 2,
+      "question": "The ________ storage class retains values between function calls.",
+      "answer": "static"
+    },
+    {
+      "id": 3,
+      "question": "The ________ storage class requests CPU register storage.",
+      "answer": "register"
+    },
+    {
+      "id": 4,
+      "question": "The ________ keyword is used to access global variables defined in another file.",
+      "answer": "extern"
+    },
+    {
+      "id": 5,
+      "question": "Storage classes control variable scope and ________.",
+      "answer": "lifetime"
+    },
+    {
+      "id": 6,
+      "question": "Auto variables are generally stored on the ________.",
+      "answer": "stack"
+    },
+    {
+      "id": 7,
+      "question": "Static variables are initialized only ________.",
+      "answer": "once"
+    },
+    {
+      "id": 8,
+      "question": "Register variables are used for ________ access.",
+      "answer": "faster"
+    },
+    {
+      "id": 9,
+      "question": "Extern provides ________ linkage.",
+      "answer": "external"
+    },
+    {
+      "id": 10,
+      "question": "Storage classes help improve memory ________.",
+      "answer": "management"
+    }
+  ]
+    }
