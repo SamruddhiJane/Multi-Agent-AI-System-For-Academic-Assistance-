@@ -1,0 +1,645 @@
+[
+  {
+    "type": "one_line",
+    "question": "What is Artificial Intelligence?",
+    "answer": "Artificial Intelligence is the simulation of human intelligence by machines.",
+    "topic": "AI Fundamentals",
+    "difficulty": "Easy",
+    "keywords": ["AI", "Artificial Intelligence"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a subset of AI that enables systems to learn from data.",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Machine Learning", "ML"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is a subset of ML based on neural networks.",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["Deep Learning", "Neural Networks"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is NLP?",
+    "answer": "NLP is a field of AI that processes human language.",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["NLP", "Language Processing"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Computer Vision?",
+    "answer": "Computer Vision enables machines to interpret visual information.",
+    "topic": "Computer Vision",
+    "difficulty": "Easy",
+    "keywords": ["Computer Vision", "Images"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is a Neural Network?",
+    "answer": "A Neural Network is a computing system inspired by the human brain.",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["Neural Network", "ANN"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Supervised Learning?",
+    "answer": "Supervised Learning uses labeled data for training.",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Supervised Learning", "ML"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Unsupervised Learning?",
+    "answer": "Unsupervised Learning works with unlabeled data.",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Unsupervised Learning", "ML"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Reinforcement Learning?",
+    "answer": "Reinforcement Learning learns using rewards and penalties.",
+    "topic": "Machine Learning",
+    "difficulty": "Medium",
+    "keywords": ["Reinforcement Learning", "Rewards"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is CNN?",
+    "answer": "CNN is a neural network mainly used for image processing.",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["CNN", "Images"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is RNN?",
+    "answer": "RNN is a neural network used for sequential data.",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["RNN", "Sequential Data"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Generative AI?",
+    "answer": "Generative AI creates new content such as text and images.",
+    "topic": "Generative AI",
+    "difficulty": "Easy",
+    "keywords": ["Generative AI", "Content Generation"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is RAG?",
+    "answer": "RAG combines retrieval systems with language models.",
+    "topic": "Generative AI",
+    "difficulty": "Medium",
+    "keywords": ["RAG", "Retrieval"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is a Vector Database?",
+    "answer": "A Vector Database stores embeddings for semantic search.",
+    "topic": "Modern AI",
+    "difficulty": "Medium",
+    "keywords": ["Vector Database", "Embeddings"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Semantic Search?",
+    "answer": "Semantic Search understands meaning and context.",
+    "topic": "Modern AI",
+    "difficulty": "Medium",
+    "keywords": ["Semantic Search", "Context"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Prompt Engineering?",
+    "answer": "Prompt Engineering is the process of designing prompts for AI models.",
+    "topic": "Generative AI",
+    "difficulty": "Medium",
+    "keywords": ["Prompt Engineering", "LLM"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is an Intelligent Agent?",
+    "answer": "An Intelligent Agent perceives and acts in an environment.",
+    "topic": "AI Agents",
+    "difficulty": "Easy",
+    "keywords": ["Intelligent Agent", "AI Agents"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is BFS?",
+    "answer": "BFS is a search algorithm that explores level by level.",
+    "topic": "Search Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["BFS", "Search"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is DFS?",
+    "answer": "DFS is a search algorithm that explores deeply before backtracking.",
+    "topic": "Search Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["DFS", "Search"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is A* Algorithm?",
+    "answer": "A* is a heuristic search algorithm used for shortest path finding.",
+    "topic": "Search Algorithms",
+    "difficulty": "Medium",
+    "keywords": ["A*", "Heuristic"]
+  },
+
+  {
+    "type": "fill_blank",
+    "question": "AI stands for ____________.",
+    "answer": "Artificial Intelligence",
+    "topic": "AI Fundamentals",
+    "difficulty": "Easy",
+    "keywords": ["AI"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Machine Learning is a subset of ____________.",
+    "answer": "AI",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Machine Learning"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Deep Learning uses ____________ networks.",
+    "answer": "Neural",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["Deep Learning"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "CNN is mainly used for ____________ processing.",
+    "answer": "Image",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["CNN"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "RNN works well with ____________ data.",
+    "answer": "Sequential",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["RNN"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "NLP stands for Natural Language ____________.",
+    "answer": "Processing",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["NLP"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "GPT is a Large ____________ Model.",
+    "answer": "Language",
+    "topic": "Generative AI",
+    "difficulty": "Easy",
+    "keywords": ["GPT"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "RAG stands for Retrieval-Augmented ____________.",
+    "answer": "Generation",
+    "topic": "Generative AI",
+    "difficulty": "Medium",
+    "keywords": ["RAG"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Semantic Search understands meaning and ____________.",
+    "answer": "Context",
+    "topic": "Modern AI",
+    "difficulty": "Medium",
+    "keywords": ["Semantic Search"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "A Vector Database stores ____________.",
+    "answer": "Embeddings",
+    "topic": "Modern AI",
+    "difficulty": "Medium",
+    "keywords": ["Embeddings"]
+  },
+
+  {
+    "type": "true_false",
+    "question": "Machine Learning is a subset of AI.",
+    "answer": "True",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Machine Learning"]
+  },
+  {
+    "type": "true_false",
+    "question": "CNN is mainly used for text processing.",
+    "answer": "False",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["CNN"]
+  },
+  {
+    "type": "true_false",
+    "question": "RNN is useful for sequential data.",
+    "answer": "True",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["RNN"]
+  },
+  {
+    "type": "true_false",
+    "question": "NLP stands for Natural Language Processing.",
+    "answer": "True",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["NLP"]
+  },
+  {
+    "type": "true_false",
+    "question": "Overfitting improves model generalization.",
+    "answer": "False",
+    "topic": "Machine Learning",
+    "difficulty": "Medium",
+    "keywords": ["Overfitting"]
+  },
+  {
+    "type": "true_false",
+    "question": "GPT is a Large Language Model.",
+    "answer": "True",
+    "topic": "Generative AI",
+    "difficulty": "Easy",
+    "keywords": ["GPT"]
+  },
+  {
+    "type": "true_false",
+    "question": "RAG combines retrieval and generation.",
+    "answer": "True",
+    "topic": "Generative AI",
+    "difficulty": "Medium",
+    "keywords": ["RAG"]
+  },
+  {
+    "type": "true_false",
+    "question": "BFS explores nodes depth-wise first.",
+    "answer": "False",
+    "topic": "Search Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["BFS"]
+  },
+  {
+    "type": "true_false",
+    "question": "DFS uses backtracking.",
+    "answer": "True",
+    "topic": "Search Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["DFS"]
+  },
+  {
+    "type": "true_false",
+    "question": "Vector Databases store embeddings.",
+    "answer": "True",
+    "topic": "Modern AI",
+    "difficulty": "Medium",
+    "keywords": ["Vector Database"]
+  },
+
+  {
+    "type": "mcq",
+    "question": "Which of the following is a type of AI?",
+    "options": ["Narrow AI", "General AI", "Super AI", "All of the above"],
+    "answer": "All of the above",
+    "topic": "AI Fundamentals",
+    "difficulty": "Easy",
+    "keywords": ["Types of AI"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which algorithm explores level by level?",
+    "options": ["DFS", "BFS", "A*", "RNN"],
+    "answer": "BFS",
+    "topic": "Search Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["BFS"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which neural network is mainly used for image processing?",
+    "options": ["RNN", "CNN", "GAN", "LSTM"],
+    "answer": "CNN",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["CNN"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which learning type uses labeled data?",
+    "options": ["Supervised", "Unsupervised", "Reinforcement", "Deep"],
+    "answer": "Supervised",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Supervised Learning"]
+  },
+  {
+    "type": "mcq",
+    "question": "What does NLP stand for?",
+    "options": ["Natural Language Processing", "Neural Logic Program", "Network Language Process", "None"],
+    "answer": "Natural Language Processing",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["NLP"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a branch of AI that enables systems to learn from data.",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Machine Learning", "ML"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Supervised Learning?",
+    "answer": "Supervised Learning uses labeled data for training.",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Supervised Learning"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Unsupervised Learning?",
+    "answer": "Unsupervised Learning works with unlabeled data.",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Unsupervised Learning"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Reinforcement Learning?",
+    "answer": "Reinforcement Learning learns using rewards and penalties.",
+    "topic": "Machine Learning",
+    "difficulty": "Medium",
+    "keywords": ["Reinforcement Learning"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Linear Regression?",
+    "answer": "Linear Regression predicts continuous values using linear relationships.",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["Linear Regression"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Logistic Regression?",
+    "answer": "Logistic Regression is used for classification problems.",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["Logistic Regression"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is a Decision Tree?",
+    "answer": "A Decision Tree is a tree-based algorithm used for classification and regression.",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["Decision Tree"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Random Forest?",
+    "answer": "Random Forest is an ensemble learning algorithm using multiple decision trees.",
+    "topic": "ML Algorithms",
+    "difficulty": "Medium",
+    "keywords": ["Random Forest"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is KNN?",
+    "answer": "KNN is a classification algorithm based on nearest neighbors.",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["KNN"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is SVM?",
+    "answer": "SVM is a supervised learning algorithm used for classification and regression.",
+    "topic": "ML Algorithms",
+    "difficulty": "Medium",
+    "keywords": ["SVM"]
+  },
+
+  {
+    "type": "fill_blank",
+    "question": "Machine Learning is a subset of ____________.",
+    "answer": "Artificial Intelligence",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Machine Learning"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Supervised Learning uses ____________ data.",
+    "answer": "Labeled",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Supervised Learning"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Unsupervised Learning uses ____________ data.",
+    "answer": "Unlabeled",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Unsupervised Learning"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Reinforcement Learning uses rewards and ____________.",
+    "answer": "Penalties",
+    "topic": "Machine Learning",
+    "difficulty": "Medium",
+    "keywords": ["Reinforcement Learning"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Linear Regression predicts ____________ values.",
+    "answer": "Continuous",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["Linear Regression"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Decision Trees can be used for classification and ____________.",
+    "answer": "Regression",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["Decision Tree"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Random Forest uses multiple decision ____________.",
+    "answer": "Trees",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["Random Forest"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "KNN stands for K-Nearest ____________.",
+    "answer": "Neighbors",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["KNN"]
+  },
+
+  {
+    "type": "true_false",
+    "question": "Machine Learning is a subset of Artificial Intelligence.",
+    "answer": "True",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Machine Learning"]
+  },
+  {
+    "type": "true_false",
+    "question": "Supervised Learning uses unlabeled data.",
+    "answer": "False",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Supervised Learning"]
+  },
+  {
+    "type": "true_false",
+    "question": "Random Forest is an ensemble algorithm.",
+    "answer": "True",
+    "topic": "ML Algorithms",
+    "difficulty": "Medium",
+    "keywords": ["Random Forest"]
+  },
+  {
+    "type": "true_false",
+    "question": "KNN is a clustering algorithm.",
+    "answer": "False",
+    "topic": "ML Algorithms",
+    "difficulty": "Medium",
+    "keywords": ["KNN"]
+  },
+  {
+    "type": "true_false",
+    "question": "SVM can be used for classification.",
+    "answer": "True",
+    "topic": "ML Algorithms",
+    "difficulty": "Medium",
+    "keywords": ["SVM"]
+  },
+  {
+    "type": "true_false",
+    "question": "Overfitting improves generalization.",
+    "answer": "False",
+    "topic": "Machine Learning",
+    "difficulty": "Medium",
+    "keywords": ["Overfitting"]
+  },
+  {
+    "type": "true_false",
+    "question": "Reinforcement Learning uses rewards and penalties.",
+    "answer": "True",
+    "topic": "Machine Learning",
+    "difficulty": "Medium",
+    "keywords": ["Reinforcement Learning"]
+  },
+
+  {
+    "type": "mcq",
+    "question": "Which learning method uses labeled data?",
+    "options": ["Supervised", "Unsupervised", "Reinforcement", "Deep"],
+    "answer": "Supervised",
+    "topic": "Machine Learning",
+    "difficulty": "Easy",
+    "keywords": ["Supervised Learning"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which algorithm is used for classification and regression?",
+    "options": ["Decision Tree", "HTML", "TCP", "Compiler"],
+    "answer": "Decision Tree",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["Decision Tree"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which algorithm uses nearest neighbors?",
+    "options": ["KNN", "CNN", "RNN", "GAN"],
+    "answer": "KNN",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["KNN"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which algorithm is an ensemble method?",
+    "options": ["Random Forest", "Linear Regression", "KNN", "SVM"],
+    "answer": "Random Forest",
+    "topic": "ML Algorithms",
+    "difficulty": "Medium",
+    "keywords": ["Random Forest"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which algorithm predicts continuous values?",
+    "options": ["Linear Regression", "KNN", "CNN", "RNN"],
+    "answer": "Linear Regression",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["Linear Regression"]
+  },
+  {
+    "type": "mcq",
+    "question": "What does SVM stand for?",
+    "options": ["Support Vector Machine", "System Vector Model", "Simple Visual Machine", "Sequential Vector Method"],
+    "answer": "Support Vector Machine",
+    "topic": "ML Algorithms",
+    "difficulty": "Medium",
+    "keywords": ["SVM"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which learning type uses rewards and penalties?",
+    "options": ["Reinforcement Learning", "Supervised Learning", "Unsupervised Learning", "Deep Learning"],
+    "answer": "Reinforcement Learning",
+    "topic": "Machine Learning",
+    "difficulty": "Medium",
+    "keywords": ["Reinforcement Learning"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which algorithm is mainly used for classification?",
+    "options": ["Logistic Regression", "HTML", "CSS", "TCP"],
+    "answer": "Logistic Regression",
+    "topic": "ML Algorithms",
+    "difficulty": "Easy",
+    "keywords": ["Logistic Regression"]
+  }
+]
