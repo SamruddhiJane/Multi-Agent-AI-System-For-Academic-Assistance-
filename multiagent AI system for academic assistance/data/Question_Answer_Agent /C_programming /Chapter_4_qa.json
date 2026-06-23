@@ -1,0 +1,156 @@
+{
+  "chapter_number": 4,
+  "chapter_title": "Input and Output Functions",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What are input and output functions in C?",
+      "answer": "Input and output functions allow communication between the user and the program."
+    },
+    {
+      "id": 2,
+      "question": "What is input in C programming?",
+      "answer": "Input is the data entered by the user for processing by the program."
+    },
+    {
+      "id": 3,
+      "question": "What is output in C programming?",
+      "answer": "Output is the information displayed by the program after processing data."
+    },
+    {
+      "id": 4,
+      "question": "Which header file is required for standard input and output functions?",
+      "answer": "The stdio.h header file is required."
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of printf()?",
+      "answer": "printf() is used to display output on the screen."
+    },
+    {
+      "id": 6,
+      "question": "What is the syntax of printf()?",
+      "answer": "printf(\"format string\", variables);"
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of scanf()?",
+      "answer": "scanf() is used to accept input from the user."
+    },
+    {
+      "id": 8,
+      "question": "What is the syntax of scanf()?",
+      "answer": "scanf(\"format string\", &variable);"
+    },
+    {
+      "id": 9,
+      "question": "Why is the ampersand (&) used in scanf()?",
+      "answer": "The ampersand passes the memory address of the variable to scanf()."
+    },
+    {
+      "id": 10,
+      "question": "What is a format specifier?",
+      "answer": "A format specifier tells the compiler the type of data being handled."
+    },
+    {
+      "id": 11,
+      "question": "Which format specifier is used for integers?",
+      "answer": "%d"
+    },
+    {
+      "id": 12,
+      "question": "Which format specifier is used for float values?",
+      "answer": "%f"
+    },
+    {
+      "id": 13,
+      "question": "Which format specifier is used for characters?",
+      "answer": "%c"
+    },
+    {
+      "id": 14,
+      "question": "Which format specifier is used for strings?",
+      "answer": "%s"
+    },
+    {
+      "id": 15,
+      "question": "Which format specifier is used for double values?",
+      "answer": "%lf"
+    },
+    {
+      "id": 16,
+      "question": "What is getchar()?",
+      "answer": "getchar() reads a single character from the keyboard."
+    },
+    {
+      "id": 17,
+      "question": "What is putchar()?",
+      "answer": "putchar() displays a single character on the screen."
+    },
+    {
+      "id": 18,
+      "question": "What is gets()?",
+      "answer": "gets() reads a string from the user."
+    },
+    {
+      "id": 19,
+      "question": "Why is gets() considered unsafe?",
+      "answer": "Because it can cause buffer overflow errors."
+    },
+    {
+      "id": 20,
+      "question": "What is puts()?",
+      "answer": "puts() displays a string followed by a newline."
+    },
+    {
+      "id": 21,
+      "question": "Can printf() display multiple values?",
+      "answer": "Yes, printf() can display multiple values using format specifiers."
+    },
+    {
+      "id": 22,
+      "question": "Can scanf() accept multiple inputs?",
+      "answer": "Yes, scanf() can accept multiple values in a single statement."
+    },
+    {
+      "id": 23,
+      "question": "What happens if the wrong format specifier is used?",
+      "answer": "Incorrect output or runtime errors may occur."
+    },
+    {
+      "id": 24,
+      "question": "What is an input mismatch error?",
+      "answer": "It occurs when the entered data type does not match the expected format specifier."
+    },
+    {
+      "id": 25,
+      "question": "Why are input and output functions important?",
+      "answer": "They enable interaction between the user and the program."
+    },
+    {
+      "id": 26,
+      "question": "Which function is commonly used to display text?",
+      "answer": "printf()"
+    },
+    {
+      "id": 27,
+      "question": "Which function is commonly used to read numeric values?",
+      "answer": "scanf()"
+    },
+    {
+      "id": 28,
+      "question": "What is the output of printf(\"Hello\");?",
+      "answer": "It displays Hello on the screen."
+    },
+    {
+      "id": 29,
+      "question": "What is the role of stdio.h?",
+      "answer": "It provides declarations for standard input and output functions."
+    },
+    {
+      "id": 30,
+      "question": "Where are input and output functions used?",
+      "answer": "They are used in almost every interactive C program."
+    }
+  ]
+    }
