@@ -1,0 +1,233 @@
+{
+  "chapter_number": 7,
+  "chapter_title": "Loops in C",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is the purpose of loops in C?",
+      "options": ["Decision making", "Repetition of statements", "Memory allocation", "File handling"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which loop is known as an entry-controlled loop?",
+      "options": ["do-while", "for", "while", "Both for and while"],
+      "correct_option": 4
+    },
+    {
+      "id": 3,
+      "question": "Which loop is known as an exit-controlled loop?",
+      "options": ["for", "while", "do-while", "switch"],
+      "correct_option": 3
+    },
+    {
+      "id": 4,
+      "question": "Which loop is best when the number of iterations is known?",
+      "options": ["for", "while", "do-while", "goto"],
+      "correct_option": 1
+    },
+    {
+      "id": 5,
+      "question": "Which loop executes at least once?",
+      "options": ["for", "while", "do-while", "nested loop"],
+      "correct_option": 3
+    },
+    {
+      "id": 6,
+      "question": "Which keyword immediately terminates a loop?",
+      "options": ["continue", "break", "exit", "stop"],
+      "correct_option": 2
+    },
+    {
+      "id": 7,
+      "question": "Which keyword skips the current iteration and moves to the next iteration?",
+      "options": ["break", "continue", "goto", "return"],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "question": "Which loop condition is checked before execution?",
+      "options": ["for", "while", "Both for and while", "do-while"],
+      "correct_option": 3
+    },
+    {
+      "id": 9,
+      "question": "What is a nested loop?",
+      "options": ["Loop inside another loop", "Loop inside switch", "Loop inside if", "Infinite loop"],
+      "correct_option": 1
+    },
+    {
+      "id": 10,
+      "question": "Which symbol separates the three expressions in a for loop?",
+      "options": [",", ";", ":", "."],
+      "correct_option": 2
+    },
+    {
+      "id": 11,
+      "question": "Which loop is generally used for counting?",
+      "options": ["for", "while", "do-while", "switch"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "An infinite loop is a loop that?",
+      "options": ["Executes once", "Never executes", "Runs forever", "Produces errors"],
+      "correct_option": 3
+    },
+    {
+      "id": 13,
+      "question": "Which loop can be used when the number of iterations is unknown?",
+      "options": ["while", "for", "switch", "case"],
+      "correct_option": 1
+    },
+    {
+      "id": 14,
+      "question": "What happens when a break statement is executed?",
+      "options": ["Skips iteration", "Terminates loop", "Restarts loop", "Ignores condition"],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "What happens when a continue statement is executed?",
+      "options": ["Terminates loop", "Ends program", "Skips current iteration", "Restarts program"],
+      "correct_option": 3
+    },
+    {
+      "id": 16,
+      "question": "Which loop has initialization, condition, and update in one statement?",
+      "options": ["while", "do-while", "for", "nested"],
+      "correct_option": 3
+    },
+    {
+      "id": 17,
+      "question": "Which loop is most suitable for menu-driven programs?",
+      "options": ["while", "for", "switch", "goto"],
+      "correct_option": 1
+    },
+    {
+      "id": 18,
+      "question": "A loop that never ends is called?",
+      "options": ["Nested loop", "Infinite loop", "Conditional loop", "Recursive loop"],
+      "correct_option": 2
+    },
+    {
+      "id": 19,
+      "question": "Loops help reduce?",
+      "options": ["Compilation", "Code repetition", "Memory", "Variables"],
+      "correct_option": 2
+    },
+    {
+      "id": 20,
+      "question": "Which statement is commonly used with loops for early exit?",
+      "options": ["printf", "scanf", "break", "case"],
+      "correct_option": 3
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "A for loop is an entry-controlled loop.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "A do-while loop executes at least once.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "The continue statement terminates a loop.",
+      "answer": false
+    },
+    {
+      "id": 4,
+      "statement": "A while loop checks the condition before execution.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "Nested loops are loops inside other loops.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "An infinite loop always stops automatically.",
+      "answer": false
+    },
+    {
+      "id": 7,
+      "statement": "The break statement exits a loop.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "A do-while loop is an exit-controlled loop.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "Loops are used to repeat statements.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "A for loop can contain multiple statements.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "A ________ loop is used when the number of iterations is known.",
+      "answer": "for"
+    },
+    {
+      "id": 2,
+      "question": "A ________ loop checks its condition before execution.",
+      "answer": "while"
+    },
+    {
+      "id": 3,
+      "question": "A ________ loop executes at least once.",
+      "answer": "do-while"
+    },
+    {
+      "id": 4,
+      "question": "The ________ statement immediately exits a loop.",
+      "answer": "break"
+    },
+    {
+      "id": 5,
+      "question": "The ________ statement skips the current iteration.",
+      "answer": "continue"
+    },
+    {
+      "id": 6,
+      "question": "A loop inside another loop is called a ________ loop.",
+      "answer": "nested"
+    },
+    {
+      "id": 7,
+      "question": "A loop that never ends is called an ________ loop.",
+      "answer": "infinite"
+    },
+    {
+      "id": 8,
+      "question": "The for loop contains initialization, condition, and ________.",
+      "answer": "update"
+    },
+    {
+      "id": 9,
+      "question": "Loops help reduce code ________.",
+      "answer": "repetition"
+    },
+    {
+      "id": 10,
+      "question": "The do-while loop is an ________-controlled loop.",
+      "answer": "exit"
+    }
+  ]
+    }
