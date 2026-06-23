@@ -1,0 +1,156 @@
+{
+  "chapter_number": 21,
+  "chapter_title": "Queues",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is a queue?",
+      "answer": "A queue is a linear data structure that follows the First In First Out (FIFO) principle."
+    },
+    {
+      "id": 2,
+      "question": "What does FIFO stand for?",
+      "answer": "FIFO stands for First In First Out."
+    },
+    {
+      "id": 3,
+      "question": "Why are queues used?",
+      "answer": "Queues are used to manage tasks in the order they arrive."
+    },
+    {
+      "id": 4,
+      "question": "What are the basic operations of a queue?",
+      "answer": "Enqueue, Dequeue, Front, Rear, IsEmpty, and IsFull."
+    },
+    {
+      "id": 5,
+      "question": "What is the enqueue operation?",
+      "answer": "Enqueue inserts an element at the rear of the queue."
+    },
+    {
+      "id": 6,
+      "question": "What is the dequeue operation?",
+      "answer": "Dequeue removes an element from the front of the queue."
+    },
+    {
+      "id": 7,
+      "question": "What is the front of a queue?",
+      "answer": "The front is the position from which elements are removed."
+    },
+    {
+      "id": 8,
+      "question": "What is the rear of a queue?",
+      "answer": "The rear is the position where new elements are inserted."
+    },
+    {
+      "id": 9,
+      "question": "What is queue overflow?",
+      "answer": "Queue overflow occurs when an insertion is attempted in a full queue."
+    },
+    {
+      "id": 10,
+      "question": "What is queue underflow?",
+      "answer": "Queue underflow occurs when a deletion is attempted from an empty queue."
+    },
+    {
+      "id": 11,
+      "question": "How can a queue be implemented?",
+      "answer": "A queue can be implemented using arrays or linked lists."
+    },
+    {
+      "id": 12,
+      "question": "What is the time complexity of enqueue?",
+      "answer": "The time complexity of enqueue is O(1)."
+    },
+    {
+      "id": 13,
+      "question": "What is the time complexity of dequeue?",
+      "answer": "The time complexity of dequeue is O(1)."
+    },
+    {
+      "id": 14,
+      "question": "What is a simple queue?",
+      "answer": "A simple queue follows the FIFO principle with insertion at the rear and deletion at the front."
+    },
+    {
+      "id": 15,
+      "question": "What is a circular queue?",
+      "answer": "A circular queue connects the last position back to the first position to utilize memory efficiently."
+    },
+    {
+      "id": 16,
+      "question": "Why is a circular queue used?",
+      "answer": "It avoids wasted space that occurs in a simple queue implementation."
+    },
+    {
+      "id": 17,
+      "question": "What is a priority queue?",
+      "answer": "A priority queue processes elements according to their priority rather than arrival order."
+    },
+    {
+      "id": 18,
+      "question": "What is a deque?",
+      "answer": "A deque (double-ended queue) allows insertion and deletion from both ends."
+    },
+    {
+      "id": 19,
+      "question": "What is an input-restricted deque?",
+      "answer": "An input-restricted deque allows insertion at one end but deletion at both ends."
+    },
+    {
+      "id": 20,
+      "question": "What is an output-restricted deque?",
+      "answer": "An output-restricted deque allows deletion at one end but insertion at both ends."
+    },
+    {
+      "id": 21,
+      "question": "What are the advantages of queues?",
+      "answer": "Queues provide fair scheduling and efficient processing of tasks in arrival order."
+    },
+    {
+      "id": 22,
+      "question": "What are the disadvantages of simple queues?",
+      "answer": "Simple queues may waste memory space after several dequeue operations."
+    },
+    {
+      "id": 23,
+      "question": "Where are queues commonly used?",
+      "answer": "Queues are used in CPU scheduling, printer management, task scheduling, and networking."
+    },
+    {
+      "id": 24,
+      "question": "How are queues used in operating systems?",
+      "answer": "Queues are used for process scheduling and resource management."
+    },
+    {
+      "id": 25,
+      "question": "How are queues used in printers?",
+      "answer": "Print jobs are processed in the order they are received."
+    },
+    {
+      "id": 26,
+      "question": "What is queue traversal?",
+      "answer": "Queue traversal is the process of visiting all elements in the queue."
+    },
+    {
+      "id": 27,
+      "question": "Can linked lists be used to implement queues?",
+      "answer": "Yes, linked lists provide dynamic queue implementation."
+    },
+    {
+      "id": 28,
+      "question": "Why are queues important in data structures?",
+      "answer": "Queues efficiently manage tasks that must be processed in sequence."
+    },
+    {
+      "id": 29,
+      "question": "Which principle does a queue follow?",
+      "answer": "A queue follows the First In First Out (FIFO) principle."
+    },
+    {
+      "id": 30,
+      "question": "What is the main purpose of a queue?",
+      "answer": "The main purpose of a queue is to manage data in the order it arrives."
+    }
+  ]
+    }
