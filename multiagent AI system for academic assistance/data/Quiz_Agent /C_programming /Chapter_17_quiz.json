@@ -1,0 +1,233 @@
+{
+  "chapter_number": 17,
+  "chapter_title": "File Handling in C",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is file handling in C?",
+      "options": ["Managing memory", "Storing and retrieving data from files", "Creating loops", "Managing pointers"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which header file is required for file handling?",
+      "options": ["string.h", "math.h", "stdio.h", "stdlib.h"],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "Which data type is used for file handling?",
+      "options": ["FILE", "file", "fstream", "File"],
+      "correct_option": 1
+    },
+    {
+      "id": 4,
+      "question": "Which function is used to open a file?",
+      "options": ["fopen()", "open()", "fileopen()", "createfile()"],
+      "correct_option": 1
+    },
+    {
+      "id": 5,
+      "question": "Which function is used to close a file?",
+      "options": ["fclose()", "close()", "fileclose()", "endfile()"],
+      "correct_option": 1
+    },
+    {
+      "id": 6,
+      "question": "What does the 'r' mode represent in fopen()?",
+      "options": ["Write", "Read", "Append", "Read and Write"],
+      "correct_option": 2
+    },
+    {
+      "id": 7,
+      "question": "What does the 'w' mode represent?",
+      "options": ["Read", "Append", "Write", "Binary"],
+      "correct_option": 3
+    },
+    {
+      "id": 8,
+      "question": "What does the 'a' mode represent?",
+      "options": ["Append", "Read", "Write", "Binary"],
+      "correct_option": 1
+    },
+    {
+      "id": 9,
+      "question": "Which function writes a string to a file?",
+      "options": ["fgets()", "fputs()", "fprintf()", "fscanf()"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "Which function reads a string from a file?",
+      "options": ["fputs()", "fgets()", "fprintf()", "fscanf()"],
+      "correct_option": 2
+    },
+    {
+      "id": 11,
+      "question": "Which function writes formatted data to a file?",
+      "options": ["fprintf()", "fscanf()", "fputs()", "fgetc()"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "Which function reads formatted data from a file?",
+      "options": ["fprintf()", "fscanf()", "fgets()", "fputc()"],
+      "correct_option": 2
+    },
+    {
+      "id": 13,
+      "question": "Which function reads a single character from a file?",
+      "options": ["fgetc()", "fputc()", "getc()", "Both A and C"],
+      "correct_option": 4
+    },
+    {
+      "id": 14,
+      "question": "Which function writes a single character to a file?",
+      "options": ["fgetc()", "fputc()", "putc()", "Both B and C"],
+      "correct_option": 4
+    },
+    {
+      "id": 15,
+      "question": "What does EOF stand for?",
+      "options": ["End Of File", "End Of Function", "Error Of File", "Exit Of File"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "question": "What is checked to determine the end of a file?",
+      "options": ["NULL", "EOF", "0", "-1"],
+      "correct_option": 2
+    },
+    {
+      "id": 17,
+      "question": "What happens if fopen() fails?",
+      "options": ["Returns NULL", "Returns EOF", "Returns 0", "Returns -1"],
+      "correct_option": 1
+    },
+    {
+      "id": 18,
+      "question": "Why should files be closed after use?",
+      "options": ["Release resources", "Save data properly", "Prevent corruption", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 19,
+      "question": "Which mode allows reading and writing?",
+      "options": ["r+", "w+", "a+", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 20,
+      "question": "File handling provides?",
+      "options": ["Permanent data storage", "Data retrieval", "Data management", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "FILE is used for file handling in C.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "fopen() opens a file.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "fclose() closes a file.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "The 'r' mode is used for writing files.",
+      "answer": false
+    },
+    {
+      "id": 5,
+      "statement": "The 'a' mode appends data to a file.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "EOF indicates the end of a file.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "fgets() reads a string from a file.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "fprintf() writes formatted data to a file.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "fopen() returns NULL if it fails.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Files should be closed after use.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "The function used to open a file is ________.",
+      "answer": "fopen"
+    },
+    {
+      "id": 2,
+      "question": "The function used to close a file is ________.",
+      "answer": "fclose"
+    },
+    {
+      "id": 3,
+      "question": "The data type used for file handling is ________.",
+      "answer": "FILE"
+    },
+    {
+      "id": 4,
+      "question": "The mode used for reading a file is ________.",
+      "answer": "r"
+    },
+    {
+      "id": 5,
+      "question": "The mode used for writing a file is ________.",
+      "answer": "w"
+    },
+    {
+      "id": 6,
+      "question": "The mode used for appending data is ________.",
+      "answer": "a"
+    },
+    {
+      "id": 7,
+      "question": "The function used to write formatted data is ________.",
+      "answer": "fprintf"
+    },
+    {
+      "id": 8,
+      "question": "The function used to read formatted data is ________.",
+      "answer": "fscanf"
+    },
+    {
+      "id": 9,
+      "question": "EOF stands for End Of ________.",
+      "answer": "File"
+    },
+    {
+      "id": 10,
+      "question": "If fopen() fails, it returns ________.",
+      "answer": "NULL"
+    }
+  ]
+}
