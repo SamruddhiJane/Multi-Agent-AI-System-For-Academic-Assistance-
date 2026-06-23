@@ -1,0 +1,233 @@
+{
+  "chapter_number": 18,
+  "chapter_title": "Command Line Arguments",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What are command line arguments?",
+      "options": ["Variables inside a function", "Values passed to a program during execution", "Operators", "File pointers"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Where are command line arguments specified?",
+      "options": ["Inside source code", "At program execution", "In header files", "In functions only"],
+      "correct_option": 2
+    },
+    {
+      "id": 3,
+      "question": "Which function signature is commonly used for command line arguments?",
+      "options": ["int main()", "void main()", "int main(int argc, char *argv[])", "main(argc)"],
+      "correct_option": 3
+    },
+    {
+      "id": 4,
+      "question": "What does argc represent?",
+      "options": ["Argument character", "Argument count", "Argument code", "Argument command"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "What does argv represent?",
+      "options": ["Argument values", "Argument variables", "Argument version", "Argument vector"],
+      "correct_option": 4
+    },
+    {
+      "id": 6,
+      "question": "What is the type of argv?",
+      "options": ["char", "char*", "char**", "int"],
+      "correct_option": 3
+    },
+    {
+      "id": 7,
+      "question": "What does argv[0] usually contain?",
+      "options": ["First user argument", "Program name", "Last argument", "Compiler name"],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "question": "If no additional arguments are passed, argc is usually?",
+      "options": ["0", "1", "2", "Depends on compiler"],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "question": "Which array stores command line arguments?",
+      "options": ["argc", "argv", "args", "param"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "Command line arguments are passed as?",
+      "options": ["Integers", "Strings", "Characters", "Functions"],
+      "correct_option": 2
+    },
+    {
+      "id": 11,
+      "question": "Which function can convert a string argument to an integer?",
+      "options": ["atoi()", "strlen()", "strcpy()", "printf()"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "What is the benefit of command line arguments?",
+      "options": ["Flexible input", "Automation", "No code modification required", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 13,
+      "question": "How are multiple arguments separated?",
+      "options": ["Commas", "Semicolons", "Spaces", "Colons"],
+      "correct_option": 3
+    },
+    {
+      "id": 14,
+      "question": "Which library contains atoi()?",
+      "options": ["stdio.h", "stdlib.h", "string.h", "math.h"],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "Command line arguments are useful for?",
+      "options": ["Batch processing", "Automation", "Passing file names", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 16,
+      "question": "Which argument contains the first user-supplied value?",
+      "options": ["argv[0]", "argv[1]", "argv[2]", "argc"],
+      "correct_option": 2
+    },
+    {
+      "id": 17,
+      "question": "argc includes?",
+      "options": ["Only user arguments", "Program name and arguments", "Only program name", "Compiler details"],
+      "correct_option": 2
+    },
+    {
+      "id": 18,
+      "question": "Command line arguments are processed at?",
+      "options": ["Compile time", "Run time", "Link time", "Debug time"],
+      "correct_option": 2
+    },
+    {
+      "id": 19,
+      "question": "What is argv short for?",
+      "options": ["Argument Variable", "Argument Version", "Argument Vector", "Argument Value"],
+      "correct_option": 3
+    },
+    {
+      "id": 20,
+      "question": "Command line arguments make programs more?",
+      "options": ["Flexible", "Reusable", "Interactive", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "argc stores the number of command line arguments.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "argv stores command line arguments as strings.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "argv[0] usually contains the program name.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "Command line arguments are available at runtime.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "argc does not include the program name.",
+      "answer": false
+    },
+    {
+      "id": 6,
+      "statement": "atoi() converts strings to integers.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "Command line arguments are separated by spaces.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "argv is an array of character pointers.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "Command line arguments improve program flexibility.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Command line arguments are specified during compilation.",
+      "answer": false
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "Command line arguments are passed during program ________.",
+      "answer": "execution"
+    },
+    {
+      "id": 2,
+      "question": "The parameter that stores the number of arguments is ________.",
+      "answer": "argc"
+    },
+    {
+      "id": 3,
+      "question": "The parameter that stores argument strings is ________.",
+      "answer": "argv"
+    },
+    {
+      "id": 4,
+      "question": "argv[0] usually contains the ________ name.",
+      "answer": "program"
+    },
+    {
+      "id": 5,
+      "question": "Command line arguments are stored as ________.",
+      "answer": "strings"
+    },
+    {
+      "id": 6,
+      "question": "The function used to convert a string to an integer is ________.",
+      "answer": "atoi"
+    },
+    {
+      "id": 7,
+      "question": "argc stands for argument ________.",
+      "answer": "count"
+    },
+    {
+      "id": 8,
+      "question": "argv stands for argument ________.",
+      "answer": "vector"
+    },
+    {
+      "id": 9,
+      "question": "Command line arguments are processed at ________ time.",
+      "answer": "run"
+    },
+    {
+      "id": 10,
+      "question": "Command line arguments make programs more ________.",
+      "answer": "flexible"
+    }
+  ]
+}
