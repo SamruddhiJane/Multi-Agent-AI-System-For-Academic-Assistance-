@@ -1,0 +1,131 @@
+{
+  "chapter_number": 3,
+  "chapter_title": "Data Types in C",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is a data type in C?",
+      "answer": "A data type specifies the type of data that a variable can store."
+    },
+    {
+      "id": 2,
+      "question": "Why are data types important in C?",
+      "answer": "Data types help the compiler allocate memory efficiently and perform appropriate operations."
+    },
+    {
+      "id": 3,
+      "question": "What are the main categories of data types in C?",
+      "answer": "Basic data types, derived data types, user-defined data types, and void data type."
+    },
+    {
+      "id": 4,
+      "question": "What are basic data types in C?",
+      "answer": "int, char, float, and double are the basic data types."
+    },
+    {
+      "id": 5,
+      "question": "What is the int data type used for?",
+      "answer": "The int data type is used to store whole numbers."
+    },
+    {
+      "id": 6,
+      "question": "What is the char data type used for?",
+      "answer": "The char data type is used to store a single character."
+    },
+    {
+      "id": 7,
+      "question": "What is the float data type used for?",
+      "answer": "The float data type is used to store decimal numbers with single precision."
+    },
+    {
+      "id": 8,
+      "question": "What is the double data type used for?",
+      "answer": "The double data type is used to store decimal numbers with higher precision."
+    },
+    {
+      "id": 9,
+      "question": "What is the void data type?",
+      "answer": "The void data type represents the absence of a value."
+    },
+    {
+      "id": 10,
+      "question": "What are derived data types?",
+      "answer": "Arrays, pointers, and functions are derived data types."
+    },
+    {
+      "id": 11,
+      "question": "What are user-defined data types?",
+      "answer": "Structures, unions, enumerations, and typedef are user-defined data types."
+    },
+    {
+      "id": 12,
+      "question": "What is the typical size of char?",
+      "answer": "A char typically occupies 1 byte of memory."
+    },
+    {
+      "id": 13,
+      "question": "What is the typical size of int?",
+      "answer": "An int typically occupies 4 bytes of memory."
+    },
+    {
+      "id": 14,
+      "question": "What is the typical size of float?",
+      "answer": "A float typically occupies 4 bytes of memory."
+    },
+    {
+      "id": 15,
+      "question": "What is the typical size of double?",
+      "answer": "A double typically occupies 8 bytes of memory."
+    },
+    {
+      "id": 16,
+      "question": "What are type modifiers in C?",
+      "answer": "Type modifiers alter the size or range of data types."
+    },
+    {
+      "id": 17,
+      "question": "Name the type modifiers in C.",
+      "answer": "short, long, signed, and unsigned."
+    },
+    {
+      "id": 18,
+      "question": "What is a signed data type?",
+      "answer": "A signed data type can store both positive and negative values."
+    },
+    {
+      "id": 19,
+      "question": "What is an unsigned data type?",
+      "answer": "An unsigned data type stores only positive values and zero."
+    },
+    {
+      "id": 20,
+      "question": "Which data type is used to store letters?",
+      "answer": "The char data type is used to store letters."
+    },
+    {
+      "id": 21,
+      "question": "Which data type provides greater precision than float?",
+      "answer": "double provides greater precision than float."
+    },
+    {
+      "id": 22,
+      "question": "Can a float store decimal values?",
+      "answer": "Yes, a float can store decimal values."
+    },
+    {
+      "id": 23,
+      "question": "Can a char store multiple characters?",
+      "answer": "No, a char stores only one character."
+    },
+    {
+      "id": 24,
+      "question": "What determines how much memory a variable occupies?",
+      "answer": "The data type determines how much memory a variable occupies."
+    },
+    {
+      "id": 25,
+      "question": "Why should programmers choose the correct data type?",
+      "answer": "Choosing the correct data type improves memory efficiency and program performance."
+    }
+  ]
+}
