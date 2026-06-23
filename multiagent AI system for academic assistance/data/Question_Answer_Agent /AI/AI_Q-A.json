@@ -1,0 +1,1595 @@
+[
+  {
+    "question": "What is Artificial Intelligence?",
+    "answer": "Artificial Intelligence is a branch of computer science that enables machines to perform tasks that normally require human intelligence such as reasoning, learning, problem-solving, and decision-making.",
+    "topic": "AI Fundamentals",
+    "keywords": [
+      "Artificial Intelligence",
+      "AI",
+      "Machine Intelligence",
+      "Automation"
+    ]
+  },
+  {
+    "question": "What are the goals of Artificial Intelligence?",
+    "answer": "The main goals of Artificial Intelligence are learning, reasoning, problem-solving, perception, language understanding, and autonomous decision-making.",
+    "topic": "AI Fundamentals",
+    "keywords": [
+      "Goals of AI",
+      "Reasoning",
+      "Learning",
+      "Decision Making"
+    ]
+  },
+  {
+    "question": "What are the types of Artificial Intelligence?",
+    "answer": "The main types of Artificial Intelligence are Narrow AI, General AI, and Super AI.",
+    "topic": "AI Fundamentals",
+    "keywords": [
+      "Narrow AI",
+      "General AI",
+      "Super AI",
+      "Types of AI"
+    ]
+  },
+  {
+    "question": "What is Narrow AI?",
+    "answer": "Narrow AI is a type of AI designed to perform a specific task such as recommendation systems, chatbots, or image recognition.",
+    "topic": "AI Fundamentals",
+    "keywords": [
+      "Narrow AI",
+      "Weak AI",
+      "Task Specific"
+    ]
+  },
+  {
+    "question": "What is General AI?",
+    "answer": "General AI is a theoretical form of AI that can perform any intellectual task that a human can do.",
+    "topic": "AI Fundamentals",
+    "keywords": [
+      "General AI",
+      "Human Intelligence",
+      "AGI"
+    ]
+  },
+  {
+    "question": "What is the difference between AI, Machine Learning, and Deep Learning?",
+    "answer": "AI is the broader field of creating intelligent systems, Machine Learning is a subset of AI that learns from data, and Deep Learning is a subset of Machine Learning based on neural networks.",
+    "topic": "AI Fundamentals",
+    "keywords": [
+      "AI",
+      "Machine Learning",
+      "Deep Learning",
+      "Neural Networks"
+    ]
+  },
+  {
+    "question": "What are the applications of Artificial Intelligence?",
+    "answer": "Applications of AI include healthcare, chatbots, robotics, recommendation systems, autonomous vehicles, education, and cybersecurity.",
+    "topic": "AI Applications",
+    "keywords": [
+      "Applications",
+      "Healthcare",
+      "Robotics",
+      "Chatbots"
+    ]
+  },
+  {
+    "question": "What is an Intelligent Agent?",
+    "answer": "An Intelligent Agent is a system that perceives its environment using sensors and acts using actuators to achieve goals.",
+    "topic": "AI Agents",
+    "keywords": [
+      "Intelligent Agent",
+      "Sensors",
+      "Actuators",
+      "Environment"
+    ]
+  },
+  {
+    "question": "What is a Rational Agent?",
+    "answer": "A Rational Agent is an agent that selects actions that maximize performance based on available information.",
+    "topic": "AI Agents",
+    "keywords": [
+      "Rational Agent",
+      "Decision Making",
+      "Performance"
+    ]
+  },
+  {
+    "question": "What is the PEAS framework?",
+    "answer": "PEAS stands for Performance Measure, Environment, Actuators, and Sensors. It is used to describe intelligent agents.",
+    "topic": "AI Agents",
+    "keywords": [
+      "PEAS",
+      "Performance",
+      "Sensors",
+      "Actuators"
+    ]
+  },
+  {
+    "question": "What are the types of AI agents?",
+    "answer": "The main types of AI agents are Simple Reflex Agents, Model-Based Agents, Goal-Based Agents, Utility-Based Agents, and Learning Agents.",
+    "topic": "AI Agents",
+    "keywords": [
+      "AI Agents",
+      "Learning Agent",
+      "Goal-Based Agent"
+    ]
+  },
+  {
+    "question": "What is a Goal-Based Agent?",
+    "answer": "A Goal-Based Agent chooses actions based on achieving a predefined goal.",
+    "topic": "AI Agents",
+    "keywords": [
+      "Goal-Based Agent",
+      "Planning",
+      "Goals"
+    ]
+  },
+  {
+    "question": "What is a Utility-Based Agent?",
+    "answer": "A Utility-Based Agent uses a utility function to evaluate and choose the best possible action.",
+    "topic": "AI Agents",
+    "keywords": [
+      "Utility-Based Agent",
+      "Utility Function",
+      "Optimization"
+    ]
+  },
+  {
+    "question": "What is a Learning Agent?",
+    "answer": "A Learning Agent improves its performance over time using experience and feedback.",
+    "topic": "AI Agents",
+    "keywords": [
+      "Learning Agent",
+      "Adaptability",
+      "Feedback"
+    ]
+  },
+  {
+    "question": "What is Problem Solving in AI?",
+    "answer": "Problem solving in AI involves finding a sequence of actions that transforms an initial state into a goal state.",
+    "topic": "Problem Solving",
+    "keywords": [
+      "Problem Solving",
+      "Goal State",
+      "Search"
+    ]
+  },
+  {
+    "question": "What is State Space Search?",
+    "answer": "State Space Search is a method of representing all possible states and transitions in a problem-solving process.",
+    "topic": "Search Algorithms",
+    "keywords": [
+      "State Space",
+      "Search",
+      "Transitions"
+    ]
+  },
+  {
+    "question": "What is Breadth First Search (BFS)?",
+    "answer": "Breadth First Search is an uninformed search algorithm that explores nodes level by level.",
+    "topic": "Search Algorithms",
+    "keywords": [
+      "BFS",
+      "Breadth First Search",
+      "Search Algorithm"
+    ]
+  },
+  {
+    "question": "What is Depth First Search (DFS)?",
+    "answer": "Depth First Search is a search algorithm that explores as far as possible along one branch before backtracking.",
+    "topic": "Search Algorithms",
+    "keywords": [
+      "DFS",
+      "Depth First Search",
+      "Backtracking"
+    ]
+  },
+  {
+    "question": "What is the A* Search Algorithm?",
+    "answer": "A* is a heuristic search algorithm that finds the shortest path using path cost and heuristic estimates.",
+    "topic": "Search Algorithms",
+    "keywords": [
+      "A*",
+      "Heuristic",
+      "Shortest Path"
+    ]
+  },
+  {
+    "question": "What is Heuristic Search?",
+    "answer": "Heuristic Search uses additional knowledge or estimates to guide the search process more efficiently.",
+    "topic": "Search Algorithms",
+    "keywords": [
+      "Heuristic",
+      "Search",
+      "Optimization"
+    ]
+  },
+  {
+    "question": "What is Knowledge Representation?",
+    "answer": "Knowledge Representation is the method of organizing and storing information so AI systems can use it for reasoning.",
+    "topic": "Knowledge Representation",
+    "keywords": [
+      "Knowledge Representation",
+      "Reasoning",
+      "Information"
+    ]
+  },
+  {
+    "question": "What is Propositional Logic?",
+    "answer": "Propositional Logic is a form of logic where statements are either true or false.",
+    "topic": "Logic and Reasoning",
+    "keywords": [
+      "Propositional Logic",
+      "True",
+      "False"
+    ]
+  },
+  {
+    "question": "What is Predicate Logic?",
+    "answer": "Predicate Logic extends propositional logic by including variables, functions, and predicates.",
+    "topic": "Logic and Reasoning",
+    "keywords": [
+      "Predicate Logic",
+      "Variables",
+      "Predicates"
+    ]
+  },
+  {
+    "question": "What is Forward Chaining?",
+    "answer": "Forward Chaining is a reasoning technique that starts with known facts and applies rules to derive conclusions.",
+    "topic": "Logic and Reasoning",
+    "keywords": [
+      "Forward Chaining",
+      "Inference",
+      "Rules"
+    ]
+  },
+  {
+    "question": "What is Backward Chaining?",
+    "answer": "Backward Chaining is a reasoning method that starts with a goal and works backward to find supporting facts.",
+    "topic": "Logic and Reasoning",
+    "keywords": [
+      "Backward Chaining",
+      "Goal",
+      "Inference"
+    ]
+  },
+  {
+    "question": "What is Fuzzy Logic?",
+    "answer": "Fuzzy Logic is a reasoning system that handles uncertainty using degrees of truth instead of binary values.",
+    "topic": "Logic and Reasoning",
+    "keywords": [
+      "Fuzzy Logic",
+      "Uncertainty",
+      "Reasoning"
+    ]
+  },
+  {
+    "question": "What is Bayesian Reasoning?",
+    "answer": "Bayesian Reasoning is a probabilistic approach that updates beliefs based on evidence.",
+    "topic": "Logic and Reasoning",
+    "keywords": [
+      "Bayesian Reasoning",
+      "Probability",
+      "Evidence"
+    ]
+  },
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a subset of AI that enables systems to learn patterns from data without explicit programming.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Machine Learning",
+      "ML",
+      "Learning"
+    ]
+  },
+  {
+    "question": "What are the types of Machine Learning?",
+    "answer": "The main types of Machine Learning are Supervised Learning, Unsupervised Learning, and Reinforcement Learning.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Reinforcement Learning"
+    ]
+  },
+  {
+    "question": "What is Supervised Learning?",
+    "answer": "Supervised Learning uses labeled data to train models for prediction or classification tasks.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Supervised Learning",
+      "Labeled Data",
+      "Prediction"
+    ]
+  },
+  {
+    "question": "What is Unsupervised Learning?",
+    "answer": "Unsupervised Learning finds hidden patterns in unlabeled data.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Unsupervised Learning",
+      "Patterns",
+      "Clustering"
+    ]
+  },
+  {
+    "question": "What is Reinforcement Learning?",
+    "answer": "Reinforcement Learning is a learning method where agents learn through rewards and penalties.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Reinforcement Learning",
+      "Rewards",
+      "Agent"
+    ]
+  },
+  {
+    "question": "What is Overfitting?",
+    "answer": "Overfitting occurs when a model learns training data too well and performs poorly on unseen data.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Overfitting",
+      "Training Data",
+      "Generalization"
+    ]
+  },
+  {
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is a subset of Machine Learning that uses neural networks with multiple hidden layers.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Deep Learning",
+      "Neural Networks",
+      "Hidden Layers"
+    ]
+  },
+  {
+    "question": "What is an Artificial Neural Network (ANN)?",
+    "answer": "An Artificial Neural Network is a computational model inspired by the human brain used for pattern recognition and learning.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "ANN",
+      "Neural Network",
+      "Pattern Recognition"
+    ]
+  },
+  {
+    "question": "What is CNN in Deep Learning?",
+    "answer": "Convolutional Neural Networks are deep learning models mainly used for image processing and computer vision.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "CNN",
+      "Computer Vision",
+      "Image Processing"
+    ]
+  },
+  {
+    "question": "What is RNN in Deep Learning?",
+    "answer": "Recurrent Neural Networks are neural networks designed for sequential data processing such as text and speech.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "RNN",
+      "Sequential Data",
+      "Text Processing"
+    ]
+  },
+  {
+    "question": "What is NLP?",
+    "answer": "Natural Language Processing is a branch of AI that enables computers to understand and process human language.",
+    "topic": "NLP",
+    "keywords": [
+      "NLP",
+      "Language Processing",
+      "Text"
+    ]
+  },
+  {
+    "question": "What is Tokenization in NLP?",
+    "answer": "Tokenization is the process of splitting text into smaller units called tokens.",
+    "topic": "NLP",
+    "keywords": [
+      "Tokenization",
+      "Tokens",
+      "Text Processing"
+    ]
+  },
+  {
+    "question": "What is Stemming?",
+    "answer": "Stemming reduces words to their root form by removing suffixes.",
+    "topic": "NLP",
+    "keywords": [
+      "Stemming",
+      "Root Word",
+      "NLP"
+    ]
+  },
+  {
+    "question": "What is Lemmatization?",
+    "answer": "Lemmatization converts words into their meaningful base form using vocabulary and grammar rules.",
+    "topic": "NLP",
+    "keywords": [
+      "Lemmatization",
+      "Base Form",
+      "NLP"
+    ]
+  },
+  {
+    "question": "What is Generative AI?",
+    "answer": "Generative AI refers to AI systems capable of generating text, images, audio, or code.",
+    "topic": "Generative AI",
+    "keywords": [
+      "Generative AI",
+      "Content Generation",
+      "LLM"
+    ]
+  },
+  {
+    "question": "What are Large Language Models (LLMs)?",
+    "answer": "Large Language Models are AI models trained on massive text datasets to understand and generate human language.",
+    "topic": "Generative AI",
+    "keywords": [
+      "LLM",
+      "Language Model",
+      "GPT"
+    ]
+  },
+  {
+    "question": "What are Transformers in AI?",
+    "answer": "Transformers are deep learning architectures that use attention mechanisms for processing sequential data efficiently.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Transformers",
+      "Attention",
+      "Sequential Data"
+    ]
+  },
+  {
+    "question": "What is Prompt Engineering?",
+    "answer": "Prompt Engineering is the process of designing effective prompts to improve AI model responses.",
+    "topic": "Generative AI",
+    "keywords": [
+      "Prompt Engineering",
+      "Prompts",
+      "LLM"
+    ]
+  },
+  {
+    "question": "What is RAG in AI?",
+    "answer": "Retrieval-Augmented Generation combines information retrieval with language generation to improve answer accuracy.",
+    "topic": "Modern AI",
+    "keywords": [
+      "RAG",
+      "Retrieval",
+      "Generation",
+      "Vector Database"
+    ]
+  },
+  {
+    "question": "What are Embeddings in AI?",
+    "answer": "Embeddings are numerical vector representations of text, images, or data used for semantic understanding.",
+    "topic": "Modern AI",
+    "keywords": [
+      "Embeddings",
+      "Vectors",
+      "Semantic Search"
+    ]
+  },
+  {
+    "question": "What is a Vector Database?",
+    "answer": "A Vector Database stores embeddings for efficient semantic search and retrieval.",
+    "topic": "Modern AI",
+    "keywords": [
+      "Vector Database",
+      "Embeddings",
+      "Semantic Search"
+    ]
+  },
+  {
+    "question": "What is Semantic Search?",
+    "answer": "Semantic Search retrieves information based on meaning and context rather than exact keyword matching.",
+    "topic": "Modern AI",
+    "keywords": [
+      "Semantic Search",
+      "Context",
+      "Retrieval"
+    ]
+  },
+  {
+    "question": "What are Multi-Agent Systems?",
+    "answer": "Multi-Agent Systems consist of multiple intelligent agents working together to solve tasks collaboratively.",
+    "topic": "AI Agents",
+    "keywords": [
+      "Multi-Agent System",
+      "Collaboration",
+      "Agents"
+    ]
+  },
+  {
+    "question": "What is AI Hallucination?",
+    "answer": "AI Hallucination occurs when an AI model generates incorrect or misleading information that appears believable.",
+    "topic": "Generative AI",
+    "keywords": [
+      "Hallucination",
+      "Incorrect Information",
+      "LLM"
+    ]
+  },
+  {
+    "question": "What is AI Ethics?",
+    "answer": "AI Ethics focuses on the responsible and fair use of AI technologies while minimizing risks and bias.",
+    "topic": "AI Ethics",
+    "keywords": [
+      "AI Ethics",
+      "Bias",
+      "Responsible AI"
+    ]
+  },
+  {
+    "question": "What is Data Preprocessing in Machine Learning?",
+    "answer": "Data Preprocessing is the process of cleaning, transforming, and organizing raw data before training machine learning models.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Data Preprocessing",
+      "Cleaning",
+      "Transformation",
+      "ML"
+    ]
+  },
+  {
+    "question": "What is Feature Engineering?",
+    "answer": "Feature Engineering is the process of selecting, modifying, and creating features to improve machine learning model performance.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Feature Engineering",
+      "Features",S
+      "ML",
+      "Data"
+    ]
+  },
+  {
+    "question": "What is a Training Dataset?",
+    "answer": "A Training Dataset is the portion of data used to train machine learning models.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Training Data",
+      "Dataset",
+      "ML"
+    ]
+  },
+  {
+    "question": "What is a Testing Dataset?",
+    "answer": "A Testing Dataset is the portion of data used to evaluate the performance of a trained model.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Testing Data",
+      "Evaluation",
+      "ML"
+    ]
+  },
+  {
+    "question": "What is Accuracy in Machine Learning?",
+    "answer": "Accuracy is the ratio of correctly predicted observations to the total observations.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Accuracy",
+      "Evaluation Metric",
+      "Prediction"
+    ]
+  },
+  {
+    "question": "What is Precision in Machine Learning?",
+    "answer": "Precision measures how many predicted positive cases are actually positive.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Precision",
+      "Evaluation Metric",
+      "Classification"
+    ]
+  },
+  {
+    "question": "What is Recall in Machine Learning?",
+    "answer": "Recall measures how many actual positive cases were correctly identified by the model.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Recall",
+      "Sensitivity",
+      "Classification"
+    ]
+  },
+  {
+    "question": "What is F1-Score?",
+    "answer": "F1-Score is the harmonic mean of precision and recall used to evaluate classification models.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "F1-Score",
+      "Precision",
+      "Recall"
+    ]
+  },
+  {
+    "question": "What is a Confusion Matrix?",
+    "answer": "A Confusion Matrix is a table used to evaluate classification model performance by comparing actual and predicted values.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Confusion Matrix",
+      "Classification",
+      "Evaluation"
+    ]
+  },
+  {
+    "question": "What is Cross Validation?",
+    "answer": "Cross Validation is a technique used to assess how well a machine learning model generalizes to unseen data.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Cross Validation",
+      "Model Evaluation",
+      "Validation"
+    ]
+  },
+  {
+    "question": "What is Linear Regression?",
+    "answer": "Linear Regression is a supervised learning algorithm used to predict continuous values using linear relationships.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Linear Regression",
+      "Prediction",
+      "Supervised Learning"
+    ]
+  },
+  {
+    "question": "What is Logistic Regression?",
+    "answer": "Logistic Regression is a classification algorithm used to predict categorical outcomes.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Logistic Regression",
+      "Classification",
+      "ML"
+    ]
+  },
+  {
+    "question": "What is a Decision Tree?",
+    "answer": "A Decision Tree is a supervised learning model that makes decisions using tree-like structures.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Decision Tree",
+      "Classification",
+      "Prediction"
+    ]
+  },
+  {
+    "question": "What is Random Forest?",
+    "answer": "Random Forest is an ensemble learning algorithm that combines multiple decision trees for better accuracy.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Random Forest",
+      "Ensemble Learning",
+      "Decision Trees"
+    ]
+  },
+  {
+    "question": "What is Support Vector Machine (SVM)?",
+    "answer": "Support Vector Machine is a supervised learning algorithm used for classification and regression tasks.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "SVM",
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "question": "What is K-Nearest Neighbors (KNN)?",
+    "answer": "K-Nearest Neighbors is a supervised learning algorithm that classifies data based on nearby data points.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "KNN",
+      "Classification",
+      "Neighbors"
+    ]
+  },
+  {
+    "question": "What is Naive Bayes Algorithm?",
+    "answer": "Naive Bayes is a probabilistic classification algorithm based on Bayes theorem.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Naive Bayes",
+      "Probability",
+      "Classification"
+    ]
+  },
+  {
+    "question": "What is Clustering in Machine Learning?",
+    "answer": "Clustering is an unsupervised learning technique used to group similar data points together.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Clustering",
+      "Unsupervised Learning",
+      "Grouping"
+    ]
+  },
+  {
+    "question": "What is K-Means Clustering?",
+    "answer": "K-Means is a clustering algorithm that partitions data into K clusters based on similarity.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "K-Means",
+      "Clustering",
+      "Similarity"
+    ]
+  },
+  {
+    "question": "What is PCA in Machine Learning?",
+    "answer": "Principal Component Analysis is a dimensionality reduction technique used to simplify datasets while preserving important information.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "PCA",
+      "Dimensionality Reduction",
+      "Features"
+    ]
+  },
+  {
+    "question": "What is Gradient Descent?",
+    "answer": "Gradient Descent is an optimization algorithm used to minimize the loss function in machine learning models.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Gradient Descent",
+      "Optimization",
+      "Loss Function"
+    ]
+  },
+  {
+    "question": "What is Backpropagation?",
+    "answer": "Backpropagation is an algorithm used in neural networks to update weights by propagating errors backward.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Backpropagation",
+      "Neural Networks",
+      "Weights"
+    ]
+  },
+  {
+    "question": "What is an Activation Function?",
+    "answer": "An Activation Function determines whether a neuron should be activated by introducing non-linearity into neural networks.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Activation Function",
+      "Neural Networks",
+      "Non-Linearity"
+    ]
+  },
+  {
+    "question": "What is ReLU Activation Function?",
+    "answer": "ReLU is an activation function that outputs zero for negative inputs and the input itself for positive inputs.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "ReLU",
+      "Activation Function",
+      "Deep Learning"
+    ]
+  },
+  {
+    "question": "What is Sigmoid Function?",
+    "answer": "Sigmoid is an activation function that maps values between 0 and 1.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Sigmoid",
+      "Activation Function",
+      "Probability"
+    ]
+  },
+  {
+    "question": "What is Tanh Function?",
+    "answer": "Tanh is an activation function that maps input values between -1 and 1.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Tanh",
+      "Activation Function",
+      "Neural Networks"
+    ]
+  },
+  {
+    "question": "What are Epochs in Deep Learning?",
+    "answer": "An Epoch is one complete pass of the training dataset through a neural network during training.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Epochs",
+      "Training",
+      "Neural Networks"
+    ]
+  },
+  {
+    "question": "What is Batch Size in Deep Learning?",
+    "answer": "Batch Size refers to the number of training samples processed before updating model weights.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Batch Size",
+      "Training",
+      "Weights"
+    ]
+  },
+  {
+    "question": "What is Dropout in Deep Learning?",
+    "answer": "Dropout is a regularization technique used to reduce overfitting by randomly disabling neurons during training.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Dropout",
+      "Regularization",
+      "Overfitting"
+    ]
+  },
+  {
+    "question": "What is Computer Vision?",
+    "answer": "Computer Vision is a field of AI that enables computers to interpret and understand visual information from images and videos.",
+    "topic": "Computer Vision",
+    "keywords": [
+      "Computer Vision",
+      "Images",
+      "Video Processing"
+    ]
+  },
+  {
+    "question": "What is Image Classification?",
+    "answer": "Image Classification is the process of assigning labels to images based on their content.",
+    "topic": "Computer Vision",
+    "keywords": [
+      "Image Classification",
+      "CNN",
+      "Labels"
+    ]
+  },
+  {
+    "question": "What is Object Detection?",
+    "answer": "Object Detection identifies and locates objects within images or videos.",
+    "topic": "Computer Vision",
+    "keywords": [
+      "Object Detection",
+      "Bounding Box",
+      "Computer Vision"
+    ]
+  },
+  {
+    "question": "What is Image Segmentation?",
+    "answer": "Image Segmentation divides images into multiple regions for detailed analysis.",
+    "topic": "Computer Vision",
+    "keywords": [
+      "Image Segmentation",
+      "Pixels",
+      "Computer Vision"
+    ]
+  },
+  {
+    "question": "What is Speech Recognition?",
+    "answer": "Speech Recognition is the technology that converts spoken language into text.",
+    "topic": "NLP",
+    "keywords": [
+      "Speech Recognition",
+      "Voice",
+      "Text Conversion"
+    ]
+  },
+  {
+    "question": "What is Sentiment Analysis?",
+    "answer": "Sentiment Analysis identifies emotions or opinions expressed in text.",
+    "topic": "NLP",
+    "keywords": [
+      "Sentiment Analysis",
+      "Emotion Detection",
+      "Text"
+    ]
+  },
+  {
+    "question": "What is Named Entity Recognition (NER)?",
+    "answer": "Named Entity Recognition identifies entities such as names, locations, and organizations in text.",
+    "topic": "NLP",
+    "keywords": [
+      "NER",
+      "Entities",
+      "Text Processing"
+    ]
+  },
+  {
+    "question": "What is Text Summarization?",
+    "answer": "Text Summarization is the process of shortening text while preserving important information.",
+    "topic": "NLP",
+    "keywords": [
+      "Text Summarization",
+      "NLP",
+      "Summaries"
+    ]
+  },
+  {
+    "question": "What is Machine Translation?",
+    "answer": "Machine Translation automatically converts text from one language to another.",
+    "topic": "NLP",
+    "keywords": [
+      "Machine Translation",
+      "Languages",
+      "NLP"
+    ]
+  },
+  {
+    "question": "What is Word Embedding?",
+    "answer": "Word Embedding represents words as numerical vectors capturing semantic meaning.",
+    "topic": "NLP",
+    "keywords": [
+      "Word Embedding",
+      "Vectors",
+      "Semantic Meaning"
+    ]
+  },
+  {
+    "question": "What is Word2Vec?",
+    "answer": "Word2Vec is a neural network model used to generate word embeddings from text data.",
+    "topic": "NLP",
+    "keywords": [
+      "Word2Vec",
+      "Embeddings",
+      "Neural Networks"
+    ]
+  },
+  {
+    "question": "What is TF-IDF?",
+    "answer": "TF-IDF is a statistical method used to evaluate the importance of words in documents.",
+    "topic": "NLP",
+    "keywords": [
+      "TF-IDF",
+      "Text Analysis",
+      "Word Importance"
+    ]
+  },
+  {
+    "question": "What is Self-Attention in Transformers?",
+    "answer": "Self-Attention allows transformer models to focus on important words in a sequence while processing text.",
+    "topic": "Transformers",
+    "keywords": [
+      "Self-Attention",
+      "Transformers",
+      "Context"
+    ]
+  },
+  {
+    "question": "What is Positional Encoding?",
+    "answer": "Positional Encoding provides sequence order information to transformer models.",
+    "topic": "Transformers",
+    "keywords": [
+      "Positional Encoding",
+      "Transformers",
+      "Sequence"
+    ]
+  },
+  {
+    "question": "What is BERT in AI?",
+    "answer": "BERT is a transformer-based language model developed for understanding context in text.",
+    "topic": "Generative AI",
+    "keywords": [
+      "BERT",
+      "Transformer",
+      "Language Model"
+    ]
+  },
+  {
+    "question": "What is Fine-Tuning in AI?",
+    "answer": "Fine-Tuning is the process of adapting a pre-trained model to a specific task using additional training data.",
+    "topic": "Generative AI",
+    "keywords": [
+      "Fine-Tuning",
+      "Pretrained Model",
+      "Training"
+    ]
+  },
+  {
+    "question": "What is Zero-Shot Prompting?",
+    "answer": "Zero-Shot Prompting is a technique where an AI model performs tasks without prior examples.",
+    "topic": "Prompt Engineering",
+    "keywords": [
+      "Zero-Shot",
+      "Prompting",
+      "LLM"
+    ]
+  },
+  {
+    "question": "What is Few-Shot Prompting?",
+    "answer": "Few-Shot Prompting provides a small number of examples in prompts to guide model responses.",
+    "topic": "Prompt Engineering",
+    "keywords": [
+      "Few-Shot",
+      "Prompting",
+      "Examples"
+    ]
+  },
+  {
+    "question": "What is Chain-of-Thought Prompting?",
+    "answer": "Chain-of-Thought Prompting encourages AI models to explain reasoning step by step.",
+    "topic": "Prompt Engineering",
+    "keywords": [
+      "Chain-of-Thought",
+      "Reasoning",
+      "Prompting"
+    ]
+  },
+  {
+    "question": "What is Hallucination in LLMs?",
+    "answer": "Hallucination occurs when language models generate incorrect or fabricated information.",
+    "topic": "Generative AI",
+    "keywords": [
+      "Hallucination",
+      "LLM",
+      "Incorrect Information"
+    ]
+  },
+  {
+    "question": "What is AI Bias?",
+    "answer": "AI Bias occurs when AI systems produce unfair or prejudiced outcomes due to biased data or algorithms.",
+    "topic": "AI Ethics",
+    "keywords": [
+      "AI Bias",
+      "Fairness",
+      "Ethics"
+    ]
+  },
+  {
+    "question": "What is Explainable AI?",
+    "answer": "Explainable AI focuses on making AI decisions understandable and transparent to humans.",
+    "topic": "AI Ethics",
+    "keywords": [
+      "Explainable AI",
+      "Transparency",
+      "Interpretability"
+    ]
+  },
+  {
+    "question": "What is AI Safety?",
+    "answer": "AI Safety focuses on ensuring AI systems operate reliably and without causing harm.",
+    "topic": "AI Ethics",
+    "keywords": [
+      "AI Safety",
+      "Reliability",
+      "Risk"
+    ]
+  },
+  {
+    "question": "What is AGI?",
+    "answer": "Artificial General Intelligence refers to AI systems capable of performing any intellectual task a human can do.",
+    "topic": "Future AI",
+    "keywords": [
+      "AGI",
+      "General Intelligence",
+      "Future AI"
+    ]
+  }
+][
+  {
+    "question": "What is Data Preprocessing in Machine Learning?",
+    "answer": "Data Preprocessing is the process of cleaning, transforming, and organizing raw data before training machine learning models.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Data Preprocessing",
+      "Cleaning",
+      "Transformation",
+      "ML"
+    ]
+  },
+  {
+    "question": "What is Feature Engineering?",
+    "answer": "Feature Engineering is the process of selecting, modifying, and creating features to improve machine learning model performance.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Feature Engineering",
+      "Features",
+      "ML",
+      "Data"
+    ]
+  },
+  {
+    "question": "What is a Training Dataset?",
+    "answer": "A Training Dataset is the portion of data used to train machine learning models.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Training Data",
+      "Dataset",
+      "ML"
+    ]
+  },
+  {
+    "question": "What is a Testing Dataset?",
+    "answer": "A Testing Dataset is the portion of data used to evaluate the performance of a trained model.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Testing Data",
+      "Evaluation",
+      "ML"
+    ]
+  },
+  {
+    "question": "What is Accuracy in Machine Learning?",
+    "answer": "Accuracy is the ratio of correctly predicted observations to the total observations.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Accuracy",
+      "Evaluation Metric",
+      "Prediction"
+    ]
+  },
+  {
+    "question": "What is Precision in Machine Learning?",
+    "answer": "Precision measures how many predicted positive cases are actually positive.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Precision",
+      "Evaluation Metric",
+      "Classification"
+    ]
+  },
+  {
+    "question": "What is Recall in Machine Learning?",
+    "answer": "Recall measures how many actual positive cases were correctly identified by the model.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Recall",
+      "Sensitivity",
+      "Classification"
+    ]
+  },
+  {
+    "question": "What is F1-Score?",
+    "answer": "F1-Score is the harmonic mean of precision and recall used to evaluate classification models.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "F1-Score",
+      "Precision",
+      "Recall"
+    ]
+  },
+  {
+    "question": "What is a Confusion Matrix?",
+    "answer": "A Confusion Matrix is a table used to evaluate classification model performance by comparing actual and predicted values.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Confusion Matrix",
+      "Classification",
+      "Evaluation"
+    ]
+  },
+  {
+    "question": "What is Cross Validation?",
+    "answer": "Cross Validation is a technique used to assess how well a machine learning model generalizes to unseen data.",
+    "topic": "Machine Learning",
+    "keywords": [
+      "Cross Validation",
+      "Model Evaluation",
+      "Validation"
+    ]
+  },
+  {
+    "question": "What is Linear Regression?",
+    "answer": "Linear Regression is a supervised learning algorithm used to predict continuous values using linear relationships.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Linear Regression",
+      "Prediction",
+      "Supervised Learning"
+    ]
+  },
+  {
+    "question": "What is Logistic Regression?",
+    "answer": "Logistic Regression is a classification algorithm used to predict categorical outcomes.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Logistic Regression",
+      "Classification",
+      "ML"
+    ]
+  },
+  {
+    "question": "What is a Decision Tree?",
+    "answer": "A Decision Tree is a supervised learning model that makes decisions using tree-like structures.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Decision Tree",
+      "Classification",
+      "Prediction"
+    ]
+  },
+  {
+    "question": "What is Random Forest?",
+    "answer": "Random Forest is an ensemble learning algorithm that combines multiple decision trees for better accuracy.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Random Forest",
+      "Ensemble Learning",
+      "Decision Trees"
+    ]
+  },
+  {
+    "question": "What is Support Vector Machine (SVM)?",
+    "answer": "Support Vector Machine is a supervised learning algorithm used for classification and regression tasks.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "SVM",
+      "Classification",
+      "Regression"
+    ]
+  },
+  {
+    "question": "What is K-Nearest Neighbors (KNN)?",
+    "answer": "K-Nearest Neighbors is a supervised learning algorithm that classifies data based on nearby data points.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "KNN",
+      "Classification",
+      "Neighbors"
+    ]
+  },
+  {
+    "question": "What is Naive Bayes Algorithm?",
+    "answer": "Naive Bayes is a probabilistic classification algorithm based on Bayes theorem.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Naive Bayes",
+      "Probability",
+      "Classification"
+    ]
+  },
+  {
+    "question": "What is Clustering in Machine Learning?",
+    "answer": "Clustering is an unsupervised learning technique used to group similar data points together.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "Clustering",
+      "Unsupervised Learning",
+      "Grouping"
+    ]
+  },
+  {
+    "question": "What is K-Means Clustering?",
+    "answer": "K-Means is a clustering algorithm that partitions data into K clusters based on similarity.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "K-Means",
+      "Clustering",
+      "Similarity"
+    ]
+  },
+  {
+    "question": "What is PCA in Machine Learning?",
+    "answer": "Principal Component Analysis is a dimensionality reduction technique used to simplify datasets while preserving important information.",
+    "topic": "Machine Learning Algorithms",
+    "keywords": [
+      "PCA",
+      "Dimensionality Reduction",
+      "Features"
+    ]
+  },
+  {
+    "question": "What is Gradient Descent?",
+    "answer": "Gradient Descent is an optimization algorithm used to minimize the loss function in machine learning models.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Gradient Descent",
+      "Optimization",
+      "Loss Function"
+    ]
+  },
+  {
+    "question": "What is Backpropagation?",
+    "answer": "Backpropagation is an algorithm used in neural networks to update weights by propagating errors backward.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Backpropagation",
+      "Neural Networks",
+      "Weights"
+    ]
+  },
+  {
+    "question": "What is an Activation Function?",
+    "answer": "An Activation Function determines whether a neuron should be activated by introducing non-linearity into neural networks.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Activation Function",
+      "Neural Networks",
+      "Non-Linearity"
+    ]
+  },
+  {
+    "question": "What is ReLU Activation Function?",
+    "answer": "ReLU is an activation function that outputs zero for negative inputs and the input itself for positive inputs.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "ReLU",
+      "Activation Function",
+      "Deep Learning"
+    ]
+  },
+  {
+    "question": "What is Sigmoid Function?",
+    "answer": "Sigmoid is an activation function that maps values between 0 and 1.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Sigmoid",
+      "Activation Function",
+      "Probability"
+    ]
+  },
+  {
+    "question": "What is Tanh Function?",
+    "answer": "Tanh is an activation function that maps input values between -1 and 1.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Tanh",
+      "Activation Function",
+      "Neural Networks"
+    ]
+  },
+  {
+    "question": "What are Epochs in Deep Learning?",
+    "answer": "An Epoch is one complete pass of the training dataset through a neural network during training.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Epochs",
+      "Training",
+      "Neural Networks"
+    ]
+  },
+  {
+    "question": "What is Batch Size in Deep Learning?",
+    "answer": "Batch Size refers to the number of training samples processed before updating model weights.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Batch Size",
+      "Training",
+      "Weights"
+    ]
+  },
+  {
+    "question": "What is Dropout in Deep Learning?",
+    "answer": "Dropout is a regularization technique used to reduce overfitting by randomly disabling neurons during training.",
+    "topic": "Deep Learning",
+    "keywords": [
+      "Dropout",
+      "Regularization",
+      "Overfitting"
+    ]
+  },
+  {
+    "question": "What is Computer Vision?",
+    "answer": "Computer Vision is a field of AI that enables computers to interpret and understand visual information from images and videos.",
+    "topic": "Computer Vision",
+    "keywords": [
+      "Computer Vision",
+      "Images",
+      "Video Processing"
+    ]
+  },
+  {
+    "question": "What is Image Classification?",
+    "answer": "Image Classification is the process of assigning labels to images based on their content.",
+    "topic": "Computer Vision",
+    "keywords": [
+      "Image Classification",
+      "CNN",
+      "Labels"
+    ]
+  },
+  {
+    "question": "What is Object Detection?",
+    "answer": "Object Detection identifies and locates objects within images or videos.",
+    "topic": "Computer Vision",
+    "keywords": [
+      "Object Detection",
+      "Bounding Box",
+      "Computer Vision"
+    ]
+  },
+  {
+    "question": "What is Image Segmentation?",
+    "answer": "Image Segmentation divides images into multiple regions for detailed analysis.",
+    "topic": "Computer Vision",
+    "keywords": [
+      "Image Segmentation",
+      "Pixels",
+      "Computer Vision"
+    ]
+  },
+  {
+    "question": "What is Speech Recognition?",
+    "answer": "Speech Recognition is the technology that converts spoken language into text.",
+    "topic": "NLP",
+    "keywords": [
+      "Speech Recognition",
+      "Voice",
+      "Text Conversion"
+    ]
+  },
+  {
+    "question": "What is Sentiment Analysis?",
+    "answer": "Sentiment Analysis identifies emotions or opinions expressed in text.",
+    "topic": "NLP",
+    "keywords": [
+      "Sentiment Analysis",
+      "Emotion Detection",
+      "Text"
+    ]
+  },
+  {
+    "question": "What is Named Entity Recognition (NER)?",
+    "answer": "Named Entity Recognition identifies entities such as names, locations, and organizations in text.",
+    "topic": "NLP",
+    "keywords": [
+      "NER",
+      "Entities",
+      "Text Processing"
+    ]
+  },
+  {
+    "question": "What is Text Summarization?",
+    "answer": "Text Summarization is the process of shortening text while preserving important information.",
+    "topic": "NLP",
+    "keywords": [
+      "Text Summarization",
+      "NLP",
+      "Summaries"
+    ]
+  },
+  {
+    "question": "What is Machine Translation?",
+    "answer": "Machine Translation automatically converts text from one language to another.",
+    "topic": "NLP",
+    "keywords": [
+      "Machine Translation",
+      "Languages",
+      "NLP"
+    ]
+  },
+  {
+    "question": "What is Word Embedding?",
+    "answer": "Word Embedding represents words as numerical vectors capturing semantic meaning.",
+    "topic": "NLP",
+    "keywords": [
+      "Word Embedding",
+      "Vectors",
+      "Semantic Meaning"
+    ]
+  },
+  {
+    "question": "What is Word2Vec?",
+    "answer": "Word2Vec is a neural network model used to generate word embeddings from text data.",
+    "topic": "NLP",
+    "keywords": [
+      "Word2Vec",
+      "Embeddings",
+      "Neural Networks"
+    ]
+  },
+  {
+    "question": "What is TF-IDF?",
+    "answer": "TF-IDF is a statistical method used to evaluate the importance of words in documents.",
+    "topic": "NLP",
+    "keywords": [
+      "TF-IDF",
+      "Text Analysis",
+      "Word Importance"
+    ]
+  },
+  {
+    "question": "What is Self-Attention in Transformers?",
+    "answer": "Self-Attention allows transformer models to focus on important words in a sequence while processing text.",
+    "topic": "Transformers",
+    "keywords": [
+      "Self-Attention",
+      "Transformers",
+      "Context"
+    ]
+  },
+  {
+    "question": "What is Positional Encoding?",
+    "answer": "Positional Encoding provides sequence order information to transformer models.",
+    "topic": "Transformers",
+    "keywords": [
+      "Positional Encoding",
+      "Transformers",
+      "Sequence"
+    ]
+  },
+  {
+    "question": "What is BERT in AI?",
+    "answer": "BERT is a transformer-based language model developed for understanding context in text.",
+    "topic": "Generative AI",
+    "keywords": [
+      "BERT",
+      "Transformer",
+      "Language Model"
+    ]
+  },
+  {
+    "question": "What is Fine-Tuning in AI?",
+    "answer": "Fine-Tuning is the process of adapting a pre-trained model to a specific task using additional training data.",
+    "topic": "Generative AI",
+    "keywords": [
+      "Fine-Tuning",
+      "Pretrained Model",
+      "Training"
+    ]
+  },
+  {
+    "question": "What is Zero-Shot Prompting?",
+    "answer": "Zero-Shot Prompting is a technique where an AI model performs tasks without prior examples.",
+    "topic": "Prompt Engineering",
+    "keywords": [
+      "Zero-Shot",
+      "Prompting",
+      "LLM"
+    ]
+  },
+  {
+    "question": "What is Few-Shot Prompting?",
+    "answer": "Few-Shot Prompting provides a small number of examples in prompts to guide model responses.",
+    "topic": "Prompt Engineering",
+    "keywords": [
+      "Few-Shot",
+      "Prompting",
+      "Examples"
+    ]
+  },
+  {
+    "question": "What is Chain-of-Thought Prompting?",
+    "answer": "Chain-of-Thought Prompting encourages AI models to explain reasoning step by step.",
+    "topic": "Prompt Engineering",
+    "keywords": [
+      "Chain-of-Thought",
+      "Reasoning",
+      "Prompting"
+    ]
+  },
+  {
+    "question": "What is Hallucination in LLMs?",
+    "answer": "Hallucination occurs when language models generate incorrect or fabricated information.",
+    "topic": "Generative AI",
+    "keywords": [
+      "Hallucination",
+      "LLM",
+      "Incorrect Information"
+    ]
+  },
+  {
+    "question": "What is AI Bias?",
+    "answer": "AI Bias occurs when AI systems produce unfair or prejudiced outcomes due to biased data or algorithms.",
+    "topic": "AI Ethics",
+    "keywords": [
+      "AI Bias",
+      "Fairness",
+      "Ethics"
+    ]
+  },
+  {
+    "question": "What is Explainable AI?",
+    "answer": "Explainable AI focuses on making AI decisions understandable and transparent to humans.",
+    "topic": "AI Ethics",
+    "keywords": [
+      "Explainable AI",
+      "Transparency",
+      "Interpretability"
+    ]
+  },
+  {
+    "question": "What is AI Safety?",
+    "answer": "AI Safety focuses on ensuring AI systems operate reliably and without causing harm.",
+    "topic": "AI Ethics",
+    "keywords": [
+      "AI Safety",
+      "Reliability",
+      "Risk"
+    ]
+  },
+  {
+    "question": "What is AGI?",
+    "answer": "Artificial General Intelligence refers to AI systems capable of performing any intellectual task a human can do.",
+    "topic": "Future AI",
+    "keywords": [
+      "AGI",
+      "General Intelligence",
+      "Future AI"
+    ]
+  }
+]
