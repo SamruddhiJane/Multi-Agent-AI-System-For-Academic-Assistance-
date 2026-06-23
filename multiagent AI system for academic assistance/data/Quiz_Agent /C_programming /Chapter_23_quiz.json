@@ -1,0 +1,233 @@
+{
+  "chapter_number": 23,
+  "chapter_title": "Introduction to Data Structures",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is a data structure?",
+      "options": ["A programming language", "A way of organizing and storing data", "A compiler", "A function"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Why are data structures used?",
+      "options": ["Efficient data management", "Fast access to data", "Better memory usage", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is a linear data structure?",
+      "options": ["Tree", "Graph", "Stack", "Heap"],
+      "correct_option": 3
+    },
+    {
+      "id": 4,
+      "question": "Which data structure follows the LIFO principle?",
+      "options": ["Queue", "Stack", "Linked List", "Tree"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "What does LIFO stand for?",
+      "options": ["Last In First Out", "Last In Fast Out", "Linear In First Out", "Last Item First Order"],
+      "correct_option": 1
+    },
+    {
+      "id": 6,
+      "question": "Which operation adds an element to a stack?",
+      "options": ["Pop", "Insert", "Push", "Append"],
+      "correct_option": 3
+    },
+    {
+      "id": 7,
+      "question": "Which operation removes an element from a stack?",
+      "options": ["Push", "Delete", "Pop", "Remove"],
+      "correct_option": 3
+    },
+    {
+      "id": 8,
+      "question": "Which data structure follows the FIFO principle?",
+      "options": ["Stack", "Queue", "Tree", "Array"],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "question": "What does FIFO stand for?",
+      "options": ["First In First Out", "Fast In Fast Out", "First Input First Output", "File In File Out"],
+      "correct_option": 1
+    },
+    {
+      "id": 10,
+      "question": "Which operation inserts an element into a queue?",
+      "options": ["Push", "Enqueue", "Pop", "Peek"],
+      "correct_option": 2
+    },
+    {
+      "id": 11,
+      "question": "Which operation removes an element from a queue?",
+      "options": ["Pop", "Push", "Enqueue", "Dequeue"],
+      "correct_option": 4
+    },
+    {
+      "id": 12,
+      "question": "What is a linked list?",
+      "options": ["Collection of linked nodes", "Array of integers", "Stack implementation", "Queue implementation"],
+      "correct_option": 1
+    },
+    {
+      "id": 13,
+      "question": "A linked list consists of?",
+      "options": ["Nodes", "Functions", "Files", "Arrays only"],
+      "correct_option": 1
+    },
+    {
+      "id": 14,
+      "question": "Each node in a singly linked list contains?",
+      "options": ["Data only", "Pointer only", "Data and pointer", "Address only"],
+      "correct_option": 3
+    },
+    {
+      "id": 15,
+      "question": "What is the advantage of linked lists over arrays?",
+      "options": ["Dynamic size", "Contiguous memory", "Faster indexing", "Fixed size"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "question": "Which data structure is useful for function calls?",
+      "options": ["Queue", "Stack", "Linked List", "Graph"],
+      "correct_option": 2
+    },
+    {
+      "id": 17,
+      "question": "Which data structure is useful for scheduling tasks?",
+      "options": ["Stack", "Queue", "Array", "Tree"],
+      "correct_option": 2
+    },
+    {
+      "id": 18,
+      "question": "Linked lists use ________ to connect nodes.",
+      "options": ["Loops", "Pointers", "Functions", "Arrays"],
+      "correct_option": 2
+    },
+    {
+      "id": 19,
+      "question": "Data structures improve?",
+      "options": ["Efficiency", "Performance", "Data organization", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 20,
+      "question": "Which of these is a dynamic data structure?",
+      "options": ["Array", "Linked List", "Static Array", "Constant"],
+      "correct_option": 2
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "A stack follows the LIFO principle.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "A queue follows the FIFO principle.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "Push adds an element to a stack.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "Pop removes an element from a queue.",
+      "answer": false
+    },
+    {
+      "id": 5,
+      "statement": "A linked list is made up of nodes.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "Linked lists require contiguous memory locations.",
+      "answer": false
+    },
+    {
+      "id": 7,
+      "statement": "Each node in a linked list contains data and a pointer.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "Queues are useful for scheduling tasks.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "Stacks are commonly used for function calls.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Linked lists are dynamic data structures.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "A data structure is a way of organizing and storing ________.",
+      "answer": "data"
+    },
+    {
+      "id": 2,
+      "question": "A stack follows the ________ principle.",
+      "answer": "LIFO"
+    },
+    {
+      "id": 3,
+      "question": "The operation used to add an element to a stack is ________.",
+      "answer": "push"
+    },
+    {
+      "id": 4,
+      "question": "The operation used to remove an element from a stack is ________.",
+      "answer": "pop"
+    },
+    {
+      "id": 5,
+      "question": "A queue follows the ________ principle.",
+      "answer": "FIFO"
+    },
+    {
+      "id": 6,
+      "question": "The operation used to insert an element into a queue is ________.",
+      "answer": "enqueue"
+    },
+    {
+      "id": 7,
+      "question": "The operation used to remove an element from a queue is ________.",
+      "answer": "dequeue"
+    },
+    {
+      "id": 8,
+      "question": "A linked list consists of connected ________.",
+      "answer": "nodes"
+    },
+    {
+      "id": 9,
+      "question": "Linked lists use ________ to connect nodes.",
+      "answer": "pointers"
+    },
+    {
+      "id": 10,
+      "question": "Linked lists have ________ size and can grow dynamically.",
+      "answer": "dynamic"
+    }
+  ]
+}
