@@ -1,0 +1,668 @@
+[
+  {
+    "type": "one_line",
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is a subset of Machine Learning based on neural networks.",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["Deep Learning", "Neural Networks"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is an Artificial Neural Network?",
+    "answer": "An Artificial Neural Network is a computing model inspired by the human brain.",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["ANN", "Neural Network"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is CNN?",
+    "answer": "CNN is a neural network mainly used for image processing.",
+    "topic": "CNN",
+    "difficulty": "Easy",
+    "keywords": ["CNN", "Images"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is RNN?",
+    "answer": "RNN is a neural network designed for sequential data.",
+    "topic": "RNN",
+    "difficulty": "Easy",
+    "keywords": ["RNN", "Sequential Data"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is a Transformer?",
+    "answer": "A Transformer is a deep learning architecture based on attention mechanisms.",
+    "topic": "Transformers",
+    "difficulty": "Medium",
+    "keywords": ["Transformer", "Attention"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Backpropagation?",
+    "answer": "Backpropagation is a method used to update neural network weights.",
+    "topic": "Deep Learning",
+    "difficulty": "Medium",
+    "keywords": ["Backpropagation", "Training"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Gradient Descent?",
+    "answer": "Gradient Descent is an optimization algorithm used to minimize loss.",
+    "topic": "Deep Learning",
+    "difficulty": "Medium",
+    "keywords": ["Gradient Descent", "Optimization"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is an Activation Function?",
+    "answer": "An Activation Function introduces non-linearity into neural networks.",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["Activation Function", "Neural Networks"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is ReLU?",
+    "answer": "ReLU is an activation function used in deep learning models.",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["ReLU", "Activation Function"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Dropout?",
+    "answer": "Dropout is a technique used to reduce overfitting in neural networks.",
+    "topic": "Deep Learning",
+    "difficulty": "Medium",
+    "keywords": ["Dropout", "Overfitting"]
+  },
+
+  {
+    "type": "fill_blank",
+    "question": "Deep Learning uses ____________ networks.",
+    "answer": "Neural",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["Deep Learning"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "CNN is mainly used for ____________ processing.",
+    "answer": "Image",
+    "topic": "CNN",
+    "difficulty": "Easy",
+    "keywords": ["CNN"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "RNN works with ____________ data.",
+    "answer": "Sequential",
+    "topic": "RNN",
+    "difficulty": "Easy",
+    "keywords": ["RNN"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Transformers use the ____________ mechanism.",
+    "answer": "Attention",
+    "topic": "Transformers",
+    "difficulty": "Medium",
+    "keywords": ["Transformer"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "ReLU is an ____________ function.",
+    "answer": "Activation",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["ReLU"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Gradient Descent minimizes the ____________ function.",
+    "answer": "Loss",
+    "topic": "Deep Learning",
+    "difficulty": "Medium",
+    "keywords": ["Gradient Descent"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Dropout helps reduce ____________.",
+    "answer": "Overfitting",
+    "topic": "Deep Learning",
+    "difficulty": "Medium",
+    "keywords": ["Dropout"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "ANN stands for Artificial ____________ Network.",
+    "answer": "Neural",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["ANN"]
+  },
+
+  {
+    "type": "true_false",
+    "question": "CNN is mainly used for image processing.",
+    "answer": "True",
+    "topic": "CNN",
+    "difficulty": "Easy",
+    "keywords": ["CNN"]
+  },
+  {
+    "type": "true_false",
+    "question": "RNN is useful for sequential data.",
+    "answer": "True",
+    "topic": "RNN",
+    "difficulty": "Easy",
+    "keywords": ["RNN"]
+  },
+  {
+    "type": "true_false",
+    "question": "Transformers are based on attention mechanisms.",
+    "answer": "True",
+    "topic": "Transformers",
+    "difficulty": "Medium",
+    "keywords": ["Transformers"]
+  },
+  {
+    "type": "true_false",
+    "question": "ReLU is a loss function.",
+    "answer": "False",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["ReLU"]
+  },
+  {
+    "type": "true_false",
+    "question": "Dropout helps reduce overfitting.",
+    "answer": "True",
+    "topic": "Deep Learning",
+    "difficulty": "Medium",
+    "keywords": ["Dropout"]
+  },
+  {
+    "type": "true_false",
+    "question": "Backpropagation updates neural network weights.",
+    "answer": "True",
+    "topic": "Deep Learning",
+    "difficulty": "Medium",
+    "keywords": ["Backpropagation"]
+  },
+  {
+    "type": "true_false",
+    "question": "CNN is mainly used for audio compression.",
+    "answer": "False",
+    "topic": "CNN",
+    "difficulty": "Easy",
+    "keywords": ["CNN"]
+  },
+
+  {
+    "type": "mcq",
+    "question": "Which neural network is mainly used for image processing?",
+    "options": ["CNN", "RNN", "Transformer", "GAN"],
+    "answer": "CNN",
+    "topic": "CNN",
+    "difficulty": "Easy",
+    "keywords": ["CNN"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which neural network is useful for sequential data?",
+    "options": ["RNN", "CNN", "GAN", "Autoencoder"],
+    "answer": "RNN",
+    "topic": "RNN",
+    "difficulty": "Easy",
+    "keywords": ["RNN"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which architecture uses attention mechanisms?",
+    "options": ["Transformer", "CNN", "RNN", "KNN"],
+    "answer": "Transformer",
+    "topic": "Transformers",
+    "difficulty": "Medium",
+    "keywords": ["Transformer"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which activation function is commonly used in deep learning?",
+    "options": ["ReLU", "HTTP", "SQL", "CSS"],
+    "answer": "ReLU",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["ReLU"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which technique helps reduce overfitting?",
+    "options": ["Dropout", "Tokenization", "Padding", "Scaling"],
+    "answer": "Dropout",
+    "topic": "Deep Learning",
+    "difficulty": "Medium",
+    "keywords": ["Dropout"]
+  },
+  {
+    "type": "mcq",
+    "question": "What does ANN stand for?",
+    "options": ["Artificial Neural Network", "Advanced Neural Node", "Artificial Network Node", "Automated Neural Network"],
+    "answer": "Artificial Neural Network",
+    "topic": "Deep Learning",
+    "difficulty": "Easy",
+    "keywords": ["ANN"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which algorithm minimizes the loss function?",
+    "options": ["Gradient Descent", "Tokenization", "Backtracking", "Compression"],
+    "answer": "Gradient Descent",
+    "topic": "Deep Learning",
+    "difficulty": "Medium",
+    "keywords": ["Gradient Descent"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which process updates neural network weights?",
+    "options": ["Backpropagation", "Tokenization", "Clustering", "Embedding"],
+    "answer": "Backpropagation",
+    "topic": "Deep Learning",
+    "difficulty": "Medium",
+    "keywords": ["Backpropagation"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is NLP?",
+    "answer": "NLP is a branch of AI that enables computers to understand human language.",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["NLP", "Language Processing"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Tokenization?",
+    "answer": "Tokenization is the process of splitting text into smaller units called tokens.",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["Tokenization", "Text Processing"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Stemming?",
+    "answer": "Stemming reduces words to their root form.",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["Stemming", "NLP"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Lemmatization?",
+    "answer": "Lemmatization converts words into their meaningful base form.",
+    "topic": "NLP",
+    "difficulty": "Medium",
+    "keywords": ["Lemmatization", "NLP"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Sentiment Analysis?",
+    "answer": "Sentiment Analysis identifies emotions or opinions from text.",
+    "topic": "NLP",
+    "difficulty": "Medium",
+    "keywords": ["Sentiment Analysis", "NLP"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Named Entity Recognition?",
+    "answer": "NER identifies names, places, dates, and entities from text.",
+    "topic": "NLP",
+    "difficulty": "Medium",
+    "keywords": ["NER", "Named Entity Recognition"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is TF-IDF?",
+    "answer": "TF-IDF measures the importance of words in a document.",
+    "topic": "NLP",
+    "difficulty": "Medium",
+    "keywords": ["TF-IDF", "NLP"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Word Embedding?",
+    "answer": "Word Embedding converts words into numerical vector representations.",
+    "topic": "NLP",
+    "difficulty": "Medium",
+    "keywords": ["Word Embedding", "Vectors"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Computer Vision?",
+    "answer": "Computer Vision enables machines to understand visual information.",
+    "topic": "Computer Vision",
+    "difficulty": "Easy",
+    "keywords": ["Computer Vision", "Images"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Image Classification?",
+    "answer": "Image Classification identifies the category of an image.",
+    "topic": "Computer Vision",
+    "difficulty": "Easy",
+    "keywords": ["Image Classification", "Computer Vision"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Object Detection?",
+    "answer": "Object Detection identifies and locates objects in images.",
+    "topic": "Computer Vision",
+    "difficulty": "Medium",
+    "keywords": ["Object Detection", "Computer Vision"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Image Segmentation?",
+    "answer": "Image Segmentation divides an image into meaningful regions.",
+    "topic": "Computer Vision",
+    "difficulty": "Medium",
+    "keywords": ["Image Segmentation", "Computer Vision"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Face Recognition?",
+    "answer": "Face Recognition identifies individuals using facial features.",
+    "topic": "Computer Vision",
+    "difficulty": "Easy",
+    "keywords": ["Face Recognition", "Computer Vision"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Speech Recognition?",
+    "answer": "Speech Recognition converts spoken language into text.",
+    "topic": "Speech Processing",
+    "difficulty": "Easy",
+    "keywords": ["Speech Recognition", "Audio"]
+  },
+  {
+    "type": "one_line",
+    "question": "What is Speech Synthesis?",
+    "answer": "Speech Synthesis converts text into spoken voice.",
+    "topic": "Speech Processing",
+    "difficulty": "Easy",
+    "keywords": ["Speech Synthesis", "TTS"]
+  },
+
+  {
+    "type": "fill_blank",
+    "question": "NLP stands for Natural Language ____________.",
+    "answer": "Processing",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["NLP"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Tokenization splits text into ____________.",
+    "answer": "Tokens",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["Tokenization"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "TF-IDF measures word ____________.",
+    "answer": "Importance",
+    "topic": "NLP",
+    "difficulty": "Medium",
+    "keywords": ["TF-IDF"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Word Embeddings are numerical ____________ representations.",
+    "answer": "Vector",
+    "topic": "NLP",
+    "difficulty": "Medium",
+    "keywords": ["Embeddings"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Computer Vision works mainly with ____________ data.",
+    "answer": "Image",
+    "topic": "Computer Vision",
+    "difficulty": "Easy",
+    "keywords": ["Computer Vision"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Object Detection identifies and ____________ objects.",
+    "answer": "Locates",
+    "topic": "Computer Vision",
+    "difficulty": "Medium",
+    "keywords": ["Object Detection"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Speech Recognition converts speech into ____________.",
+    "answer": "Text",
+    "topic": "Speech Processing",
+    "difficulty": "Easy",
+    "keywords": ["Speech Recognition"]
+  },
+  {
+    "type": "fill_blank",
+    "question": "Speech Synthesis converts text into ____________.",
+    "answer": "Speech",
+    "topic": "Speech Processing",
+    "difficulty": "Easy",
+    "keywords": ["Speech Synthesis"]
+  },
+
+  {
+    "type": "true_false",
+    "question": "NLP enables computers to understand human language.",
+    "answer": "True",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["NLP"]
+  },
+  {
+    "type": "true_false",
+    "question": "Tokenization combines images into videos.",
+    "answer": "False",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["Tokenization"]
+  },
+  {
+    "type": "true_false",
+    "question": "TF-IDF measures word importance.",
+    "answer": "True",
+    "topic": "NLP",
+    "difficulty": "Medium",
+    "keywords": ["TF-IDF"]
+  },
+  {
+    "type": "true_false",
+    "question": "Computer Vision processes visual information.",
+    "answer": "True",
+    "topic": "Computer Vision",
+    "difficulty": "Easy",
+    "keywords": ["Computer Vision"]
+  },
+  {
+    "type": "true_false",
+    "question": "Object Detection locates objects in images.",
+    "answer": "True",
+    "topic": "Computer Vision",
+    "difficulty": "Medium",
+    "keywords": ["Object Detection"]
+  },
+  {
+    "type": "true_false",
+    "question": "Face Recognition uses facial features for identification.",
+    "answer": "True",
+    "topic": "Computer Vision",
+    "difficulty": "Easy",
+    "keywords": ["Face Recognition"]
+  },
+  {
+    "type": "true_false",
+    "question": "Speech Recognition converts text into speech.",
+    "answer": "False",
+    "topic": "Speech Processing",
+    "difficulty": "Easy",
+    "keywords": ["Speech Recognition"]
+  },
+  {
+    "type": "true_false",
+    "question": "Speech Synthesis converts text into spoken voice.",
+    "answer": "True",
+    "topic": "Speech Processing",
+    "difficulty": "Easy",
+    "keywords": ["Speech Synthesis"]
+  },
+
+  {
+    "type": "mcq",
+    "question": "What does NLP stand for?",
+    "options": [
+      "Natural Language Processing",
+      "Neural Logic Processing",
+      "Network Language Program",
+      "Natural Learning Process"
+    ],
+    "answer": "Natural Language Processing",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["NLP"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which process splits text into tokens?",
+    "options": [
+      "Tokenization",
+      "Segmentation",
+      "Embedding",
+      "Normalization"
+    ],
+    "answer": "Tokenization",
+    "topic": "NLP",
+    "difficulty": "Easy",
+    "keywords": ["Tokenization"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which technique measures word importance?",
+    "options": [
+      "TF-IDF",
+      "CNN",
+      "RNN",
+      "KNN"
+    ],
+    "answer": "TF-IDF",
+    "topic": "NLP",
+    "difficulty": "Medium",
+    "keywords": ["TF-IDF"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which field enables machines to understand images?",
+    "options": [
+      "Computer Vision",
+      "NLP",
+      "Data Mining",
+      "Speech Processing"
+    ],
+    "answer": "Computer Vision",
+    "topic": "Computer Vision",
+    "difficulty": "Easy",
+    "keywords": ["Computer Vision"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which task identifies objects in images?",
+    "options": [
+      "Object Detection",
+      "Tokenization",
+      "Clustering",
+      "Regression"
+    ],
+    "answer": "Object Detection",
+    "topic": "Computer Vision",
+    "difficulty": "Medium",
+    "keywords": ["Object Detection"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which task divides images into regions?",
+    "options": [
+      "Image Segmentation",
+      "Image Compression",
+      "Embedding",
+      "Translation"
+    ],
+    "answer": "Image Segmentation",
+    "topic": "Computer Vision",
+    "difficulty": "Medium",
+    "keywords": ["Image Segmentation"]
+  },
+  {
+    "type": "mcq",
+    "question": "What converts speech into text?",
+    "options": [
+      "Speech Recognition",
+      "Speech Synthesis",
+      "Translation",
+      "Embedding"
+    ],
+    "answer": "Speech Recognition",
+    "topic": "Speech Processing",
+    "difficulty": "Easy",
+    "keywords": ["Speech Recognition"]
+  },
+  {
+    "type": "mcq",
+    "question": "What converts text into voice?",
+    "options": [
+      "Speech Synthesis",
+      "Speech Recognition",
+      "Tokenization",
+      "NER"
+    ],
+    "answer": "Speech Synthesis",
+    "topic": "Speech Processing",
+    "difficulty": "Easy",
+    "keywords": ["Speech Synthesis"]
+  },
+  {
+    "type": "mcq",
+    "question": "Which NLP task identifies names and places?",
+    "options": [
+      "Named Entity Recognition",
+      "Stemming",
+      "Tokenization",
+      "Translation"
+    ],
+    "answer": "Named Entity Recognition",
+    "topic": "NLP",
+    "difficulty": "Medium",
+    "keywords": ["NER"]
+  },
+  {
+    "type": "mcq",
+    "question": "What are Word Embeddings used for?",
+    "options": [
+      "Numerical representation of words",
+      "Image compression",
+      "Audio filtering",
+      "Hardware acceleration"
+    ],
+    "answer": "Numerical representation of words",
+    "topic": "NLP",
+    "difficulty": "Medium",
+    "keywords": ["Embeddings"]
+  }
+]
