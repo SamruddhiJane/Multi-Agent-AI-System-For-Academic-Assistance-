@@ -1,0 +1,248 @@
+{
+  "chapter_number": 15,
+  "chapter_title": "Enumerations and typedef",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is an enumeration in C?",
+      "options": ["A loop", "A user-defined data type consisting of named constants", "A function", "A pointer"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to define an enumeration?",
+      "options": ["struct", "typedef", "enum", "union"],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "What are the values inside an enum called?",
+      "options": ["Variables", "Enumerators", "Pointers", "Members"],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "What is the default value of the first enumerator?",
+      "options": ["0", "1", "-1", "Depends on compiler"],
+      "correct_option": 1
+    },
+    {
+      "id": 5,
+      "question": "What value is assigned to the next enumerator by default?",
+      "options": ["Previous value + 1", "0", "1", "-1"],
+      "correct_option": 1
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a valid enum declaration?",
+      "options": [
+        "enum Color {RED, GREEN, BLUE};",
+        "enum Color (RED, GREEN, BLUE);",
+        "enum Color [RED, GREEN, BLUE];",
+        "enum Color <RED, GREEN, BLUE>;"
+      ],
+      "correct_option": 1
+    },
+    {
+      "id": 7,
+      "question": "Why are enumerations used?",
+      "options": ["Improve readability", "Represent fixed sets of values", "Avoid magic numbers", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 8,
+      "question": "Can enumerators be assigned custom values?",
+      "options": ["Yes", "No", "Only positive values", "Only negative values"],
+      "correct_option": 1
+    },
+    {
+      "id": 9,
+      "question": "What is typedef used for?",
+      "options": ["Creating loops", "Creating aliases for data types", "Defining functions", "Managing memory"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "Which keyword creates a new name for an existing data type?",
+      "options": ["enum", "struct", "typedef", "union"],
+      "correct_option": 3
+    },
+    {
+      "id": 11,
+      "question": "typedef int Number; creates?",
+      "options": ["A variable", "A new data type alias", "A function", "An enumeration"],
+      "correct_option": 2
+    },
+    {
+      "id": 12,
+      "question": "Which statement is true about typedef?",
+      "options": [
+        "Creates a completely new data type",
+        "Creates an alias for an existing type",
+        "Creates a function",
+        "Creates memory"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 13,
+      "question": "typedef is commonly used with?",
+      "options": ["Structures", "Unions", "Pointers", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 14,
+      "question": "What is the main benefit of typedef?",
+      "options": ["Code readability", "Simpler declarations", "Maintainability", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 15,
+      "question": "Can typedef be used with structures?",
+      "options": ["Yes", "No", "Only sometimes", "Only globally"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "question": "What is the default underlying type of enum values?",
+      "options": ["char", "float", "int", "double"],
+      "correct_option": 3
+    },
+    {
+      "id": 17,
+      "question": "Which feature improves code readability by using meaningful names?",
+      "options": ["enum", "goto", "break", "continue"],
+      "correct_option": 1
+    },
+    {
+      "id": 18,
+      "question": "Which feature helps shorten complex type declarations?",
+      "options": ["enum", "typedef", "switch", "if"],
+      "correct_option": 2
+    },
+    {
+      "id": 19,
+      "question": "Enumerations are most useful when?",
+      "options": [
+        "Working with fixed choices",
+        "Performing calculations",
+        "Using loops",
+        "Managing files"
+      ],
+      "correct_option": 1
+    },
+    {
+      "id": 20,
+      "question": "Enumerations and typedef mainly improve?",
+      "options": ["Code clarity", "Readability", "Maintainability", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "enum is a user-defined data type.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "The first enumerator has a default value of 0.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "Enumerators cannot be assigned custom values.",
+      "answer": false
+    },
+    {
+      "id": 4,
+      "statement": "typedef creates an alias for an existing data type.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "typedef creates a completely new data type.",
+      "answer": false
+    },
+    {
+      "id": 6,
+      "statement": "Enumerations improve program readability.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "typedef can be used with structures.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "Enum values are stored as integers by default.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "typedef can simplify pointer declarations.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Enumerations are useful for fixed sets of constants.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "The keyword used to define an enumeration is ________.",
+      "answer": "enum"
+    },
+    {
+      "id": 2,
+      "question": "The named constants inside an enum are called ________.",
+      "answer": "enumerators"
+    },
+    {
+      "id": 3,
+      "question": "The default value of the first enumerator is ________.",
+      "answer": "0"
+    },
+    {
+      "id": 4,
+      "question": "The keyword used to create type aliases is ________.",
+      "answer": "typedef"
+    },
+    {
+      "id": 5,
+      "question": "typedef creates an ________ for an existing data type.",
+      "answer": "alias"
+    },
+    {
+      "id": 6,
+      "question": "Enumerations improve code ________.",
+      "answer": "readability"
+    },
+    {
+      "id": 7,
+      "question": "Enum values are represented internally as ________.",
+      "answer": "integers"
+    },
+    {
+      "id": 8,
+      "question": "typedef is commonly used with ________ and unions.",
+      "answer": "structures"
+    },
+    {
+      "id": 9,
+      "question": "Enumerations are useful for representing fixed sets of ________.",
+      "answer": "values"
+    },
+    {
+      "id": 10,
+      "question": "typedef helps make declarations more ________.",
+      "answer": "readable"
+    }
+  ]
+    }
