@@ -1,0 +1,233 @@
+{
+  "chapter_number": 12,
+  "chapter_title": "Preprocessor Directives and Macros",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is the purpose of the C preprocessor?",
+      "options": ["Execute programs", "Process source code before compilation", "Debug programs", "Manage memory"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which symbol begins a preprocessor directive?",
+      "options": ["$", "@", "#", "%"],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "Which directive is used to include header files?",
+      "options": ["#define", "#include", "#ifdef", "#pragma"],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "Which directive is used to define a macro?",
+      "options": ["#include", "#define", "#undef", "#endif"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "What is a macro?",
+      "options": ["A variable", "A preprocessor substitution rule", "A function", "A loop"],
+      "correct_option": 2
+    },
+    {
+      "id": 6,
+      "question": "Which directive removes a previously defined macro?",
+      "options": ["#undef", "#define", "#ifdef", "#include"],
+      "correct_option": 1
+    },
+    {
+      "id": 7,
+      "question": "Which directive checks whether a macro is defined?",
+      "options": ["#ifndef", "#ifdef", "#endif", "#pragma"],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "question": "Which directive checks whether a macro is not defined?",
+      "options": ["#ifndef", "#ifdef", "#define", "#include"],
+      "correct_option": 1
+    },
+    {
+      "id": 9,
+      "question": "Which directive ends a conditional compilation block?",
+      "options": ["#endif", "#else", "#ifdef", "#undef"],
+      "correct_option": 1
+    },
+    {
+      "id": 10,
+      "question": "What is conditional compilation?",
+      "options": ["Compiling selected code based on conditions", "Executing loops", "Declaring variables", "Running macros"],
+      "correct_option": 1
+    },
+    {
+      "id": 11,
+      "question": "Which directive provides an alternative block in conditional compilation?",
+      "options": ["#endif", "#define", "#else", "#pragma"],
+      "correct_option": 3
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is a predefined macro?",
+      "options": ["__DATE__", "__TIME__", "__FILE__", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 13,
+      "question": "What does __DATE__ provide?",
+      "options": ["Current time", "Compilation date", "File name", "Line number"],
+      "correct_option": 2
+    },
+    {
+      "id": 14,
+      "question": "What does __LINE__ provide?",
+      "options": ["Current line number", "Current file", "Current function", "Current variable"],
+      "correct_option": 1
+    },
+    {
+      "id": 15,
+      "question": "Which directive is used for compiler-specific instructions?",
+      "options": ["#pragma", "#include", "#define", "#undef"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "question": "Macros are expanded during?",
+      "options": ["Execution", "Compilation", "Preprocessing", "Linking"],
+      "correct_option": 3
+    },
+    {
+      "id": 17,
+      "question": "What is a function-like macro?",
+      "options": ["Macro with parameters", "Library function", "Recursive function", "Inline function"],
+      "correct_option": 1
+    },
+    {
+      "id": 18,
+      "question": "Which directive helps prevent multiple inclusion of header files?",
+      "options": ["#ifndef", "#ifdef", "#pragma", "Both #ifndef and #pragma"],
+      "correct_option": 4
+    },
+    {
+      "id": 19,
+      "question": "Why are macros used?",
+      "options": ["Code reuse", "Easy maintenance", "Improved readability", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 20,
+      "question": "The preprocessor works before the ______ phase.",
+      "options": ["Execution", "Compilation", "Debugging", "Linking"],
+      "correct_option": 2
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "Preprocessor directives begin with #.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "#include is used to define macros.",
+      "answer": false
+    },
+    {
+      "id": 3,
+      "statement": "#define is used to create macros.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "Macros are expanded before compilation.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "#undef removes a macro definition.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "__DATE__ is a predefined macro.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "Conditional compilation uses directives like #ifdef.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "#endif ends a conditional compilation block.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "#pragma provides compiler-specific instructions.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Macros are executed at runtime.",
+      "answer": false
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "Preprocessor directives begin with the symbol ________.",
+      "answer": "#"
+    },
+    {
+      "id": 2,
+      "question": "The directive used to include header files is ________.",
+      "answer": "#include"
+    },
+    {
+      "id": 3,
+      "question": "The directive used to define a macro is ________.",
+      "answer": "#define"
+    },
+    {
+      "id": 4,
+      "question": "A ________ is a preprocessor substitution rule.",
+      "answer": "macro"
+    },
+    {
+      "id": 5,
+      "question": "The directive used to remove a macro is ________.",
+      "answer": "#undef"
+    },
+    {
+      "id": 6,
+      "question": "The directive ________ checks whether a macro is defined.",
+      "answer": "#ifdef"
+    },
+    {
+      "id": 7,
+      "question": "The directive ________ checks whether a macro is not defined.",
+      "answer": "#ifndef"
+    },
+    {
+      "id": 8,
+      "question": "The predefined macro ________ provides the compilation date.",
+      "answer": "__DATE__"
+    },
+    {
+      "id": 9,
+      "question": "The directive ________ provides compiler-specific instructions.",
+      "answer": "#pragma"
+    },
+    {
+      "id": 10,
+      "question": "Macros are expanded during the ________ phase.",
+      "answer": "preprocessing"
+    }
+  ]
+        }
