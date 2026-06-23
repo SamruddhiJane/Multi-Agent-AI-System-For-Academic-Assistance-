@@ -1,0 +1,131 @@
+{
+  "chapter_number": 1,
+  "chapter_title": "Introduction to C Programming",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is C programming language?",
+      "answer": "C is a general-purpose procedural programming language developed by Dennis Ritchie in 1972 at Bell Laboratories."
+    },
+    {
+      "id": 2,
+      "question": "Who developed C language?",
+      "answer": "Dennis Ritchie developed C language."
+    },
+    {
+      "id": 3,
+      "question": "Where was C language developed?",
+      "answer": "C language was developed at Bell Laboratories."
+    },
+    {
+      "id": 4,
+      "question": "In which year was C developed?",
+      "answer": "C was developed in 1972."
+    },
+    {
+      "id": 5,
+      "question": "What type of programming language is C?",
+      "answer": "C is a procedural and structured programming language."
+    },
+    {
+      "id": 6,
+      "question": "Why is C called a general-purpose language?",
+      "answer": "Because it can be used to develop a wide variety of applications."
+    },
+    {
+      "id": 7,
+      "question": "What are the main features of C?",
+      "answer": "Portability, efficiency, structured programming, fast execution, and rich library support."
+    },
+    {
+      "id": 8,
+      "question": "What is portability in C?",
+      "answer": "Portability means a C program can run on different systems with little or no modification."
+    },
+    {
+      "id": 9,
+      "question": "Why is C considered efficient?",
+      "answer": "Because it provides fast execution and direct memory access."
+    },
+    {
+      "id": 10,
+      "question": "What is structured programming?",
+      "answer": "Structured programming organizes code into functions and logical blocks."
+    },
+    {
+      "id": 11,
+      "question": "What are the advantages of C language?",
+      "answer": "It is efficient, portable, easy to learn, and widely used."
+    },
+    {
+      "id": 12,
+      "question": "What are the disadvantages of C language?",
+      "answer": "It does not support object-oriented programming and lacks automatic garbage collection."
+    },
+    {
+      "id": 13,
+      "question": "What is the importance of C language?",
+      "answer": "C forms the foundation for many modern programming languages."
+    },
+    {
+      "id": 14,
+      "question": "Which languages were influenced by C?",
+      "answer": "C++, Java, C#, Objective-C, and many others."
+    },
+    {
+      "id": 15,
+      "question": "What are the applications of C language?",
+      "answer": "Operating systems, embedded systems, compilers, databases, and networking applications."
+    },
+    {
+      "id": 16,
+      "question": "Why is C used in operating systems?",
+      "answer": "Because it provides low-level memory access and high performance."
+    },
+    {
+      "id": 17,
+      "question": "What is a C program?",
+      "answer": "A C program is a set of instructions written in the C language to perform specific tasks."
+    },
+    {
+      "id": 18,
+      "question": "What is the basic structure of a C program?",
+      "answer": "Documentation section, header files, global declarations, main function, and user-defined functions."
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of the main() function?",
+      "answer": "The main() function is the starting point of program execution."
+    },
+    {
+      "id": 20,
+      "question": "What is a header file?",
+      "answer": "A header file contains declarations of library functions and macros."
+    },
+    {
+      "id": 21,
+      "question": "Why do we use #include <stdio.h>?",
+      "answer": "It includes standard input and output functions such as printf() and scanf()."
+    },
+    {
+      "id": 22,
+      "question": "What is printf()?",
+      "answer": "printf() is a function used to display output on the screen."
+    },
+    {
+      "id": 23,
+      "question": "What does return 0 indicate in C?",
+      "answer": "It indicates successful execution of the program."
+    },
+    {
+      "id": 24,
+      "question": "Why should students learn C?",
+      "answer": "C helps build strong programming fundamentals and improves problem-solving skills."
+    },
+    {
+      "id": 25,
+      "question": "Is C still used today?",
+      "answer": "Yes, C is still widely used in operating systems, embedded systems, drivers, and system software."
+    }
+  ]
+    }
