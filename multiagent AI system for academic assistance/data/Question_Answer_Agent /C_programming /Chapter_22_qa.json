@@ -1,1 +1,156 @@
-
+{
+  "chapter_number": 22,
+  "chapter_title": "Trees",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is a tree in data structures?",
+      "answer": "A tree is a non-linear hierarchical data structure consisting of nodes connected by edges."
+    },
+    {
+      "id": 2,
+      "question": "Why are trees used?",
+      "answer": "Trees are used to represent hierarchical relationships and enable efficient searching and sorting."
+    },
+    {
+      "id": 3,
+      "question": "What is the topmost node of a tree called?",
+      "answer": "The topmost node is called the root node."
+    },
+    {
+      "id": 4,
+      "question": "What is a node in a tree?",
+      "answer": "A node is an individual element of a tree that stores data."
+    },
+    {
+      "id": 5,
+      "question": "What is an edge in a tree?",
+      "answer": "An edge is a connection between two nodes."
+    },
+    {
+      "id": 6,
+      "question": "What is a parent node?",
+      "answer": "A parent node is a node that has one or more child nodes."
+    },
+    {
+      "id": 7,
+      "question": "What is a child node?",
+      "answer": "A child node is a node directly connected below a parent node."
+    },
+    {
+      "id": 8,
+      "question": "What is a leaf node?",
+      "answer": "A leaf node is a node that has no children."
+    },
+    {
+      "id": 9,
+      "question": "What is an internal node?",
+      "answer": "An internal node is a node that has at least one child."
+    },
+    {
+      "id": 10,
+      "question": "What is the degree of a node?",
+      "answer": "The degree of a node is the number of children it has."
+    },
+    {
+      "id": 11,
+      "question": "What is the degree of a tree?",
+      "answer": "The degree of a tree is the maximum degree among all its nodes."
+    },
+    {
+      "id": 12,
+      "question": "What is the level of a node?",
+      "answer": "The level of a node indicates its position in the tree relative to the root."
+    },
+    {
+      "id": 13,
+      "question": "What is the height of a tree?",
+      "answer": "The height of a tree is the length of the longest path from the root to a leaf node."
+    },
+    {
+      "id": 14,
+      "question": "What is a binary tree?",
+      "answer": "A binary tree is a tree in which each node can have at most two children."
+    },
+    {
+      "id": 15,
+      "question": "What are the children of a binary tree node called?",
+      "answer": "They are called the left child and right child."
+    },
+    {
+      "id": 16,
+      "question": "What is a full binary tree?",
+      "answer": "A full binary tree is a binary tree where every node has either zero or two children."
+    },
+    {
+      "id": 17,
+      "question": "What is a complete binary tree?",
+      "answer": "A complete binary tree is a binary tree in which all levels are completely filled except possibly the last."
+    },
+    {
+      "id": 18,
+      "question": "What is a binary search tree (BST)?",
+      "answer": "A BST is a binary tree where left child values are smaller and right child values are larger than the parent node."
+    },
+    {
+      "id": 19,
+      "question": "What is tree traversal?",
+      "answer": "Tree traversal is the process of visiting all nodes in a tree."
+    },
+    {
+      "id": 20,
+      "question": "What are the main types of tree traversal?",
+      "answer": "Preorder, Inorder, and Postorder traversals."
+    },
+    {
+      "id": 21,
+      "question": "What is preorder traversal?",
+      "answer": "Preorder traversal visits the root, then left subtree, then right subtree."
+    },
+    {
+      "id": 22,
+      "question": "What is inorder traversal?",
+      "answer": "Inorder traversal visits the left subtree, root, then right subtree."
+    },
+    {
+      "id": 23,
+      "question": "What is postorder traversal?",
+      "answer": "Postorder traversal visits the left subtree, right subtree, then root."
+    },
+    {
+      "id": 24,
+      "question": "What are the advantages of trees?",
+      "answer": "Trees provide efficient searching, insertion, deletion, and hierarchical data representation."
+    },
+    {
+      "id": 25,
+      "question": "What are the disadvantages of trees?",
+      "answer": "Trees are more complex to implement and maintain than linear data structures."
+    },
+    {
+      "id": 26,
+      "question": "Where are trees commonly used?",
+      "answer": "Trees are used in databases, file systems, compilers, and search engines."
+    },
+    {
+      "id": 27,
+      "question": "How are trees used in file systems?",
+      "answer": "Directories and files are organized in a hierarchical tree structure."
+    },
+    {
+      "id": 28,
+      "question": "Why are binary search trees important?",
+      "answer": "They allow efficient searching, insertion, and deletion operations."
+    },
+    {
+      "id": 29,
+      "question": "Why are trees important in data structures?",
+      "answer": "Trees efficiently represent hierarchical relationships and support fast operations."
+    },
+    {
+      "id": 30,
+      "question": "What is the main purpose of trees?",
+      "answer": "The main purpose of trees is to organize and manage hierarchical data efficiently."
+    }
+  ]
+}
