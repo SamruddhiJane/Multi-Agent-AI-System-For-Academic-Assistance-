@@ -1,0 +1,233 @@
+{
+  "chapter_number": 20,
+  "chapter_title": "Recursion in C",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is recursion?",
+      "options": ["A loop", "A function calling itself", "A pointer", "A structure"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "What is required for every recursive function?",
+      "options": ["Loop", "Base condition", "Array", "Pointer"],
+      "correct_option": 2
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of a base condition?",
+      "options": ["Start recursion", "Stop recursion", "Allocate memory", "Create loops"],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "What happens if a recursive function has no base condition?",
+      "options": ["Compilation error", "Infinite recursion", "No output", "Syntax error"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "Recursion uses which memory area?",
+      "options": ["Heap", "Stack", "Register", "Cache"],
+      "correct_option": 2
+    },
+    {
+      "id": 6,
+      "question": "Each recursive call creates a new?",
+      "options": ["Loop", "Variable", "Stack frame", "Array"],
+      "correct_option": 3
+    },
+    {
+      "id": 7,
+      "question": "Which of the following can be solved using recursion?",
+      "options": ["Factorial", "Fibonacci", "Tower of Hanoi", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 8,
+      "question": "What is the factorial of 5?",
+      "options": ["24", "120", "60", "25"],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "question": "What is the factorial of 0?",
+      "options": ["0", "1", "Undefined", "10"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "Recursion is an alternative to?",
+      "options": ["Pointers", "Loops", "Structures", "Files"],
+      "correct_option": 2
+    },
+    {
+      "id": 11,
+      "question": "Which problem is a classic example of recursion?",
+      "options": ["Sorting", "Searching", "Tower of Hanoi", "File Handling"],
+      "correct_option": 3
+    },
+    {
+      "id": 12,
+      "question": "What is direct recursion?",
+      "options": ["Function calls itself", "Function calls another function", "Loop calls function", "Pointer calls function"],
+      "correct_option": 1
+    },
+    {
+      "id": 13,
+      "question": "What is indirect recursion?",
+      "options": ["Function calls itself directly", "Functions call each other recursively", "No recursion", "Loop recursion"],
+      "correct_option": 2
+    },
+    {
+      "id": 14,
+      "question": "What is a disadvantage of recursion?",
+      "options": ["More memory usage", "Slower execution", "Stack overflow risk", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 15,
+      "question": "What is a stack overflow?",
+      "options": ["Too many recursive calls", "Memory allocation", "File error", "Syntax error"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "question": "Which statement is true about recursion?",
+      "options": ["Simplifies some problems", "Always faster than loops", "Uses no memory", "Cannot return values"],
+      "correct_option": 1
+    },
+    {
+      "id": 17,
+      "question": "Which sequence is commonly generated using recursion?",
+      "options": ["Prime numbers", "Fibonacci series", "Odd numbers", "Even numbers"],
+      "correct_option": 2
+    },
+    {
+      "id": 18,
+      "question": "Recursion ends when?",
+      "options": ["Base condition is satisfied", "Program terminates", "Loop starts", "Memory is allocated"],
+      "correct_option": 1
+    },
+    {
+      "id": 19,
+      "question": "Recursive functions are useful for?",
+      "options": ["Tree traversal", "Mathematical calculations", "Divide-and-conquer algorithms", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 20,
+      "question": "The main purpose of recursion is to solve problems by?",
+      "options": ["Breaking them into smaller subproblems", "Using more memory", "Avoiding functions", "Avoiding conditions"],
+      "correct_option": 1
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "Recursion occurs when a function calls itself.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "Every recursive function should have a base condition.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "Recursion uses stack memory.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "Recursion can be used to calculate factorials.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "A recursive function without a base condition may cause stack overflow.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "Recursion always uses less memory than loops.",
+      "answer": false
+    },
+    {
+      "id": 7,
+      "statement": "Fibonacci series can be generated using recursion.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "Direct recursion means a function calls itself.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "Indirect recursion involves multiple functions calling each other.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Recursion can never replace loops.",
+      "answer": false
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "A function calling itself is called ________.",
+      "answer": "recursion"
+    },
+    {
+      "id": 2,
+      "question": "Every recursive function requires a ________ condition.",
+      "answer": "base"
+    },
+    {
+      "id": 3,
+      "question": "Recursion uses ________ memory.",
+      "answer": "stack"
+    },
+    {
+      "id": 4,
+      "question": "The factorial of 0 is ________.",
+      "answer": "1"
+    },
+    {
+      "id": 5,
+      "question": "A recursive call creates a new stack ________.",
+      "answer": "frame"
+    },
+    {
+      "id": 6,
+      "question": "The Tower of ________ is a classic recursion problem.",
+      "answer": "Hanoi"
+    },
+    {
+      "id": 7,
+      "question": "Too many recursive calls may cause stack ________.",
+      "answer": "overflow"
+    },
+    {
+      "id": 8,
+      "question": "Recursion breaks a problem into smaller ________.",
+      "answer": "subproblems"
+    },
+    {
+      "id": 9,
+      "question": "The ________ series is commonly generated using recursion.",
+      "answer": "Fibonacci"
+    },
+    {
+      "id": 10,
+      "question": "When the base condition is satisfied, recursion ________.",
+      "answer": "stops"
+    }
+  ]
+}
