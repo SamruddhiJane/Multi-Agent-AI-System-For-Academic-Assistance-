@@ -1,0 +1,156 @@
+{
+  "chapter_number": 17,
+  "chapter_title": "Command Line Arguments",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What are command line arguments in C?",
+      "answer": "Command line arguments are values passed to a program when it is executed from the command line."
+    },
+    {
+      "id": 2,
+      "question": "Why are command line arguments used?",
+      "answer": "They allow users to provide input to a program at execution time without using keyboard input functions."
+    },
+    {
+      "id": 3,
+      "question": "Which function receives command line arguments?",
+      "answer": "The main() function receives command line arguments."
+    },
+    {
+      "id": 4,
+      "question": "What is the syntax of main() with command line arguments?",
+      "answer": "int main(int argc, char *argv[])"
+    },
+    {
+      "id": 5,
+      "question": "What does argc represent?",
+      "answer": "argc represents the number of command line arguments passed to the program."
+    },
+    {
+      "id": 6,
+      "question": "What does argv represent?",
+      "answer": "argv is an array of character pointers that stores the command line arguments."
+    },
+    {
+      "id": 7,
+      "question": "What is argv[0]?",
+      "answer": "argv[0] contains the name of the program."
+    },
+    {
+      "id": 8,
+      "question": "What does argv[1] represent?",
+      "answer": "argv[1] contains the first command line argument."
+    },
+    {
+      "id": 9,
+      "question": "How are command line arguments stored?",
+      "answer": "They are stored as strings in the argv array."
+    },
+    {
+      "id": 10,
+      "question": "Can command line arguments contain numbers?",
+      "answer": "Yes, but they are initially stored as strings."
+    },
+    {
+      "id": 11,
+      "question": "How can a string argument be converted to an integer?",
+      "answer": "Using functions such as atoi()."
+    },
+    {
+      "id": 12,
+      "question": "What is atoi()?",
+      "answer": "atoi() converts a string to an integer."
+    },
+    {
+      "id": 13,
+      "question": "Can command line arguments contain spaces?",
+      "answer": "Yes, if enclosed within quotation marks."
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of argc?",
+      "answer": "argc helps determine how many arguments were supplied."
+    },
+    {
+      "id": 15,
+      "question": "What data type is argv?",
+      "answer": "argv is an array of character pointers."
+    },
+    {
+      "id": 16,
+      "question": "Can a program run without command line arguments?",
+      "answer": "Yes, in that case argc is usually 1 because argv[0] contains the program name."
+    },
+    {
+      "id": 17,
+      "question": "What happens if fewer arguments are provided than expected?",
+      "answer": "The program may produce incorrect results unless proper validation is performed."
+    },
+    {
+      "id": 18,
+      "question": "Why should command line arguments be validated?",
+      "answer": "Validation prevents errors caused by missing or invalid inputs."
+    },
+    {
+      "id": 19,
+      "question": "What is the advantage of command line arguments over scanf()?",
+      "answer": "Arguments are supplied at program startup and do not require interactive user input."
+    },
+    {
+      "id": 20,
+      "question": "What is argument parsing?",
+      "answer": "Argument parsing is the process of reading and interpreting command line arguments."
+    },
+    {
+      "id": 21,
+      "question": "Can command line arguments be used to specify filenames?",
+      "answer": "Yes, filenames are commonly passed as command line arguments."
+    },
+    {
+      "id": 22,
+      "question": "Can command line arguments be used with file handling programs?",
+      "answer": "Yes, they are often used to pass file names and file paths."
+    },
+    {
+      "id": 23,
+      "question": "What is a practical use of command line arguments?",
+      "answer": "Passing input values, configuration settings, or filenames to a program."
+    },
+    {
+      "id": 24,
+      "question": "How are multiple command line arguments accessed?",
+      "answer": "Using argv[1], argv[2], argv[3], and so on."
+    },
+    {
+      "id": 25,
+      "question": "What is the maximum number of command line arguments?",
+      "answer": "The limit depends on the operating system and environment."
+    },
+    {
+      "id": 26,
+      "question": "What are the advantages of command line arguments?",
+      "answer": "Flexibility, automation, faster execution, and support for scripting."
+    },
+    {
+      "id": 27,
+      "question": "What are the disadvantages of command line arguments?",
+      "answer": "Users must remember the correct syntax and validate inputs carefully."
+    },
+    {
+      "id": 28,
+      "question": "Where are command line arguments commonly used?",
+      "answer": "They are commonly used in system utilities, scripts, compilers, and file-processing programs."
+    },
+    {
+      "id": 29,
+      "question": "Why are command line arguments important?",
+      "answer": "They provide a convenient way to pass information to programs during execution."
+    },
+    {
+      "id": 30,
+      "question": "What is the main purpose of command line arguments?",
+      "answer": "The main purpose is to allow programs to receive input directly from the command line."
+    }
+  ]
+}
