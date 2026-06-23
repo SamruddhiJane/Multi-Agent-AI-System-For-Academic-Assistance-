@@ -1,0 +1,156 @@
+{
+  "chapter_number": 19,
+  "chapter_title": "Linked Lists",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is a linked list?",
+      "answer": "A linked list is a dynamic data structure consisting of nodes connected through pointers."
+    },
+    {
+      "id": 2,
+      "question": "Why are linked lists used?",
+      "answer": "Linked lists allow dynamic memory allocation and efficient insertion and deletion of elements."
+    },
+    {
+      "id": 3,
+      "question": "What is a node in a linked list?",
+      "answer": "A node is a basic unit of a linked list that contains data and a pointer to the next node."
+    },
+    {
+      "id": 4,
+      "question": "What are the components of a node?",
+      "answer": "A data field and a link (pointer) field."
+    },
+    {
+      "id": 5,
+      "question": "What is the first node of a linked list called?",
+      "answer": "The first node is called the head node."
+    },
+    {
+      "id": 6,
+      "question": "What is the last node of a linked list called?",
+      "answer": "The last node is called the tail node."
+    },
+    {
+      "id": 7,
+      "question": "What value does the last node's pointer contain?",
+      "answer": "The last node's pointer contains NULL."
+    },
+    {
+      "id": 8,
+      "question": "What is a singly linked list?",
+      "answer": "A singly linked list contains nodes where each node points to the next node only."
+    },
+    {
+      "id": 9,
+      "question": "What is a doubly linked list?",
+      "answer": "A doubly linked list contains nodes with pointers to both the previous and next nodes."
+    },
+    {
+      "id": 10,
+      "question": "What is a circular linked list?",
+      "answer": "A circular linked list is a linked list where the last node points back to the first node."
+    },
+    {
+      "id": 11,
+      "question": "What is dynamic memory allocation in linked lists?",
+      "answer": "Memory for nodes is allocated at runtime using functions such as malloc()."
+    },
+    {
+      "id": 12,
+      "question": "What is traversal in a linked list?",
+      "answer": "Traversal is the process of visiting each node in the linked list."
+    },
+    {
+      "id": 13,
+      "question": "What is insertion in a linked list?",
+      "answer": "Insertion is the process of adding a new node to the linked list."
+    },
+    {
+      "id": 14,
+      "question": "What is deletion in a linked list?",
+      "answer": "Deletion is the process of removing a node from the linked list."
+    },
+    {
+      "id": 15,
+      "question": "Where can a node be inserted in a linked list?",
+      "answer": "A node can be inserted at the beginning, end, or middle of a linked list."
+    },
+    {
+      "id": 16,
+      "question": "Where can a node be deleted from a linked list?",
+      "answer": "A node can be deleted from the beginning, end, or any specified position."
+    },
+    {
+      "id": 17,
+      "question": "What is searching in a linked list?",
+      "answer": "Searching is the process of finding a node containing specific data."
+    },
+    {
+      "id": 18,
+      "question": "What is the main advantage of linked lists over arrays?",
+      "answer": "Linked lists can grow or shrink dynamically during execution."
+    },
+    {
+      "id": 19,
+      "question": "What is a disadvantage of linked lists?",
+      "answer": "Linked lists require extra memory for storing pointers."
+    },
+    {
+      "id": 20,
+      "question": "Can linked lists store different types of data?",
+      "answer": "Typically, linked lists store elements of the same data type."
+    },
+    {
+      "id": 21,
+      "question": "What is a self-referential structure?",
+      "answer": "A self-referential structure is a structure that contains a pointer to the same structure type."
+    },
+    {
+      "id": 22,
+      "question": "How are linked lists implemented in C?",
+      "answer": "Linked lists are implemented using structures and pointers."
+    },
+    {
+      "id": 23,
+      "question": "What is memory efficiency in linked lists?",
+      "answer": "Memory is allocated only when needed, reducing wastage."
+    },
+    {
+      "id": 24,
+      "question": "What happens if the head pointer is NULL?",
+      "answer": "It indicates that the linked list is empty."
+    },
+    {
+      "id": 25,
+      "question": "Can linked lists be used to implement other data structures?",
+      "answer": "Yes, linked lists can be used to implement stacks, queues, and graphs."
+    },
+    {
+      "id": 26,
+      "question": "What are the applications of linked lists?",
+      "answer": "Memory management, stacks, queues, graphs, and dynamic data storage."
+    },
+    {
+      "id": 27,
+      "question": "Why are linked lists considered dynamic?",
+      "answer": "Because their size can change during program execution."
+    },
+    {
+      "id": 28,
+      "question": "Which operator is commonly used to access node members through pointers?",
+      "answer": "The arrow operator (->)."
+    },
+    {
+      "id": 29,
+      "question": "Why are linked lists important in data structures?",
+      "answer": "They provide flexible and efficient storage and manipulation of data."
+    },
+    {
+      "id": 30,
+      "question": "What is the main purpose of linked lists?",
+      "answer": "The main purpose is to store and manage dynamic collections of data efficiently."
+    }
+  ]
+}
