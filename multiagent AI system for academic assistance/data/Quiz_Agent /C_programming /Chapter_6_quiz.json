@@ -1,0 +1,233 @@
+{
+  "chapter_number": 6,
+  "chapter_title": "Decision Making Statements",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is the purpose of decision making statements in C?",
+      "options": ["Looping", "Making choices", "Declaring variables", "File handling"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which statement is used to execute code only when a condition is true?",
+      "options": ["switch", "for", "if", "while"],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "Which statement executes one block if a condition is true and another if it is false?",
+      "options": ["if", "if-else", "switch", "goto"],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "What is a nested if statement?",
+      "options": ["if inside a loop", "if inside another if", "if inside switch", "Multiple if statements"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "Which structure is used to check multiple conditions?",
+      "options": ["if", "else-if ladder", "while", "do-while"],
+      "correct_option": 2
+    },
+    {
+      "id": 6,
+      "question": "Which statement is commonly used for menu-driven programs?",
+      "options": ["for", "while", "switch", "goto"],
+      "correct_option": 3
+    },
+    {
+      "id": 7,
+      "question": "Which keyword is used to provide a default option in switch?",
+      "options": ["case", "else", "default", "break"],
+      "correct_option": 3
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of the break statement in switch?",
+      "options": ["Continue execution", "Terminate switch", "Restart switch", "Skip condition"],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "question": "What happens if break is omitted in a switch case?",
+      "options": ["Compilation error", "Program stops", "Fall-through occurs", "Condition becomes false"],
+      "correct_option": 3
+    },
+    {
+      "id": 10,
+      "question": "Which statement is best for complex logical conditions?",
+      "options": ["switch", "if-else", "goto", "break"],
+      "correct_option": 2
+    },
+    {
+      "id": 11,
+      "question": "How many blocks can an if-else statement execute at a time?",
+      "options": ["One", "Two", "Three", "Unlimited"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "Which keyword follows an if block when the condition is false?",
+      "options": ["case", "default", "else", "switch"],
+      "correct_option": 3
+    },
+    {
+      "id": 13,
+      "question": "Which operator is often used in decision making conditions?",
+      "options": ["Relational operator", "Arithmetic operator", "Bitwise operator", "Assignment operator"],
+      "correct_option": 1
+    },
+    {
+      "id": 14,
+      "question": "Which value represents true in C?",
+      "options": ["0", "1", "-1", "NULL"],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "Which value represents false in C?",
+      "options": ["0", "1", "10", "-1"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "question": "Can switch statements work with character constants?",
+      "options": ["Yes", "No", "Sometimes", "Only in C++"],
+      "correct_option": 1
+    },
+    {
+      "id": 17,
+      "question": "Which statement allows a program to make decisions?",
+      "options": ["Looping statement", "Decision statement", "Storage statement", "Input statement"],
+      "correct_option": 2
+    },
+    {
+      "id": 18,
+      "question": "Which keyword begins a switch statement?",
+      "options": ["case", "if", "switch", "default"],
+      "correct_option": 3
+    },
+    {
+      "id": 19,
+      "question": "What is the final optional block in an else-if ladder?",
+      "options": ["if", "switch", "else", "case"],
+      "correct_option": 3
+    },
+    {
+      "id": 20,
+      "question": "Decision making statements help control the ________ of a program.",
+      "options": ["Memory", "Flow", "Compiler", "Variables"],
+      "correct_option": 2
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "The if statement executes only when the condition is true.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "switch can replace every if-else statement.",
+      "answer": false
+    },
+    {
+      "id": 3,
+      "statement": "A nested if is an if statement inside another if statement.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "The default block in switch is optional.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "break terminates a switch case.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "Omitting break may cause fall-through.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "else executes when the if condition is false.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "switch can directly evaluate floating-point ranges.",
+      "answer": false
+    },
+    {
+      "id": 9,
+      "statement": "Decision making statements control program execution flow.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "An else-if ladder is used for multiple conditions.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "The ________ statement executes code when a condition is true.",
+      "answer": "if"
+    },
+    {
+      "id": 2,
+      "question": "The ________ statement executes one block for true and another for false.",
+      "answer": "if-else"
+    },
+    {
+      "id": 3,
+      "question": "An if statement inside another if statement is called a ________ if.",
+      "answer": "nested"
+    },
+    {
+      "id": 4,
+      "question": "The ________ statement is used for multi-way selection.",
+      "answer": "switch"
+    },
+    {
+      "id": 5,
+      "question": "The ________ keyword provides a default option in a switch statement.",
+      "answer": "default"
+    },
+    {
+      "id": 6,
+      "question": "The ________ statement terminates a switch case.",
+      "answer": "break"
+    },
+    {
+      "id": 7,
+      "question": "Multiple conditions can be checked using an ________ ladder.",
+      "answer": "else-if"
+    },
+    {
+      "id": 8,
+      "question": "A condition in C evaluates to either true or ________.",
+      "answer": "false"
+    },
+    {
+      "id": 9,
+      "question": "Decision making statements control the ________ of execution.",
+      "answer": "flow"
+    },
+    {
+      "id": 10,
+      "question": "When no case matches in a switch, the ________ block executes.",
+      "answer": "default"
+    }
+  ]
+}
