@@ -1,0 +1,156 @@
+{
+  "chapter_number": 9,
+  "chapter_title": "Strings in C",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is a string in C?",
+      "answer": "A string is a sequence of characters terminated by a null character ('\\0')."
+    },
+    {
+      "id": 2,
+      "question": "How are strings stored in C?",
+      "answer": "Strings are stored as character arrays."
+    },
+    {
+      "id": 3,
+      "question": "What is the null character in C?",
+      "answer": "The null character ('\\0') marks the end of a string."
+    },
+    {
+      "id": 4,
+      "question": "Why is the null character important in strings?",
+      "answer": "It helps functions identify where the string ends."
+    },
+    {
+      "id": 5,
+      "question": "How do you declare a string in C?",
+      "answer": "char str[20];"
+    },
+    {
+      "id": 6,
+      "question": "How do you initialize a string?",
+      "answer": "char str[] = \"Hello\";"
+    },
+    {
+      "id": 7,
+      "question": "What is the difference between a character and a string?",
+      "answer": "A character stores a single symbol, while a string stores multiple characters."
+    },
+    {
+      "id": 8,
+      "question": "Which header file contains string functions?",
+      "answer": "string.h"
+    },
+    {
+      "id": 9,
+      "question": "What is strlen()?",
+      "answer": "strlen() returns the length of a string excluding the null character."
+    },
+    {
+      "id": 10,
+      "question": "What is strcpy()?",
+      "answer": "strcpy() copies one string into another."
+    },
+    {
+      "id": 11,
+      "question": "What is strcat()?",
+      "answer": "strcat() concatenates two strings."
+    },
+    {
+      "id": 12,
+      "question": "What is strcmp()?",
+      "answer": "strcmp() compares two strings."
+    },
+    {
+      "id": 13,
+      "question": "What does strcmp() return when strings are equal?",
+      "answer": "It returns 0."
+    },
+    {
+      "id": 14,
+      "question": "What is strchr()?",
+      "answer": "strchr() finds the first occurrence of a character in a string."
+    },
+    {
+      "id": 15,
+      "question": "What is strstr()?",
+      "answer": "strstr() finds the first occurrence of a substring in a string."
+    },
+    {
+      "id": 16,
+      "question": "What is gets()?",
+      "answer": "gets() reads a string from the user, though it is considered unsafe."
+    },
+    {
+      "id": 17,
+      "question": "What is fgets()?",
+      "answer": "fgets() safely reads a string from input."
+    },
+    {
+      "id": 18,
+      "question": "What is puts()?",
+      "answer": "puts() displays a string followed by a newline."
+    },
+    {
+      "id": 19,
+      "question": "Can spaces be stored in a string?",
+      "answer": "Yes, strings can contain spaces."
+    },
+    {
+      "id": 20,
+      "question": "What is string traversal?",
+      "answer": "String traversal means accessing each character of a string one by one."
+    },
+    {
+      "id": 21,
+      "question": "What is string concatenation?",
+      "answer": "String concatenation is the process of joining two strings."
+    },
+    {
+      "id": 22,
+      "question": "What is string comparison?",
+      "answer": "String comparison checks whether two strings are equal or determines their order."
+    },
+    {
+      "id": 23,
+      "question": "Can strings be passed to functions?",
+      "answer": "Yes, strings can be passed to functions as character arrays."
+    },
+    {
+      "id": 24,
+      "question": "What are the advantages of strings?",
+      "answer": "Strings make it easy to store, manipulate, and process text data."
+    },
+    {
+      "id": 25,
+      "question": "What are the disadvantages of strings?",
+      "answer": "Strings require careful memory management and can cause buffer overflow issues if handled improperly."
+    },
+    {
+      "id": 26,
+      "question": "How is the length of a string determined?",
+      "answer": "The length is determined by counting characters until the null character is reached."
+    },
+    {
+      "id": 27,
+      "question": "What happens if a string is not null terminated?",
+      "answer": "String functions may behave unpredictably and access invalid memory."
+    },
+    {
+      "id": 28,
+      "question": "Where are strings commonly used?",
+      "answer": "Strings are used in text processing, user input, file handling, and data communication."
+    },
+    {
+      "id": 29,
+      "question": "Why are strings important in programming?",
+      "answer": "Strings are essential for handling textual information."
+    },
+    {
+      "id": 30,
+      "question": "What is the main purpose of strings in C?",
+      "answer": "The main purpose of strings is to store and manipulate text data efficiently."
+    }
+  ]
+    }
