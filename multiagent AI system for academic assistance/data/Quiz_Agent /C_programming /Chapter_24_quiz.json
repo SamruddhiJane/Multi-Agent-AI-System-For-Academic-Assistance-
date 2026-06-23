@@ -1,0 +1,233 @@
+{
+  "chapter_number": 24,
+  "chapter_title": "C Programming Applications and Best Practices",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "C programming is widely used for?",
+      "options": ["System programming", "Embedded systems", "Operating systems", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 2,
+      "question": "Which operating system was primarily developed using C?",
+      "options": ["Windows", "UNIX", "Android", "MS-DOS"],
+      "correct_option": 2
+    },
+    {
+      "id": 3,
+      "question": "Why is C preferred for embedded systems?",
+      "options": ["High performance", "Low-level hardware access", "Efficiency", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 4,
+      "question": "What is a coding standard?",
+      "options": ["Programming language", "Set of coding guidelines", "Compiler rule", "Library"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "Why should meaningful variable names be used?",
+      "options": ["Improve readability", "Reduce bugs", "Ease maintenance", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 6,
+      "question": "What is code documentation?",
+      "options": ["Adding comments and explanations", "Executing code", "Compiling code", "Debugging code"],
+      "correct_option": 1
+    },
+    {
+      "id": 7,
+      "question": "Which symbol is commonly used for single-line comments in C?",
+      "options": ["//", "/*", "#", "--"],
+      "correct_option": 1
+    },
+    {
+      "id": 8,
+      "question": "What is debugging?",
+      "options": ["Writing code", "Finding and fixing errors", "Compiling code", "Running code"],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "question": "What is testing in software development?",
+      "options": ["Finding defects", "Verifying correctness", "Improving quality", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 10,
+      "question": "Which of the following improves code reusability?",
+      "options": ["Functions", "Modular programming", "Libraries", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 11,
+      "question": "What is modular programming?",
+      "options": ["Breaking programs into smaller modules", "Using only functions", "Using arrays", "Using loops"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "Which practice helps avoid memory leaks?",
+      "options": ["Using malloc()", "Using free()", "Using loops", "Using arrays"],
+      "correct_option": 2
+    },
+    {
+      "id": 13,
+      "question": "Why should code be properly indented?",
+      "options": ["Readability", "Maintainability", "Debugging ease", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 14,
+      "question": "What is software maintenance?",
+      "options": ["Updating and improving software", "Compiling programs", "Writing comments", "Creating variables"],
+      "correct_option": 1
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is a real-world application of C?",
+      "options": ["Operating systems", "Database systems", "Embedded devices", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 16,
+      "question": "Why is error handling important?",
+      "options": ["Program reliability", "User satisfaction", "System stability", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 17,
+      "question": "Which tool is commonly used to find program errors?",
+      "options": ["Debugger", "Compiler", "Editor", "Interpreter"],
+      "correct_option": 1
+    },
+    {
+      "id": 18,
+      "question": "Good coding practices improve?",
+      "options": ["Code quality", "Maintainability", "Team collaboration", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 19,
+      "question": "Which practice helps other programmers understand code easily?",
+      "options": ["Comments", "Meaningful names", "Documentation", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 20,
+      "question": "The main goal of best programming practices is?",
+      "options": ["Better software quality", "Readability", "Reliability", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "C is widely used in system programming.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "Meaningful variable names improve readability.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "Comments make code easier to understand.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "Debugging is the process of finding and fixing errors.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "Code indentation has no importance.",
+      "answer": false
+    },
+    {
+      "id": 6,
+      "statement": "Modular programming improves maintainability.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "Memory leaks can occur if allocated memory is not freed.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "Testing helps improve software quality.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "Documentation is useful only for beginners.",
+      "answer": false
+    },
+    {
+      "id": 10,
+      "statement": "Good coding practices improve software reliability.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "C is widely used for ________ programming.",
+      "answer": "system"
+    },
+    {
+      "id": 2,
+      "question": "The process of finding and fixing errors is called ________.",
+      "answer": "debugging"
+    },
+    {
+      "id": 3,
+      "question": "Comments improve code ________.",
+      "answer": "readability"
+    },
+    {
+      "id": 4,
+      "question": "Breaking programs into smaller modules is called ________ programming.",
+      "answer": "modular"
+    },
+    {
+      "id": 5,
+      "question": "Allocated memory should be released using ________.",
+      "answer": "free"
+    },
+    {
+      "id": 6,
+      "question": "Meaningful variable names improve code ________.",
+      "answer": "clarity"
+    },
+    {
+      "id": 7,
+      "question": "The process of verifying software correctness is called ________.",
+      "answer": "testing"
+    },
+    {
+      "id": 8,
+      "question": "Proper code ________ makes programs easier to read.",
+      "answer": "indentation"
+    },
+    {
+      "id": 9,
+      "question": "Updating and improving software is called software ________.",
+      "answer": "maintenance"
+    },
+    {
+      "id": 10,
+      "question": "Best practices improve software ________.",
+      "answer": "quality"
+    }
+  ]
+    }
