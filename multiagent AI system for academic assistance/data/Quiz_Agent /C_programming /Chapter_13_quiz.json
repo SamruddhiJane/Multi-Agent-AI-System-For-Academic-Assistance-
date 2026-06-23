@@ -1,0 +1,233 @@
+{
+  "chapter_number": 13,
+  "chapter_title": "Pointers in C",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is a pointer in C?",
+      "options": ["A variable storing data", "A variable storing an address", "A function", "An operator"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which operator is used to obtain the address of a variable?",
+      "options": ["*", "&", "%", "#"],
+      "correct_option": 2
+    },
+    {
+      "id": 3,
+      "question": "Which operator is used to access the value stored at an address?",
+      "options": ["&", "*", "%", "+"],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "How is a pointer declared?",
+      "options": ["int ptr;", "int *ptr;", "pointer ptr;", "ptr int*;"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "What does a pointer store?",
+      "options": ["Character", "Integer", "Memory address", "String"],
+      "correct_option": 3
+    },
+    {
+      "id": 6,
+      "question": "What is a NULL pointer?",
+      "options": ["Pointer with value 1", "Pointer with no valid address", "Pointer to integer", "Pointer to character"],
+      "correct_option": 2
+    },
+    {
+      "id": 7,
+      "question": "Which header file defines NULL?",
+      "options": ["stdio.h", "stdlib.h", "stddef.h", "Any of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 8,
+      "question": "What is pointer arithmetic?",
+      "options": ["Operations on pointer addresses", "Operations on integers", "Operations on strings", "Operations on files"],
+      "correct_option": 1
+    },
+    {
+      "id": 9,
+      "question": "What happens when a pointer is incremented?",
+      "options": ["Moves to next memory location of its type", "Becomes NULL", "Deletes memory", "Creates memory"],
+      "correct_option": 1
+    },
+    {
+      "id": 10,
+      "question": "What is a void pointer?",
+      "options": ["Pointer to no data type", "Pointer to int only", "Pointer to char only", "Pointer to float only"],
+      "correct_option": 1
+    },
+    {
+      "id": 11,
+      "question": "Why is a void pointer called a generic pointer?",
+      "options": ["It can point to any data type", "It stores integers", "It stores strings", "It stores functions"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "What is a dangling pointer?",
+      "options": ["Pointer to freed memory", "Pointer to integer", "Pointer to array", "Pointer to function"],
+      "correct_option": 1
+    },
+    {
+      "id": 13,
+      "question": "What is a wild pointer?",
+      "options": ["Uninitialized pointer", "Pointer to array", "Pointer to structure", "NULL pointer"],
+      "correct_option": 1
+    },
+    {
+      "id": 14,
+      "question": "Which data structure heavily uses pointers?",
+      "options": ["Linked List", "Stack", "Queue", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 15,
+      "question": "What is a pointer to pointer?",
+      "options": ["Pointer storing another pointer's address", "Pointer storing data", "Pointer storing array", "Pointer storing string"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "question": "How is a pointer to pointer declared?",
+      "options": ["int *p;", "int **p;", "int ***p;", "pointer p;"],
+      "correct_option": 2
+    },
+    {
+      "id": 17,
+      "question": "Pointers are commonly used for?",
+      "options": ["Dynamic memory allocation", "Function arguments", "Data structures", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 18,
+      "question": "What is call by reference?",
+      "options": ["Passing addresses to functions", "Passing values to functions", "Calling recursively", "Calling libraries"],
+      "correct_option": 1
+    },
+    {
+      "id": 19,
+      "question": "Which symbol is used with structure pointers?",
+      "options": [".", "->", "::", ":"],
+      "correct_option": 2
+    },
+    {
+      "id": 20,
+      "question": "Why are pointers important?",
+      "options": ["Efficient memory access", "Dynamic memory management", "Advanced programming", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "A pointer stores the address of another variable.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "The & operator returns the value of a variable.",
+      "answer": false
+    },
+    {
+      "id": 3,
+      "statement": "The * operator can be used for dereferencing.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "A NULL pointer points to a valid memory location.",
+      "answer": false
+    },
+    {
+      "id": 5,
+      "statement": "Pointers are useful for dynamic memory allocation.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "A void pointer can point to any data type.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "A dangling pointer points to valid allocated memory.",
+      "answer": false
+    },
+    {
+      "id": 8,
+      "statement": "Pointer arithmetic is possible in C.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "Pointers can be passed to functions.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Pointers are widely used in linked lists.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "A pointer stores the ________ of another variable.",
+      "answer": "address"
+    },
+    {
+      "id": 2,
+      "question": "The ________ operator returns the address of a variable.",
+      "answer": "&"
+    },
+    {
+      "id": 3,
+      "question": "The ________ operator accesses the value stored at an address.",
+      "answer": "*"
+    },
+    {
+      "id": 4,
+      "question": "A pointer with no valid address is called a ________ pointer.",
+      "answer": "NULL"
+    },
+    {
+      "id": 5,
+      "question": "A ________ pointer can point to any data type.",
+      "answer": "void"
+    },
+    {
+      "id": 6,
+      "question": "A pointer pointing to freed memory is called a ________ pointer.",
+      "answer": "dangling"
+    },
+    {
+      "id": 7,
+      "question": "An uninitialized pointer is called a ________ pointer.",
+      "answer": "wild"
+    },
+    {
+      "id": 8,
+      "question": "Passing addresses to functions is called call by ________.",
+      "answer": "reference"
+    },
+    {
+      "id": 9,
+      "question": "Pointers are heavily used in dynamic memory ________.",
+      "answer": "allocation"
+    },
+    {
+      "id": 10,
+      "question": "The operator used with structure pointers is ________.",
+      "answer": "->"
+    }
+  ]
+}
