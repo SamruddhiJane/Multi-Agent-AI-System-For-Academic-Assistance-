@@ -1,0 +1,233 @@
+{
+  "chapter_number": 2,
+  "chapter_title": "Tokens, Keywords, Identifiers, Variables and Constants",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is the smallest individual unit in a C program?",
+      "options": ["Statement", "Token", "Function", "Variable"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a keyword in C?",
+      "options": ["main", "printf", "int", "value"],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "How many keywords are there in standard C?",
+      "options": ["32", "16", "64", "24"],
+      "correct_option": 1
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is a valid identifier?",
+      "options": ["2value", "_count", "float", "a-b"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "Identifiers are used to name?",
+      "options": ["Variables", "Functions", "Arrays", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 6,
+      "question": "Which character cannot be used in an identifier?",
+      "options": ["_", "A", "9", "-"],
+      "correct_option": 4
+    },
+    {
+      "id": 7,
+      "question": "A variable is used to?",
+      "options": ["Store data", "Display output", "Create loops", "Compile programs"],
+      "correct_option": 1
+    },
+    {
+      "id": 8,
+      "question": "Which keyword is used to declare an integer variable?",
+      "options": ["float", "char", "int", "double"],
+      "correct_option": 3
+    },
+    {
+      "id": 9,
+      "question": "What is a constant?",
+      "options": ["A value that changes", "A fixed value", "A variable", "An operator"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is an integer constant?",
+      "options": ["10", "3.14", "'A'", "\"Hello\""],
+      "correct_option": 1
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is a character constant?",
+      "options": ["100", "'A'", "\"A\"", "10.5"],
+      "correct_option": 2
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is a string constant?",
+      "options": ["'Hello'", "\"Hello\"", "Hello", "100"],
+      "correct_option": 2
+    },
+    {
+      "id": 13,
+      "question": "Keywords in C can be used as identifiers.",
+      "options": ["Always", "Sometimes", "Never", "Only in functions"],
+      "correct_option": 3
+    },
+    {
+      "id": 14,
+      "question": "Which token represents an operation?",
+      "options": ["Identifier", "Keyword", "Operator", "Constant"],
+      "correct_option": 3
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is an operator?",
+      "options": ["+", "main", "int", "100"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "question": "Variable names are case sensitive in C.",
+      "options": ["True", "False", "Sometimes", "Compiler dependent"],
+      "correct_option": 1
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is invalid?",
+      "options": ["count1", "_temp", "float", "student"],
+      "correct_option": 3
+    },
+    {
+      "id": 18,
+      "question": "A token can be?",
+      "options": ["Keyword", "Identifier", "Constant", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 19,
+      "question": "Which symbol is commonly used in identifiers?",
+      "options": ["#", "_", "@", "%"],
+      "correct_option": 2
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of variables?",
+      "options": ["Store data temporarily", "Compile code", "Print output", "Create functions"],
+      "correct_option": 1
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "Keywords have predefined meanings in C.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "Identifiers can start with a number.",
+      "answer": false
+    },
+    {
+      "id": 3,
+      "statement": "Variables are used to store data.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "Constants can change during program execution.",
+      "answer": false
+    },
+    {
+      "id": 5,
+      "statement": "Keywords can be used as variable names.",
+      "answer": false
+    },
+    {
+      "id": 6,
+      "statement": "C identifiers are case sensitive.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "Operators are considered tokens in C.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "A string constant is enclosed in double quotes.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "A variable can store different values during execution.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "An identifier may contain underscores.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "The smallest unit of a C program is called a ________.",
+      "answer": "token"
+    },
+    {
+      "id": 2,
+      "question": "Keywords have predefined ________ in C.",
+      "answer": "meanings"
+    },
+    {
+      "id": 3,
+      "question": "A ________ is used to store data in memory.",
+      "answer": "variable"
+    },
+    {
+      "id": 4,
+      "question": "A value that does not change is called a ________.",
+      "answer": "constant"
+    },
+    {
+      "id": 5,
+      "question": "Identifiers cannot start with a ________.",
+      "answer": "digit"
+    },
+    {
+      "id": 6,
+      "question": "String constants are enclosed in ________ quotes.",
+      "answer": "double"
+    },
+    {
+      "id": 7,
+      "question": "Character constants are enclosed in ________ quotes.",
+      "answer": "single"
+    },
+    {
+      "id": 8,
+      "question": "The keyword used for integer variables is ________.",
+      "answer": "int"
+    },
+    {
+      "id": 9,
+      "question": "Variable names are ________ sensitive in C.",
+      "answer": "case"
+    },
+    {
+      "id": 10,
+      "question": "Operators are also considered ________ in C.",
+      "answer": "tokens"
+    }
+  ]
+}
