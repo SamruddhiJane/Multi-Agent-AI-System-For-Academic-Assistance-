@@ -1,0 +1,233 @@
+{
+  "chapter_number": 4,
+  "chapter_title": "Input and Output Functions",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "Which function is used to display output in C?",
+      "options": ["scanf()", "printf()", "gets()", "putchar()"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which function is used to take input from the user?",
+      "options": ["printf()", "puts()", "scanf()", "putchar()"],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "Which header file contains printf() and scanf()?",
+      "options": ["math.h", "string.h", "stdio.h", "stdlib.h"],
+      "correct_option": 3
+    },
+    {
+      "id": 4,
+      "question": "What is the purpose of printf()?",
+      "options": ["Read data", "Display formatted output", "Store data", "Compile code"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of scanf()?",
+      "options": ["Display output", "Read formatted input", "Delete data", "Open files"],
+      "correct_option": 2
+    },
+    {
+      "id": 6,
+      "question": "Which format specifier is used for integers?",
+      "options": ["%f", "%c", "%d", "%s"],
+      "correct_option": 3
+    },
+    {
+      "id": 7,
+      "question": "Which format specifier is used for float values?",
+      "options": ["%d", "%f", "%c", "%s"],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "question": "Which format specifier is used for characters?",
+      "options": ["%c", "%d", "%f", "%s"],
+      "correct_option": 1
+    },
+    {
+      "id": 9,
+      "question": "Which format specifier is used for strings?",
+      "options": ["%f", "%s", "%c", "%d"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "Which operator is used with scanf() to read variable values?",
+      "options": ["*", "&", "%", "#"],
+      "correct_option": 2
+    },
+    {
+      "id": 11,
+      "question": "What does getchar() do?",
+      "options": ["Reads a character", "Prints a character", "Reads a string", "Prints a string"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "What does putchar() do?",
+      "options": ["Reads a character", "Prints a character", "Reads a string", "Stores a character"],
+      "correct_option": 2
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of gets()?",
+      "options": ["Read a string", "Display a string", "Read an integer", "Display an integer"],
+      "correct_option": 1
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of puts()?",
+      "options": ["Display a string", "Read a string", "Display a character", "Read a character"],
+      "correct_option": 1
+    },
+    {
+      "id": 15,
+      "question": "Which function displays a string followed by a newline?",
+      "options": ["printf()", "puts()", "scanf()", "getchar()"],
+      "correct_option": 2
+    },
+    {
+      "id": 16,
+      "question": "Which function reads a single character from the keyboard?",
+      "options": ["scanf()", "getchar()", "printf()", "puts()"],
+      "correct_option": 2
+    },
+    {
+      "id": 17,
+      "question": "Which function displays a single character?",
+      "options": ["putchar()", "scanf()", "gets()", "printf()"],
+      "correct_option": 1
+    },
+    {
+      "id": 18,
+      "question": "What type of output does printf() provide?",
+      "options": ["Formatted", "Unformatted", "Binary", "Machine"],
+      "correct_option": 1
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is an input function?",
+      "options": ["printf()", "puts()", "scanf()", "putchar()"],
+      "correct_option": 3
+    },
+    {
+      "id": 20,
+      "question": "Why are input/output functions important?",
+      "options": ["User interaction", "Data processing", "Communication", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "printf() is used to display output.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "scanf() is used to take input from the user.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "%d is used for floating-point values.",
+      "answer": false
+    },
+    {
+      "id": 4,
+      "statement": "getchar() reads a single character.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "putchar() displays a character.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "puts() is used to display strings.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "scanf() does not require the address operator.",
+      "answer": false
+    },
+    {
+      "id": 8,
+      "statement": "%s is used for strings.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "stdio.h contains input/output functions.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Input and output functions enable user interaction.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "The function used to display output is ________.",
+      "answer": "printf"
+    },
+    {
+      "id": 2,
+      "question": "The function used to take input is ________.",
+      "answer": "scanf"
+    },
+    {
+      "id": 3,
+      "question": "The format specifier for integers is ________.",
+      "answer": "%d"
+    },
+    {
+      "id": 4,
+      "question": "The format specifier for floating-point numbers is ________.",
+      "answer": "%f"
+    },
+    {
+      "id": 5,
+      "question": "The format specifier for characters is ________.",
+      "answer": "%c"
+    },
+    {
+      "id": 6,
+      "question": "The format specifier for strings is ________.",
+      "answer": "%s"
+    },
+    {
+      "id": 7,
+      "question": "The header file for standard input/output functions is ________.",
+      "answer": "stdio.h"
+    },
+    {
+      "id": 8,
+      "question": "The function used to read a single character is ________.",
+      "answer": "getchar"
+    },
+    {
+      "id": 9,
+      "question": "The function used to display a single character is ________.",
+      "answer": "putchar"
+    },
+    {
+      "id": 10,
+      "question": "The ________ operator is used with scanf() to access variable addresses.",
+      "answer": "&"
+    }
+  ]
+}
