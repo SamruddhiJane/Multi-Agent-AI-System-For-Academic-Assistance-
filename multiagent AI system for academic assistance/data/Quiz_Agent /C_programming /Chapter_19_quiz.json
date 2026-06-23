@@ -1,0 +1,233 @@
+{
+  "chapter_number": 19,
+  "chapter_title": "Bitwise Operators",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "Bitwise operators work on?",
+      "options": ["Decimal values", "Binary representation of numbers", "Strings", "Characters only"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which bitwise operator performs AND operation?",
+      "options": ["|", "&", "^", "~"],
+      "correct_option": 2
+    },
+    {
+      "id": 3,
+      "question": "Which bitwise operator performs OR operation?",
+      "options": ["&", "^", "|", "~"],
+      "correct_option": 3
+    },
+    {
+      "id": 4,
+      "question": "Which bitwise operator performs XOR operation?",
+      "options": ["|", "&", "^", "~"],
+      "correct_option": 3
+    },
+    {
+      "id": 5,
+      "question": "Which bitwise operator is known as one's complement?",
+      "options": ["~", "&", "|", "^"],
+      "correct_option": 1
+    },
+    {
+      "id": 6,
+      "question": "Which operator shifts bits to the left?",
+      "options": [">>", "<<", "&", "^"],
+      "correct_option": 2
+    },
+    {
+      "id": 7,
+      "question": "Which operator shifts bits to the right?",
+      "options": ["<<", ">>", "|", "~"],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "question": "What is the result of 5 & 3?",
+      "options": ["1", "2", "3", "5"],
+      "correct_option": 1
+    },
+    {
+      "id": 9,
+      "question": "What is the result of 5 | 3?",
+      "options": ["7", "6", "5", "4"],
+      "correct_option": 1
+    },
+    {
+      "id": 10,
+      "question": "What is the result of 5 ^ 3?",
+      "options": ["6", "7", "5", "2"],
+      "correct_option": 1
+    },
+    {
+      "id": 11,
+      "question": "Bitwise operators are mainly used for?",
+      "options": ["Low-level programming", "Embedded systems", "Performance optimization", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 12,
+      "question": "What happens when a number is left-shifted by one position?",
+      "options": ["Divided by 2", "Multiplied by 2", "Becomes zero", "Unchanged"],
+      "correct_option": 2
+    },
+    {
+      "id": 13,
+      "question": "What happens when a positive number is right-shifted by one position?",
+      "options": ["Multiplied by 2", "Divided by 2", "Becomes zero", "Unchanged"],
+      "correct_option": 2
+    },
+    {
+      "id": 14,
+      "question": "Which operator toggles bits?",
+      "options": ["^", "|", "&", "<<"],
+      "correct_option": 1
+    },
+    {
+      "id": 15,
+      "question": "Which operator can be used to set specific bits?",
+      "options": ["|", "&", "~", ">>"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "question": "Which operator can be used to clear specific bits?",
+      "options": ["&", "|", "^", "<<"],
+      "correct_option": 1
+    },
+    {
+      "id": 17,
+      "question": "Bitwise operations are performed at the ______ level.",
+      "options": ["Character", "Bit", "String", "Array"],
+      "correct_option": 2
+    },
+    {
+      "id": 18,
+      "question": "Which bitwise operator has only one operand?",
+      "options": ["&", "|", "^", "~"],
+      "correct_option": 4
+    },
+    {
+      "id": 19,
+      "question": "Bitwise operators are faster because they work directly on?",
+      "options": ["Files", "Bits", "Strings", "Functions"],
+      "correct_option": 2
+    },
+    {
+      "id": 20,
+      "question": "Bitwise operators are commonly used in?",
+      "options": ["Device drivers", "Networking", "Embedded systems", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "Bitwise operators work on binary values.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "& is the bitwise AND operator.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "| is the bitwise XOR operator.",
+      "answer": false
+    },
+    {
+      "id": 4,
+      "statement": "~ is a unary operator.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "<< shifts bits to the left.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": ">> shifts bits to the right.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "Bitwise operators are useful in embedded systems.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "A left shift by one position generally multiplies a number by 2.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "A right shift by one position generally divides a positive number by 2.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Bitwise operations are performed on strings.",
+      "answer": false
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "Bitwise operators work on ________ representations of numbers.",
+      "answer": "binary"
+    },
+    {
+      "id": 2,
+      "question": "The bitwise AND operator is ________.",
+      "answer": "&"
+    },
+    {
+      "id": 3,
+      "question": "The bitwise OR operator is ________.",
+      "answer": "|"
+    },
+    {
+      "id": 4,
+      "question": "The bitwise XOR operator is ________.",
+      "answer": "^"
+    },
+    {
+      "id": 5,
+      "question": "The one's complement operator is ________.",
+      "answer": "~"
+    },
+    {
+      "id": 6,
+      "question": "The left shift operator is ________.",
+      "answer": "<<"
+    },
+    {
+      "id": 7,
+      "question": "The right shift operator is ________.",
+      "answer": ">>"
+    },
+    {
+      "id": 8,
+      "question": "Bitwise operations are performed at the ________ level.",
+      "answer": "bit"
+    },
+    {
+      "id": 9,
+      "question": "A left shift by one position usually multiplies a number by ________.",
+      "answer": "2"
+    },
+    {
+      "id": 10,
+      "question": "Bitwise operators are commonly used in ________ systems.",
+      "answer": "embedded"
+    }
+  ]
+}
