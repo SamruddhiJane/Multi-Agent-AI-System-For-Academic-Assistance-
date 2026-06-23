@@ -1,0 +1,156 @@
+{
+  "chapter_number": 10,
+  "chapter_title": "Functions in C",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is a function in C?",
+      "answer": "A function is a self-contained block of code that performs a specific task."
+    },
+    {
+      "id": 2,
+      "question": "Why are functions used in C?",
+      "answer": "Functions help reduce code repetition and improve program modularity."
+    },
+    {
+      "id": 3,
+      "question": "What are the advantages of functions?",
+      "answer": "Code reusability, modularity, easier debugging, and better readability."
+    },
+    {
+      "id": 4,
+      "question": "What is a function declaration?",
+      "answer": "A function declaration informs the compiler about the function name, return type, and parameters."
+    },
+    {
+      "id": 5,
+      "question": "What is another name for a function declaration?",
+      "answer": "Function prototype."
+    },
+    {
+      "id": 6,
+      "question": "What is a function definition?",
+      "answer": "A function definition contains the actual body and implementation of the function."
+    },
+    {
+      "id": 7,
+      "question": "What is a function call?",
+      "answer": "A function call invokes or executes a function."
+    },
+    {
+      "id": 8,
+      "question": "What is the general syntax of a function?",
+      "answer": "return_type function_name(parameters) { statements; }"
+    },
+    {
+      "id": 9,
+      "question": "What is the return type of a function?",
+      "answer": "The return type specifies the type of value returned by the function."
+    },
+    {
+      "id": 10,
+      "question": "What does a void function return?",
+      "answer": "A void function does not return any value."
+    },
+    {
+      "id": 11,
+      "question": "What are function parameters?",
+      "answer": "Parameters are variables used to receive values passed to a function."
+    },
+    {
+      "id": 12,
+      "question": "What are actual parameters?",
+      "answer": "Actual parameters are values supplied during a function call."
+    },
+    {
+      "id": 13,
+      "question": "What are formal parameters?",
+      "answer": "Formal parameters are variables declared in the function definition."
+    },
+    {
+      "id": 14,
+      "question": "What are library functions?",
+      "answer": "Library functions are predefined functions provided by C libraries."
+    },
+    {
+      "id": 15,
+      "question": "Give examples of library functions.",
+      "answer": "printf(), scanf(), strlen(), sqrt(), and strcpy()."
+    },
+    {
+      "id": 16,
+      "question": "What are user-defined functions?",
+      "answer": "Functions created by programmers according to application requirements."
+    },
+    {
+      "id": 17,
+      "question": "What is a function with no arguments and no return value?",
+      "answer": "A function that neither accepts parameters nor returns a value."
+    },
+    {
+      "id": 18,
+      "question": "What is a function with arguments and no return value?",
+      "answer": "A function that accepts parameters but does not return a value."
+    },
+    {
+      "id": 19,
+      "question": "What is a function with no arguments but a return value?",
+      "answer": "A function that returns a value but does not accept parameters."
+    },
+    {
+      "id": 20,
+      "question": "What is a function with arguments and a return value?",
+      "answer": "A function that accepts parameters and returns a value."
+    },
+    {
+      "id": 21,
+      "question": "What is call by value?",
+      "answer": "In call by value, copies of actual arguments are passed to the function."
+    },
+    {
+      "id": 22,
+      "question": "What happens to original variables in call by value?",
+      "answer": "The original variables remain unchanged."
+    },
+    {
+      "id": 23,
+      "question": "What is call by reference?",
+      "answer": "In call by reference, memory addresses of variables are passed to the function."
+    },
+    {
+      "id": 24,
+      "question": "What is the benefit of call by reference?",
+      "answer": "It allows modification of original variables."
+    },
+    {
+      "id": 25,
+      "question": "What is function nesting?",
+      "answer": "Function nesting refers to calling one function from another function."
+    },
+    {
+      "id": 26,
+      "question": "Can a function call itself?",
+      "answer": "Yes, through recursion."
+    },
+    {
+      "id": 27,
+      "question": "How do functions improve program design?",
+      "answer": "They divide large programs into smaller manageable modules."
+    },
+    {
+      "id": 28,
+      "question": "Where are functions commonly used?",
+      "answer": "Functions are used in almost all software applications to organize code."
+    },
+    {
+      "id": 29,
+      "question": "Why are functions important in C programming?",
+      "answer": "Functions improve code reuse, maintainability, and readability."
+    },
+    {
+      "id": 30,
+      "question": "What is the main purpose of functions?",
+      "answer": "The main purpose of functions is to perform specific tasks efficiently and avoid code duplication."
+    }
+  ]
+}
