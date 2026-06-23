@@ -1,0 +1,233 @@
+{
+  "chapter_number": 10,
+  "chapter_title": "Functions in C",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is a function in C?",
+      "options": ["A variable", "A block of code that performs a specific task", "An operator", "A constant"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Why are functions used in C?",
+      "options": ["To reduce code repetition", "To improve modularity", "To make programs easier to maintain", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 3,
+      "question": "Which function is the entry point of a C program?",
+      "options": ["start()", "main()", "run()", "init()"],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "Which keyword is used when a function returns no value?",
+      "options": ["null", "empty", "void", "return"],
+      "correct_option": 3
+    },
+    {
+      "id": 5,
+      "question": "What is a function declaration?",
+      "options": ["Calling a function", "Executing a function", "Informing the compiler about a function", "Deleting a function"],
+      "correct_option": 3
+    },
+    {
+      "id": 6,
+      "question": "What is another name for a function declaration?",
+      "options": ["Prototype", "Definition", "Call", "Argument"],
+      "correct_option": 1
+    },
+    {
+      "id": 7,
+      "question": "What is a function definition?",
+      "options": ["Function execution", "Actual implementation of the function", "Function call", "Function prototype"],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "question": "What is a function call?",
+      "options": ["Defining a function", "Executing a function", "Declaring a function", "Deleting a function"],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "question": "Which statement is used to return a value from a function?",
+      "options": ["break", "continue", "return", "exit"],
+      "correct_option": 3
+    },
+    {
+      "id": 10,
+      "question": "What are function parameters?",
+      "options": ["Values received by a function", "Variables outside a function", "Operators", "Keywords"],
+      "correct_option": 1
+    },
+    {
+      "id": 11,
+      "question": "What are arguments in a function call?",
+      "options": ["Values passed to a function", "Function names", "Variables inside a function", "Return values"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "Which type of function is provided by C libraries?",
+      "options": ["User-defined", "Library function", "Recursive", "Nested"],
+      "correct_option": 2
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is a library function?",
+      "options": ["main()", "sum()", "printf()", "display()"],
+      "correct_option": 3
+    },
+    {
+      "id": 14,
+      "question": "Which type of function is created by the programmer?",
+      "options": ["Library function", "User-defined function", "Built-in function", "Recursive function"],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "What is recursion?",
+      "options": ["Looping", "A function calling itself", "Function declaration", "Function deletion"],
+      "correct_option": 2
+    },
+    {
+      "id": 16,
+      "question": "What is required in every recursive function?",
+      "options": ["Loop", "Base condition", "Switch statement", "Goto statement"],
+      "correct_option": 2
+    },
+    {
+      "id": 17,
+      "question": "Functions improve program?",
+      "options": ["Readability", "Reusability", "Maintainability", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 18,
+      "question": "How many values can a function return directly in C?",
+      "options": ["One", "Two", "Three", "Unlimited"],
+      "correct_option": 1
+    },
+    {
+      "id": 19,
+      "question": "Which keyword ends function execution and returns control to the caller?",
+      "options": ["break", "continue", "return", "goto"],
+      "correct_option": 3
+    },
+    {
+      "id": 20,
+      "question": "Functions help in creating ______ programs.",
+      "options": ["Modular", "Unstructured", "Random", "Complex"],
+      "correct_option": 1
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "A function is a block of code that performs a specific task.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "main() is a user-defined function by default.",
+      "answer": false
+    },
+    {
+      "id": 3,
+      "statement": "Function prototypes inform the compiler about functions.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "A function can call another function.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "printf() is a library function.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "Recursion means a function calls itself.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "A recursive function does not need a base condition.",
+      "answer": false
+    },
+    {
+      "id": 8,
+      "statement": "Functions help reduce code duplication.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "A function may return a value using return.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Functions improve program readability.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "A ________ is a block of code that performs a specific task.",
+      "answer": "function"
+    },
+    {
+      "id": 2,
+      "question": "The entry point of a C program is the ________ function.",
+      "answer": "main"
+    },
+    {
+      "id": 3,
+      "question": "A function declaration is also called a function ________.",
+      "answer": "prototype"
+    },
+    {
+      "id": 4,
+      "question": "The actual implementation of a function is called its ________.",
+      "answer": "definition"
+    },
+    {
+      "id": 5,
+      "question": "Values passed to a function are called ________.",
+      "answer": "arguments"
+    },
+    {
+      "id": 6,
+      "question": "Values received by a function are called ________.",
+      "answer": "parameters"
+    },
+    {
+      "id": 7,
+      "question": "The ________ statement returns a value from a function.",
+      "answer": "return"
+    },
+    {
+      "id": 8,
+      "question": "A function calling itself is known as ________.",
+      "answer": "recursion"
+    },
+    {
+      "id": 9,
+      "question": "Every recursive function must have a ________ condition.",
+      "answer": "base"
+    },
+    {
+      "id": 10,
+      "question": "Functions improve code ________ and reusability.",
+      "answer": "modularity"
+    }
+  ]
+}
