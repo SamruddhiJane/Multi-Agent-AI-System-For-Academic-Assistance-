@@ -1,0 +1,233 @@
+{
+  "chapter_number": 16,
+  "chapter_title": "Dynamic Memory Allocation",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is dynamic memory allocation?",
+      "options": ["Memory allocation at compile time", "Memory allocation during program execution", "Memory allocation by compiler only", "Memory allocation for constants"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which header file is required for dynamic memory allocation functions?",
+      "options": ["stdio.h", "string.h", "stdlib.h", "math.h"],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "Which function is used to allocate a block of memory?",
+      "options": ["calloc()", "malloc()", "realloc()", "free()"],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "What does malloc() return?",
+      "options": ["Integer", "Pointer to allocated memory", "Character", "Array"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "What is the full form of malloc?",
+      "options": ["Memory Allocation", "Memory Allocate", "Memory Allocation Function", "Memory Allocate Logic"],
+      "correct_option": 1
+    },
+    {
+      "id": 6,
+      "question": "Which function allocates memory and initializes it to zero?",
+      "options": ["malloc()", "realloc()", "calloc()", "free()"],
+      "correct_option": 3
+    },
+    {
+      "id": 7,
+      "question": "What is the full form of calloc?",
+      "options": ["Contiguous Allocation", "Clear Allocation", "Constant Allocation", "Central Allocation"],
+      "correct_option": 1
+    },
+    {
+      "id": 8,
+      "question": "Which function changes the size of previously allocated memory?",
+      "options": ["malloc()", "calloc()", "realloc()", "free()"],
+      "correct_option": 3
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of realloc()?",
+      "options": ["Release memory", "Resize allocated memory", "Initialize memory", "Copy memory"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "Which function releases dynamically allocated memory?",
+      "options": ["malloc()", "calloc()", "realloc()", "free()"],
+      "correct_option": 4
+    },
+    {
+      "id": 11,
+      "question": "Why is free() important?",
+      "options": ["Prevents memory leaks", "Allocates memory", "Creates arrays", "Defines pointers"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "Where is dynamically allocated memory stored?",
+      "options": ["Stack", "Heap", "Register", "Code segment"],
+      "correct_option": 2
+    },
+    {
+      "id": 13,
+      "question": "What happens if allocated memory is not freed?",
+      "options": ["Compilation error", "Memory leak", "Syntax error", "Program termination"],
+      "correct_option": 2
+    },
+    {
+      "id": 14,
+      "question": "What value does malloc() return if allocation fails?",
+      "options": ["0", "NULL", "-1", "1"],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "Which function can allocate memory for multiple elements?",
+      "options": ["malloc()", "calloc()", "Both malloc() and calloc()", "free()"],
+      "correct_option": 3
+    },
+    {
+      "id": 16,
+      "question": "What should be checked after calling malloc()?",
+      "options": ["Pointer value", "Compiler version", "Function name", "Variable name"],
+      "correct_option": 1
+    },
+    {
+      "id": 17,
+      "question": "Dynamic memory allocation provides?",
+      "options": ["Flexibility", "Efficient memory usage", "Runtime memory management", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 18,
+      "question": "Which memory allocation function initializes memory to zero?",
+      "options": ["malloc()", "calloc()", "realloc()", "free()"],
+      "correct_option": 2
+    },
+    {
+      "id": 19,
+      "question": "Which function can both expand and shrink memory?",
+      "options": ["malloc()", "calloc()", "realloc()", "free()"],
+      "correct_option": 3
+    },
+    {
+      "id": 20,
+      "question": "Dynamic memory allocation is managed using?",
+      "options": ["Pointers", "Loops", "Arrays only", "Structures only"],
+      "correct_option": 1
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "malloc() allocates memory during runtime.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "calloc() initializes allocated memory to zero.",
+      "answer": true
+    },
+    {
+      "id": 3,
+      "statement": "free() is used to release allocated memory.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "Dynamic memory is allocated on the heap.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "malloc() automatically initializes memory to zero.",
+      "answer": false
+    },
+    {
+      "id": 6,
+      "statement": "realloc() changes the size of allocated memory.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "Memory leaks occur when allocated memory is not freed.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "malloc() returns NULL when allocation fails.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "Dynamic memory allocation requires pointers.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "free() allocates memory.",
+      "answer": false
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "Dynamic memory allocation occurs during program ________.",
+      "answer": "execution"
+    },
+    {
+      "id": 2,
+      "question": "The function used to allocate memory is ________.",
+      "answer": "malloc"
+    },
+    {
+      "id": 3,
+      "question": "The function used to allocate and initialize memory to zero is ________.",
+      "answer": "calloc"
+    },
+    {
+      "id": 4,
+      "question": "The function used to resize memory is ________.",
+      "answer": "realloc"
+    },
+    {
+      "id": 5,
+      "question": "The function used to release memory is ________.",
+      "answer": "free"
+    },
+    {
+      "id": 6,
+      "question": "Dynamic memory is allocated on the ________.",
+      "answer": "heap"
+    },
+    {
+      "id": 7,
+      "question": "If memory allocation fails, malloc() returns ________.",
+      "answer": "NULL"
+    },
+    {
+      "id": 8,
+      "question": "Failure to free memory results in a memory ________.",
+      "answer": "leak"
+    },
+    {
+      "id": 9,
+      "question": "Dynamic memory allocation is managed using ________.",
+      "answer": "pointers"
+    },
+    {
+      "id": 10,
+      "question": "The header file required for memory allocation functions is ________.",
+      "answer": "stdlib.h"
+    }
+  ]
+}
