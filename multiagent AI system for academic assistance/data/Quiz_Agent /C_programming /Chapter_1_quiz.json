@@ -1,0 +1,233 @@
+{
+  "chapter_number": 1,
+  "chapter_title": "Introduction to C Programming",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "Who developed the C programming language?",
+      "options": ["James Gosling", "Dennis Ritchie", "Bjarne Stroustrup", "Guido van Rossum"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "In which year was C developed?",
+      "options": ["1969", "1972", "1985", "1991"],
+      "correct_option": 2
+    },
+    {
+      "id": 3,
+      "question": "At which organization was C developed?",
+      "options": ["Microsoft", "Bell Labs", "IBM", "Google"],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "C language was primarily developed from which language?",
+      "options": ["Java", "B", "Python", "Pascal"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "C is a _____ programming language.",
+      "options": ["High-level", "Low-level", "Middle-level", "Machine-level"],
+      "correct_option": 3
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a feature of C?",
+      "options": ["Portability", "Object-oriented only", "Automatic memory management", "Platform dependent"],
+      "correct_option": 1
+    },
+    {
+      "id": 7,
+      "question": "Which symbol is used to end a statement in C?",
+      "options": [":", ".", ";", ","],
+      "correct_option": 3
+    },
+    {
+      "id": 8,
+      "question": "Which function is the entry point of a C program?",
+      "options": ["start()", "main()", "begin()", "run()"],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "question": "Which header file is required for printf()?",
+      "options": ["math.h", "string.h", "stdio.h", "stdlib.h"],
+      "correct_option": 3
+    },
+    {
+      "id": 10,
+      "question": "C programs are converted into machine code by a?",
+      "options": ["Editor", "Compiler", "Debugger", "Loader"],
+      "correct_option": 2
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is not a characteristic of C?",
+      "options": ["Efficient", "Portable", "Slow execution", "Structured"],
+      "correct_option": 3
+    },
+    {
+      "id": 12,
+      "question": "C is widely used for?",
+      "options": ["System programming", "Operating systems", "Embedded systems", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is a valid C program component?",
+      "options": ["Functions", "Variables", "Statements", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 14,
+      "question": "A C program is executed after?",
+      "options": ["Compilation", "Interpretation", "Translation", "Encoding"],
+      "correct_option": 1
+    },
+    {
+      "id": 15,
+      "question": "Which language is known as the mother of many modern languages?",
+      "options": ["Java", "Python", "C", "Ruby"],
+      "correct_option": 3
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is an advantage of C?",
+      "options": ["Fast execution", "Portability", "Flexibility", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 17,
+      "question": "C supports which programming paradigm?",
+      "options": ["Procedural", "Structured", "Modular", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 18,
+      "question": "Which tool is used to write C code?",
+      "options": ["Compiler", "Editor", "Debugger", "Assembler"],
+      "correct_option": 2
+    },
+    {
+      "id": 19,
+      "question": "Which file extension is commonly used for C source files?",
+      "options": [".java", ".cpp", ".c", ".py"],
+      "correct_option": 3
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is a valid use of C?",
+      "options": ["Operating systems", "Compilers", "Embedded systems", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "C was developed by Dennis Ritchie.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "C is an interpreted language.",
+      "answer": false
+    },
+    {
+      "id": 3,
+      "statement": "Bell Labs played a role in the development of C.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "main() is the starting point of a C program.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "C programs do not require compilation.",
+      "answer": false
+    },
+    {
+      "id": 6,
+      "statement": "C is a portable language.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "C supports structured programming.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "Every statement in C ends with a semicolon.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "Python was developed before C.",
+      "answer": false
+    },
+    {
+      "id": 10,
+      "statement": "C is commonly used in system programming.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "C language was developed by ________.",
+      "answer": "Dennis Ritchie"
+    },
+    {
+      "id": 2,
+      "question": "C was developed at ________ Labs.",
+      "answer": "Bell"
+    },
+    {
+      "id": 3,
+      "question": "The entry point of a C program is the ________ function.",
+      "answer": "main"
+    },
+    {
+      "id": 4,
+      "question": "C source files generally use the extension ________.",
+      "answer": ".c"
+    },
+    {
+      "id": 5,
+      "question": "The header file used for printf() is ________.",
+      "answer": "stdio.h"
+    },
+    {
+      "id": 6,
+      "question": "C is a ________ programming language.",
+      "answer": "middle-level"
+    },
+    {
+      "id": 7,
+      "question": "A C program must be ________ before execution.",
+      "answer": "compiled"
+    },
+    {
+      "id": 8,
+      "question": "The predecessor of C language is ________ language.",
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "C supports ________ programming.",
+      "answer": "structured"
+    },
+    {
+      "id": 10,
+      "question": "Statements in C usually end with a ________.",
+      "answer": "semicolon"
+    }
+  ]
+}
