@@ -1,0 +1,156 @@
+{
+  "chapter_number": 23,
+  "chapter_title": "Graphs",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is a graph in data structures?",
+      "answer": "A graph is a non-linear data structure consisting of vertices (nodes) and edges connecting them."
+    },
+    {
+      "id": 2,
+      "question": "Why are graphs used?",
+      "answer": "Graphs are used to represent relationships and connections between entities."
+    },
+    {
+      "id": 3,
+      "question": "What are the main components of a graph?",
+      "answer": "Vertices (nodes) and edges."
+    },
+    {
+      "id": 4,
+      "question": "What is a vertex in a graph?",
+      "answer": "A vertex is a node that represents an entity in a graph."
+    },
+    {
+      "id": 5,
+      "question": "What is an edge in a graph?",
+      "answer": "An edge is a connection between two vertices."
+    },
+    {
+      "id": 6,
+      "question": "What is a directed graph?",
+      "answer": "A directed graph is a graph in which edges have a specific direction."
+    },
+    {
+      "id": 7,
+      "question": "What is an undirected graph?",
+      "answer": "An undirected graph is a graph in which edges do not have a direction."
+    },
+    {
+      "id": 8,
+      "question": "What is a weighted graph?",
+      "answer": "A weighted graph is a graph in which edges have associated weights or costs."
+    },
+    {
+      "id": 9,
+      "question": "What is an unweighted graph?",
+      "answer": "An unweighted graph is a graph whose edges do not have weights."
+    },
+    {
+      "id": 10,
+      "question": "What is the degree of a vertex?",
+      "answer": "The degree of a vertex is the number of edges connected to it."
+    },
+    {
+      "id": 11,
+      "question": "What is indegree in a directed graph?",
+      "answer": "Indegree is the number of incoming edges to a vertex."
+    },
+    {
+      "id": 12,
+      "question": "What is outdegree in a directed graph?",
+      "answer": "Outdegree is the number of outgoing edges from a vertex."
+    },
+    {
+      "id": 13,
+      "question": "What is a path in a graph?",
+      "answer": "A path is a sequence of vertices connected by edges."
+    },
+    {
+      "id": 14,
+      "question": "What is a cycle in a graph?",
+      "answer": "A cycle is a path that starts and ends at the same vertex."
+    },
+    {
+      "id": 15,
+      "question": "What is a connected graph?",
+      "answer": "A connected graph is a graph in which a path exists between every pair of vertices."
+    },
+    {
+      "id": 16,
+      "question": "What is a disconnected graph?",
+      "answer": "A disconnected graph contains at least one pair of vertices that are not connected by a path."
+    },
+    {
+      "id": 17,
+      "question": "What is graph traversal?",
+      "answer": "Graph traversal is the process of visiting all vertices of a graph."
+    },
+    {
+      "id": 18,
+      "question": "What are the main graph traversal techniques?",
+      "answer": "Breadth First Search (BFS) and Depth First Search (DFS)."
+    },
+    {
+      "id": 19,
+      "question": "What is Breadth First Search (BFS)?",
+      "answer": "BFS explores vertices level by level using a queue."
+    },
+    {
+      "id": 20,
+      "question": "What is Depth First Search (DFS)?",
+      "answer": "DFS explores vertices as deeply as possible before backtracking."
+    },
+    {
+      "id": 21,
+      "question": "Which data structure is used in BFS?",
+      "answer": "A queue is used in BFS."
+    },
+    {
+      "id": 22,
+      "question": "Which data structure is used in DFS?",
+      "answer": "A stack or recursion is used in DFS."
+    },
+    {
+      "id": 23,
+      "question": "What is an adjacency matrix?",
+      "answer": "An adjacency matrix is a 2D array used to represent graph connections."
+    },
+    {
+      "id": 24,
+      "question": "What is an adjacency list?",
+      "answer": "An adjacency list is a collection of linked lists used to represent graph connections."
+    },
+    {
+      "id": 25,
+      "question": "What are the advantages of graphs?",
+      "answer": "Graphs effectively model complex relationships and networks."
+    },
+    {
+      "id": 26,
+      "question": "What are the applications of graphs?",
+      "answer": "Social networks, computer networks, maps, transportation systems, and recommendation systems."
+    },
+    {
+      "id": 27,
+      "question": "How are graphs used in social networks?",
+      "answer": "Users are represented as vertices and friendships are represented as edges."
+    },
+    {
+      "id": 28,
+      "question": "Why are graphs important in computer science?",
+      "answer": "Graphs help solve connectivity, routing, and relationship-based problems."
+    },
+    {
+      "id": 29,
+      "question": "What is the difference between a tree and a graph?",
+      "answer": "A tree is a special type of graph with no cycles and a hierarchical structure."
+    },
+    {
+      "id": 30,
+      "question": "What is the main purpose of graphs?",
+      "answer": "The main purpose of graphs is to represent and analyze relationships between interconnected entities."
+    }
+  ]
+}
