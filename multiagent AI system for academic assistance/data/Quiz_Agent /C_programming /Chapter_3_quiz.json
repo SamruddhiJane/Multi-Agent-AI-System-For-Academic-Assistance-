@@ -1,0 +1,233 @@
+{
+  "chapter_number": 3,
+  "chapter_title": "Data Types",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is a data type in C?",
+      "options": ["A variable", "A function", "A classification of data", "An operator"],
+      "correct_option": 3
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is an integer data type?",
+      "options": ["float", "char", "int", "double"],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "Which data type is used to store a single character?",
+      "options": ["int", "char", "float", "double"],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "question": "Which data type is used to store decimal values?",
+      "options": ["char", "int", "float", "void"],
+      "correct_option": 3
+    },
+    {
+      "id": 5,
+      "question": "Which data type provides higher precision than float?",
+      "options": ["char", "double", "int", "short"],
+      "correct_option": 2
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of the void data type?",
+      "options": ["Stores integers", "Stores characters", "Represents no value", "Stores decimals"],
+      "correct_option": 3
+    },
+    {
+      "id": 7,
+      "question": "Which data type is commonly used for whole numbers?",
+      "options": ["int", "float", "double", "char"],
+      "correct_option": 1
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is a user-defined data type?",
+      "options": ["int", "float", "struct", "char"],
+      "correct_option": 3
+    },
+    {
+      "id": 9,
+      "question": "Which keyword is used to define a structure?",
+      "options": ["union", "enum", "struct", "typedef"],
+      "correct_option": 3
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is a derived data type?",
+      "options": ["Array", "int", "float", "char"],
+      "correct_option": 1
+    },
+    {
+      "id": 11,
+      "question": "Which data type is used for storing addresses?",
+      "options": ["Pointer", "char", "float", "double"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "What is the size of char in C?",
+      "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
+      "correct_option": 1
+    },
+    {
+      "id": 13,
+      "question": "Which data type is suitable for storing large integers?",
+      "options": ["long int", "char", "float", "void"],
+      "correct_option": 1
+    },
+    {
+      "id": 14,
+      "question": "Which modifier can increase the range of int?",
+      "options": ["short", "long", "char", "void"],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "Which modifier reduces the size of an integer?",
+      "options": ["long", "double", "short", "float"],
+      "correct_option": 3
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is not a basic data type?",
+      "options": ["int", "float", "array", "char"],
+      "correct_option": 3
+    },
+    {
+      "id": 17,
+      "question": "What does a data type determine?",
+      "options": ["Memory size", "Range of values", "Type of operations", "All of these"],
+      "correct_option": 4
+    },
+    {
+      "id": 18,
+      "question": "Which data type stores true or false values in modern C?",
+      "options": ["bool", "char", "int", "float"],
+      "correct_option": 1
+    },
+    {
+      "id": 19,
+      "question": "Which data type occupies more memory?",
+      "options": ["char", "int", "double", "short"],
+      "correct_option": 3
+    },
+    {
+      "id": 20,
+      "question": "Why are data types important?",
+      "options": ["Memory management", "Data validation", "Efficient execution", "All of these"],
+      "correct_option": 4
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "int is used to store whole numbers.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "char is used to store decimal values.",
+      "answer": false
+    },
+    {
+      "id": 3,
+      "statement": "double provides higher precision than float.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "void represents the absence of a value.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "Arrays are derived data types.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "Pointers store memory addresses.",
+      "answer": true
+    },
+    {
+      "id": 7,
+      "statement": "A structure is a user-defined data type.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "float is used for storing characters.",
+      "answer": false
+    },
+    {
+      "id": 9,
+      "statement": "long increases the range of integer values.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Data types help determine memory allocation.",
+      "answer": true
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "The ________ data type is used to store whole numbers.",
+      "answer": "int"
+    },
+    {
+      "id": 2,
+      "question": "The ________ data type stores a single character.",
+      "answer": "char"
+    },
+    {
+      "id": 3,
+      "question": "The ________ data type stores decimal numbers.",
+      "answer": "float"
+    },
+    {
+      "id": 4,
+      "question": "The ________ data type provides greater precision than float.",
+      "answer": "double"
+    },
+    {
+      "id": 5,
+      "question": "The ________ data type represents no value.",
+      "answer": "void"
+    },
+    {
+      "id": 6,
+      "question": "A ________ stores the address of another variable.",
+      "answer": "pointer"
+    },
+    {
+      "id": 7,
+      "question": "A ________ is a user-defined data type that groups different data items.",
+      "answer": "structure"
+    },
+    {
+      "id": 8,
+      "question": "Arrays are ________ data types.",
+      "answer": "derived"
+    },
+    {
+      "id": 9,
+      "question": "The ________ modifier increases the range of integers.",
+      "answer": "long"
+    },
+    {
+      "id": 10,
+      "question": "Data types determine memory size and ________ of values.",
+      "answer": "range"
+    }
+  ]
+    }
