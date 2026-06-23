@@ -1,0 +1,156 @@
+{
+  "chapter_number": 12,
+  "chapter_title": "Storage Classes in C",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What are storage classes in C?",
+      "answer": "Storage classes define the scope, lifetime, visibility, and storage location of variables and functions."
+    },
+    {
+      "id": 2,
+      "question": "Why are storage classes used in C?",
+      "answer": "Storage classes control how variables are stored, accessed, and maintained during program execution."
+    },
+    {
+      "id": 3,
+      "question": "What are the types of storage classes in C?",
+      "answer": "auto, register, static, and extern."
+    },
+    {
+      "id": 4,
+      "question": "What is an auto storage class?",
+      "answer": "auto is the default storage class for local variables."
+    },
+    {
+      "id": 5,
+      "question": "Where are auto variables stored?",
+      "answer": "Auto variables are stored in memory allocated for local variables, usually on the stack."
+    },
+    {
+      "id": 6,
+      "question": "What is the scope of an auto variable?",
+      "answer": "The scope of an auto variable is limited to the block in which it is declared."
+    },
+    {
+      "id": 7,
+      "question": "What is the lifetime of an auto variable?",
+      "answer": "The lifetime of an auto variable lasts until the execution of its block ends."
+    },
+    {
+      "id": 8,
+      "question": "What is a register storage class?",
+      "answer": "The register storage class requests the compiler to store a variable in a CPU register for faster access."
+    },
+    {
+      "id": 9,
+      "question": "Why are register variables used?",
+      "answer": "Register variables are used to improve execution speed."
+    },
+    {
+      "id": 10,
+      "question": "Can the address of a register variable be obtained?",
+      "answer": "No, the address of a register variable cannot normally be obtained using the address operator."
+    },
+    {
+      "id": 11,
+      "question": "What is a static storage class?",
+      "answer": "A static variable retains its value between function calls."
+    },
+    {
+      "id": 12,
+      "question": "Where are static variables stored?",
+      "answer": "Static variables are stored in the data segment of memory."
+    },
+    {
+      "id": 13,
+      "question": "What is the scope of a static local variable?",
+      "answer": "Its scope is limited to the block where it is declared."
+    },
+    {
+      "id": 14,
+      "question": "What is the lifetime of a static variable?",
+      "answer": "Its lifetime lasts throughout the entire execution of the program."
+    },
+    {
+      "id": 15,
+      "question": "What is an extern storage class?",
+      "answer": "extern is used to declare a global variable or function defined in another file or location."
+    },
+    {
+      "id": 16,
+      "question": "Why is extern used?",
+      "answer": "extern allows variables and functions to be shared across multiple files."
+    },
+    {
+      "id": 17,
+      "question": "What is a global variable?",
+      "answer": "A global variable is declared outside all functions and can be accessed throughout the program."
+    },
+    {
+      "id": 18,
+      "question": "What is a local variable?",
+      "answer": "A local variable is declared inside a function or block and is accessible only within that block."
+    },
+    {
+      "id": 19,
+      "question": "What is variable scope?",
+      "answer": "Scope determines where a variable can be accessed within a program."
+    },
+    {
+      "id": 20,
+      "question": "What is variable lifetime?",
+      "answer": "Lifetime is the duration for which a variable exists in memory."
+    },
+    {
+      "id": 21,
+      "question": "Which storage class retains values between function calls?",
+      "answer": "The static storage class retains values between function calls."
+    },
+    {
+      "id": 22,
+      "question": "Which storage class is the default for local variables?",
+      "answer": "The auto storage class is the default for local variables."
+    },
+    {
+      "id": 23,
+      "question": "Which storage class is used for faster access?",
+      "answer": "The register storage class is used for faster access."
+    },
+    {
+      "id": 24,
+      "question": "Which storage class is used to share variables across files?",
+      "answer": "The extern storage class is used to share variables across files."
+    },
+    {
+      "id": 25,
+      "question": "What are the advantages of static variables?",
+      "answer": "Static variables preserve values between function calls and reduce memory allocation overhead."
+    },
+    {
+      "id": 26,
+      "question": "What are the advantages of extern variables?",
+      "answer": "Extern variables support modular programming and data sharing between files."
+    },
+    {
+      "id": 27,
+      "question": "Can storage classes affect program performance?",
+      "answer": "Yes, storage classes can affect memory usage and execution speed."
+    },
+    {
+      "id": 28,
+      "question": "Where are storage classes commonly used?",
+      "answer": "Storage classes are used in large programs, embedded systems, and modular software development."
+    },
+    {
+      "id": 29,
+      "question": "Why are storage classes important in C?",
+      "answer": "Storage classes help manage memory efficiently and control variable accessibility."
+    },
+    {
+      "id": 30,
+      "question": "What is the main purpose of storage classes?",
+      "answer": "The main purpose of storage classes is to define the scope, lifetime, and storage behavior of variables and functions."
+    }
+  ]
+}
