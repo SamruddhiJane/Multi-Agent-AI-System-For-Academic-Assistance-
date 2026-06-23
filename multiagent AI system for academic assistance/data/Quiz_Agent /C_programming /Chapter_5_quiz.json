@@ -1,0 +1,233 @@
+{
+  "chapter_number": 5,
+  "chapter_title": "Operators in C",
+
+  "mcq": [
+    {
+      "id": 1,
+      "question": "What is an operator in C?",
+      "options": ["A variable", "A symbol that performs an operation", "A constant", "A function"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "question": "Which operator is used for addition?",
+      "options": ["-", "*", "+", "/"],
+      "correct_option": 3
+    },
+    {
+      "id": 3,
+      "question": "Which operator is used for multiplication?",
+      "options": ["*", "/", "+", "%"],
+      "correct_option": 1
+    },
+    {
+      "id": 4,
+      "question": "Which operator returns the remainder after division?",
+      "options": ["/", "%", "*", "+"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a relational operator?",
+      "options": ["+", "-", ">", "*"],
+      "correct_option": 3
+    },
+    {
+      "id": 6,
+      "question": "Which operator checks equality?",
+      "options": ["=", "==", "!=", ">"],
+      "correct_option": 2
+    },
+    {
+      "id": 7,
+      "question": "Which operator is used for assignment?",
+      "options": ["==", "=", "+=", "!="],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "question": "Which logical operator represents AND?",
+      "options": ["||", "&&", "!", "&"],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "question": "Which logical operator represents OR?",
+      "options": ["&&", "&", "||", "!"],
+      "correct_option": 3
+    },
+    {
+      "id": 10,
+      "question": "Which logical operator represents NOT?",
+      "options": ["!", "&&", "||", "&"],
+      "correct_option": 1
+    },
+    {
+      "id": 11,
+      "question": "Which operator increases a variable by 1?",
+      "options": ["--", "++", "+=", "="],
+      "correct_option": 2
+    },
+    {
+      "id": 12,
+      "question": "Which operator decreases a variable by 1?",
+      "options": ["--", "++", "-=", "="],
+      "correct_option": 1
+    },
+    {
+      "id": 13,
+      "question": "Which operator is known as the conditional operator?",
+      "options": ["?:", "&&", "||", "="],
+      "correct_option": 1
+    },
+    {
+      "id": 14,
+      "question": "Which operator gives the memory address of a variable?",
+      "options": ["*", "&", "%", "#"],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "Which operator is used to access the value stored at an address?",
+      "options": ["&", "*", "%", "+"],
+      "correct_option": 2
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is a bitwise operator?",
+      "options": ["&&", "||", "&", "=="],
+      "correct_option": 3
+    },
+    {
+      "id": 17,
+      "question": "What is the result of 10 % 3?",
+      "options": ["3", "1", "0", "10"],
+      "correct_option": 2
+    },
+    {
+      "id": 18,
+      "question": "Which operator has higher precedence?",
+      "options": ["+", "-", "*", "="],
+      "correct_option": 3
+    },
+    {
+      "id": 19,
+      "question": "Operators are used to perform ______ on operands.",
+      "options": ["Functions", "Operations", "Declarations", "Definitions"],
+      "correct_option": 2
+    },
+    {
+      "id": 20,
+      "question": "How many operands does a unary operator require?",
+      "options": ["1", "2", "3", "4"],
+      "correct_option": 1
+    }
+  ],
+
+  "true_false": [
+    {
+      "id": 1,
+      "statement": "The + operator is used for addition.",
+      "answer": true
+    },
+    {
+      "id": 2,
+      "statement": "The % operator performs multiplication.",
+      "answer": false
+    },
+    {
+      "id": 3,
+      "statement": "== is a relational operator.",
+      "answer": true
+    },
+    {
+      "id": 4,
+      "statement": "&& represents logical AND.",
+      "answer": true
+    },
+    {
+      "id": 5,
+      "statement": "|| represents logical OR.",
+      "answer": true
+    },
+    {
+      "id": 6,
+      "statement": "++ decreases a variable by one.",
+      "answer": false
+    },
+    {
+      "id": 7,
+      "statement": "The assignment operator is =.",
+      "answer": true
+    },
+    {
+      "id": 8,
+      "statement": "Bitwise operators work on binary representations.",
+      "answer": true
+    },
+    {
+      "id": 9,
+      "statement": "The conditional operator is ?:.",
+      "answer": true
+    },
+    {
+      "id": 10,
+      "statement": "Unary operators require two operands.",
+      "answer": false
+    }
+  ],
+
+  "fill_blanks": [
+    {
+      "id": 1,
+      "question": "The operator used for addition is ________.",
+      "answer": "+"
+    },
+    {
+      "id": 2,
+      "question": "The operator used for subtraction is ________.",
+      "answer": "-"
+    },
+    {
+      "id": 3,
+      "question": "The operator used for multiplication is ________.",
+      "answer": "*"
+    },
+    {
+      "id": 4,
+      "question": "The operator used for division is ________.",
+      "answer": "/"
+    },
+    {
+      "id": 5,
+      "question": "The remainder operator is ________.",
+      "answer": "%"
+    },
+    {
+      "id": 6,
+      "question": "The logical AND operator is ________.",
+      "answer": "&&"
+    },
+    {
+      "id": 7,
+      "question": "The logical OR operator is ________.",
+      "answer": "||"
+    },
+    {
+      "id": 8,
+      "question": "The increment operator is ________.",
+      "answer": "++"
+    },
+    {
+      "id": 9,
+      "question": "The decrement operator is ________.",
+      "answer": "--"
+    },
+    {
+      "id": 10,
+      "question": "The assignment operator is ________.",
+      "answer": "="
+    }
+  ]
+}
