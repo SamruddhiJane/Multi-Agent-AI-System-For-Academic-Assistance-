@@ -1,0 +1,156 @@
+{
+  "chapter_number": 8,
+  "chapter_title": "Arrays in C",
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is an array in C?",
+      "answer": "An array is a collection of elements of the same data type stored in contiguous memory locations."
+    },
+    {
+      "id": 2,
+      "question": "Why are arrays used in C?",
+      "answer": "Arrays are used to store multiple values of the same data type using a single variable name."
+    },
+    {
+      "id": 3,
+      "question": "What is the syntax for declaring an array?",
+      "answer": "data_type array_name[size];"
+    },
+    {
+      "id": 4,
+      "question": "Give an example of an array declaration.",
+      "answer": "int marks[5];"
+    },
+    {
+      "id": 5,
+      "question": "What is the index of the first element in an array?",
+      "answer": "The first element has index 0."
+    },
+    {
+      "id": 6,
+      "question": "What is array indexing?",
+      "answer": "Array indexing is the process of accessing array elements using their position number."
+    },
+    {
+      "id": 7,
+      "question": "How is an element accessed in an array?",
+      "answer": "An element is accessed using the array name followed by its index in square brackets."
+    },
+    {
+      "id": 8,
+      "question": "How can an array be initialized during declaration?",
+      "answer": "Using curly braces, for example: int a[3] = {10, 20, 30};"
+    },
+    {
+      "id": 9,
+      "question": "What happens if an array index exceeds its size?",
+      "answer": "It results in undefined behavior and may access invalid memory."
+    },
+    {
+      "id": 10,
+      "question": "What is a one-dimensional array?",
+      "answer": "A one-dimensional array stores elements in a single row."
+    },
+    {
+      "id": 11,
+      "question": "What is a two-dimensional array?",
+      "answer": "A two-dimensional array stores elements in rows and columns."
+    },
+    {
+      "id": 12,
+      "question": "What is the syntax of a two-dimensional array?",
+      "answer": "data_type array_name[rows][columns];"
+    },
+    {
+      "id": 13,
+      "question": "Give an example of a two-dimensional array.",
+      "answer": "int matrix[3][3];"
+    },
+    {
+      "id": 14,
+      "question": "What is a multidimensional array?",
+      "answer": "An array with more than one dimension is called a multidimensional array."
+    },
+    {
+      "id": 15,
+      "question": "How are array elements stored in memory?",
+      "answer": "Array elements are stored in contiguous memory locations."
+    },
+    {
+      "id": 16,
+      "question": "What are the advantages of arrays?",
+      "answer": "Easy data management, fast access using indexes, and efficient memory usage."
+    },
+    {
+      "id": 17,
+      "question": "What are the disadvantages of arrays?",
+      "answer": "Fixed size and inability to store different data types together."
+    },
+    {
+      "id": 18,
+      "question": "Can an array store different data types?",
+      "answer": "No, all elements in an array must be of the same data type."
+    },
+    {
+      "id": 19,
+      "question": "What is array traversal?",
+      "answer": "Array traversal is the process of visiting each element of an array."
+    },
+    {
+      "id": 20,
+      "question": "Which loop is commonly used for array traversal?",
+      "answer": "The for loop is commonly used for array traversal."
+    },
+    {
+      "id": 21,
+      "question": "What is array size?",
+      "answer": "Array size is the total number of elements an array can hold."
+    },
+    {
+      "id": 22,
+      "question": "Can array size be changed after declaration in basic C arrays?",
+      "answer": "No, the size of a basic array cannot be changed after declaration."
+    },
+    {
+      "id": 23,
+      "question": "What is an array element?",
+      "answer": "An array element is an individual value stored within an array."
+    },
+    {
+      "id": 24,
+      "question": "How can values be assigned to array elements?",
+      "answer": "Using indexes, such as marks[0] = 90;"
+    },
+    {
+      "id": 25,
+      "question": "What is the memory benefit of arrays?",
+      "answer": "Arrays store multiple values efficiently using contiguous memory locations."
+    },
+    {
+      "id": 26,
+      "question": "What is a character array?",
+      "answer": "A character array is an array used to store characters."
+    },
+    {
+      "id": 27,
+      "question": "How are strings related to arrays?",
+      "answer": "A string in C is a character array terminated by a null character."
+    },
+    {
+      "id": 28,
+      "question": "Where are arrays commonly used?",
+      "answer": "Arrays are used in searching, sorting, matrices, and data storage applications."
+    },
+    {
+      "id": 29,
+      "question": "Why are arrays important in programming?",
+      "answer": "Arrays simplify handling large amounts of similar data."
+    },
+    {
+      "id": 30,
+      "question": "What is the main purpose of arrays?",
+      "answer": "The main purpose of arrays is to store and manage multiple related values efficiently."
+    }
+  ]
+}
